@@ -1,7 +1,65 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>FPL Project</title>
-<h1>FPL Project – Pages OK</h1>
-<p>Place ici tes CSV à exposer (ex. <code>players_raw.csv</code>, <code>fixtures.csv</code>).</p>
-<!-- enable run -->
-<!-- run R3 -->
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>FPL Project – Accès rapide</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    :root { --c:#0b6bcb; }
+    body { font-family: system-ui, Arial, sans-serif; margin: 24px; background:#f8fafc; color:#0f172a; }
+    h1 { color: var(--c); margin-bottom: 0.25rem; }
+    p.lead { color:#334155; margin-top:0; }
+    .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); margin-top: 16px; }
+    .card { background:white; border:1px solid #e2e8f0; border-radius:14px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+    .card h2 { margin:0 0 8px 0; font-size:1.05rem; color:#1e293b; }
+    ul { margin:0; padding-left: 18px; line-height:1.8; }
+    a { color: var(--c); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background:#eef2ff; padding:2px 6px; border-radius:6px; }
+    footer { margin-top: 24px; color:#475569; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <h1>FPL Project</h1>
+  <p class="lead">Liens directs vers les fichiers et dossiers de données.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h2>📂 Données principales</h2>
+      <ul>
+        <li><a href="data/players_raw.csv">players_raw.csv</a></li>
+        <li><a href="data/players_raw_history.csv">players_raw_history.csv</a></li>
+        <li><a href="data/price_change_forecast.csv">price_change_forecast.csv</a></li>
+        <li><a href="data/deadlines.csv">deadlines.csv</a></li>
+        <li><a href="data/cleaned_players.csv">cleaned_players.csv</a></li>
+        <li><a href="data/teams.csv">teams.csv</a></li>
+        <li><a href="data/fixtures.csv">fixtures.csv</a></li>
+        <li><a href="data/player_idlist.csv">player_idlist.csv</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📊 GW (par joueur / par match)</h2>
+      <ul>
+        <li><a href="data/gw1.csv">gw1.csv</a> (adapter N au besoin)</li>
+        <li><a href="data/gw1_permatch.csv">gw1_permatch.csv</a> (adapter N)</li>
+        <li><a href="data/merged_gw.csv">merged_gw.csv</a></li>
+        <li><a href="data/merged_gw_permatch.csv">merged_gw_permatch.csv</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🧭 Deltas & historiques</h2>
+      <ul>
+        <li><a href="data/deltas/nti_deltas.csv">nti_deltas.csv</a></li>
+        <li><a href="snapshots/">snapshots/</a> <span title="players_raw_YYYYMMDD_HHMM.csv et autres"> (tous les snapshots)</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    Dernière génération : <span id="ts"></span>
+  </footer>
+  <script>document.getElementById('ts').textContent = new Date().toLocaleString('fr-FR');</script>
+</body>
+</html>
