@@ -19,11 +19,24 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Install dependencies
+      # DEBUG: montrer ce que voit le runner
+      - name: Debug repo & requirements
+        run: |
+          echo "Python:"; python -V
+          echo "--- git branch & last commit ---"
+          git rev-parse --abbrev-ref HEAD
+          git log -1 --pretty=oneline
+          echo "--- list requirements files ---"
+          git ls-files | grep -i 'requirements.*\.txt' || true
+          echo "--- root requirements.txt content ---"
+          if [ -f requirements.txt ]; then sed -n '1,120p' requirements.txt; else echo "requirements.txt ABSENT"; fi
+          echo "------------------------------------"
+
+      # FORCER des versions compatibles Py 3.13 (on n'utilise PAS -r requirements.txt ici)
+      - name: Install dependencies (forced, no -r)
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install pandas requests pytz numpy
+          pip install "pandas>=2.2.3,<2.3" "numpy>=2.1" "requests>=2.32.3,<3" "pytz>=2024.1"
 
       # 1) Fetch & bases (si présents)
       - name: Fetch FPL data (players_raw, fixtures, teams, player_idlist)
@@ -52,7 +65,6 @@ jobs:
       - name: Build merged GW outputs
         run: python scripts/build_gw_outputs.py
 
-      # ⚠️ NE LANCER cleaned_players QUE SI merged_gw.csv ET players_raw.csv EXISTENT
       - name: Build cleaned_players.csv (conditional)
         run: |
           if [ -f data/merged_gw.csv ] && [ -f data/players_raw.csv ]; then
