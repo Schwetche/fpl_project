@@ -34,7 +34,7 @@ jobs:
         run: |
           if [ -f scripts/update_deadlines.py ] ; then python scripts/update_deadlines.py ; else echo "skip update_deadlines"; fi
 
-      # 2) Snapshots (si tu gardes ce script à côté du nôtre)
+      # 2) Snapshots (si script présent)
       - name: Snapshot players_raw
         run: |
           if [ -f scripts/snapshot_players_raw.py ] ; then python scripts/snapshot_players_raw.py ; else echo "skip snapshot_players_raw.py"; fi
@@ -52,8 +52,14 @@ jobs:
       - name: Build merged GW outputs
         run: python scripts/build_gw_outputs.py
 
-      - name: Build cleaned_players.csv
-        run: python scripts/build_cleaned_players.py
+      # ⚠️ NE LANCER cleaned_players QUE SI merged_gw.csv ET players_raw.csv EXISTENT
+      - name: Build cleaned_players.csv (conditional)
+        run: |
+          if [ -f data/merged_gw.csv ] && [ -f data/players_raw.csv ]; then
+            python scripts/build_cleaned_players.py
+          else
+            echo "skip cleaned_players: data/merged_gw.csv or data/players_raw.csv missing"
+          fi
 
       # 5) Global test (optionnel, ne casse pas le run)
       - name: Global test
