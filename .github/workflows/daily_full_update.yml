@@ -19,11 +19,18 @@ jobs:
         with:
           python-version: '3.13'
 
+      # DEBUG: montrer ce que voit le runner
+      - name: Debug requirements
+        run: |
+          echo "Python:"; python -V
+          echo "--- requirements.txt ---"
+          if [ -f requirements.txt ]; then cat requirements.txt; else echo "requirements.txt ABSENT"; fi
+          echo "------------------------"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install pandas requests pytz numpy
 
       # 1) Fetch & bases (si présents)
       - name: Fetch FPL data (players_raw, fixtures, teams, player_idlist)
@@ -52,7 +59,6 @@ jobs:
       - name: Build merged GW outputs
         run: python scripts/build_gw_outputs.py
 
-      # ⚠️ NE LANCER cleaned_players QUE SI merged_gw.csv ET players_raw.csv EXISTENT
       - name: Build cleaned_players.csv (conditional)
         run: |
           if [ -f data/merged_gw.csv ] && [ -f data/players_raw.csv ]; then
