@@ -2,14 +2,16 @@ name: Update players_raw_history
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # 10:00 Zurich
-    - cron: "0 13 * * *"  # 15:00 Zurich
-    - cron: "0 21 * * *"  # 23:00 Zurich
+    - cron: "0 8 * * *"   # 10:00 Europe/Zurich
+    - cron: "0 13 * * *"  # 15:00 Europe/Zurich
+    - cron: "0 21 * * *"  # 23:00 Europe/Zurich
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,7 +19,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.13'
 
       - name: Install dependencies
         run: pip install pandas requests pytz
@@ -30,5 +32,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/snapshots/*.csv data/players_raw_history.csv
-          git commit -m "Update players_raw_history [skip ci]" || echo "No changes"
+          git commit -m "chore: update players_raw_history [skip ci]" || echo "No changes"
           git push
