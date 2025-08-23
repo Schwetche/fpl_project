@@ -15,7 +15,6 @@
     ul { margin:0; padding-left: 18px; line-height:1.8; }
     a { color: var(--c); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    code { background:#eef2ff; padding:2px 6px; border-radius:6px; }
     footer { margin-top: 24px; color:#475569; font-size:.9rem; }
   </style>
 </head>
@@ -41,7 +40,9 @@
     <div class="card">
       <h2>📊 GW (par joueur / par match)</h2>
       <ul>
+        <!-- Un seul lien vers l'index qui liste tous les fichiers GW -->
         <li><a href="data/season/">Index GW (tous les fichiers)</a></li>
+        <!-- On garde les merged utiles en accès rapide -->
         <li><a href="data/merged_gw.csv">merged_gw.csv</a></li>
         <li><a href="data/merged_gw_permatch.csv">merged_gw_permatch.csv</a></li>
       </ul>
@@ -51,7 +52,8 @@
       <h2>🧭 Deltas & historiques</h2>
       <ul>
         <li><a href="data/deltas/nti_deltas.csv">nti_deltas.csv</a></li>
-        <li><a href="data/snapshots/">snapshots/</a> <span title="players_raw_YYYYMMDD_HHMM.csv">(index des snapshots)</span></li>
+        <!-- Renommage du libellé snapshots comme demandé -->
+        <li><a href="data/snapshots/">players_raws_YYYYMMDD_HHMM</a> <span title="Index des snapshots players_raw YYYYMMDD_HHMM">(index des snapshots)</span></li>
       </ul>
     </div>
   </div>
