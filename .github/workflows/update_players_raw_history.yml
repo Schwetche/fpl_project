@@ -38,5 +38,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/snapshots/*.csv data/players_raw_history.csv \
                  data/snapshots/index.html data/season/index.html
-          git commit -m "chore: update history + indexes [skip ci]" || echo "No changes"
+          git commit -m "chore: update history + indexes" || echo "No changes"
           git push
