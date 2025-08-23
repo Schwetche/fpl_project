@@ -23,39 +23,48 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install pandas requests pytz
+          pip install pandas requests pytz numpy
 
+      # 1) Fetch & bases (si présents)
       - name: Fetch FPL data (players_raw, fixtures, teams, player_idlist)
         run: |
-          if [ -f scripts/fetch_bootstrap.py ] ; then python scripts/fetch_bootstrap.py ; fi
-
-      - name: Normalize (optional)
-        run: |
-          if [ -f scripts/normalize_columns.py ] ; then python scripts/normalize_columns.py || true ; fi
+          if [ -f scripts/fetch_bootstrap.py ] ; then python scripts/fetch_bootstrap.py ; else echo "skip fetch_bootstrap"; fi
 
       - name: Update deadlines
         run: |
-          if [ -f scripts/update_deadlines.py ] ; then python scripts/update_deadlines.py ; fi
+          if [ -f scripts/update_deadlines.py ] ; then python scripts/update_deadlines.py ; else echo "skip update_deadlines"; fi
 
+      # 2) Snapshots (si tu gardes ce script à côté du nôtre)
       - name: Snapshot players_raw
         run: |
-          if [ -f scripts/snapshot_players_raw.py ] ; then python scripts/snapshot_players_raw.py ; fi
+          if [ -f scripts/snapshot_players_raw.py ] ; then python scripts/snapshot_players_raw.py ; else echo "skip snapshot_players_raw.py"; fi
 
+      # 3) Calculs quotidiens (si présents)
       - name: NTI deltas
         run: |
-          if [ -f scripts/calc_nti_deltas.py ] ; then python scripts/calc_nti_deltas.py ; fi
+          if [ -f scripts/calc_nti_deltas.py ] ; then python scripts/calc_nti_deltas.py ; else echo "skip calc_nti_deltas"; fi
 
       - name: Price change forecast
         run: |
-          if [ -f scripts/price_change_forecast.py ] ; then python scripts/price_change_forecast.py ; fi
+          if [ -f scripts/price_change_forecast.py ] ; then python scripts/price_change_forecast.py ; else echo "skip price_change_forecast"; fi
 
+      # 4) Constructions génériques (toujours)
+      - name: Build merged GW outputs
+        run: python scripts/build_gw_outputs.py
+
+      - name: Build cleaned_players.csv
+        run: python scripts/build_cleaned_players.py
+
+      # 5) Global test (optionnel, ne casse pas le run)
       - name: Global test
         run: |
-          if [ -f scripts/run_global_test.py ] ; then python scripts/run_global_test.py --with-api-check --with-fixtures-diff || true ; fi
+          if [ -f scripts/run_global_test.py ] ; then python scripts/run_global_test.py --with-api-check --with-fixtures-diff || true ; else echo "skip run_global_test"; fi
 
+      # 6) Index HTML (snapshots & season)
       - name: Build directory indexes (snapshots & season)
         run: python scripts/build_indexes.py
 
+      # 7) Commit & push (déclenchera Pages via static.yml on:push)
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
