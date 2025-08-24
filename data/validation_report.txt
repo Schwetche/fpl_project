@@ -1,8 +1,0 @@
-=== FPL PIPELINE VALIDATION ===
-[PASS] File present: players_raw.csv (C:\Users\sfsch\Documents\fpl_project\data\players_raw.csv)
-[PASS] File present: fixtures.csv (C:\Users\sfsch\Documents\fpl_project\data\fixtures.csv)
-[PASS] File present: merged_gw.csv (C:\Users\sfsch\Documents\fpl_project\data\merged_gw.csv)
-[PASS] File present: cleaned_players.csv (C:\Users\sfsch\Documents\fpl_project\data\cleaned_players.csv)
-[PASS] players_raw key columns OK (698 players)
-[PASS] players_raw numerics OK
-[INFO] Cross-checks on GW1

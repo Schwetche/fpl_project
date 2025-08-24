@@ -1,0 +1,17 @@
+#A loader régulièrement
+
+players_raw_snapshot_current.csv
+players_raw_history.csv
+price_change_forecast.csv
+price_change_forecast_history.csv
+fixtures.csv
+deadlines.csv
+gwX.csv
+merged_gw.csv
+
+#Pas essentiel
+
+cleaned_players.csv
+player_idlist.csv
+merged_gw_permatch.csv
+teams.csv
