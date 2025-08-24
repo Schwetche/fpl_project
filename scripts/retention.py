@@ -7,18 +7,11 @@ Purge de rétention pour le repo FPL.
   ou paramètres de workflow:
     • data/snapshots/*.csv : keep_last=200, max_age_days=120
     • data/deltas/*.csv    : keep_last=120, max_age_days=180
-  (Rien n'est supprimé dans data/season/ ni dans la racine data/*.csv critiques.)
 
 - Exclusions de sécurité (jamais supprimés):
   players_raw.csv, players_raw_history.csv, price_change_forecast.csv,
   deadlines.csv, merged_gw.csv, merged_gw_permatch.csv, cleaned_players.csv,
   teams.csv, fixtures.csv, player_idlist.csv
-
-Usage local:
-  py -3.13 scripts/retention.py --dry-run
-  py -3.13 scripts/retention.py --force
-
-Retourne code 0 même s'il n'y a rien à supprimer.
 """
 
 from __future__ import annotations
@@ -41,19 +34,16 @@ CRITICAL_FILES = {
 }
 
 DEFAULT_POLICIES = [
-    # Snapshots : garder beaucoup (site public), mais éviter la dérive infinie
     {
         "glob": "data/snapshots/*.csv",
         "keep_last": int(os.getenv("KEEP_LAST_SNAPSHOTS", "200")),
         "max_age_days": int(os.getenv("MAX_AGE_SNAPSHOTS", "120")),
     },
-    # Deltas : utilité moyenne durée
     {
         "glob": "data/deltas/*.csv",
         "keep_last": int(os.getenv("KEEP_LAST_DELTAS", "120")),
         "max_age_days": int(os.getenv("MAX_AGE_DELTAS", "180")),
     },
-    # ⚠️ Rien pour data/season (GW) → on ne purge pas par défaut
 ]
 
 def list_sorted_by_mtime(paths: list[Path]) -> list[Path]:
@@ -64,17 +54,14 @@ def apply_policy(glob_pattern: str, keep_last: int, max_age_days: int, root: Pat
     files = [p for p in root.glob(glob_pattern) if p.is_file()]
     files_sorted = list_sorted_by_mtime(files)
 
-    # Garder les keep_last derniers
     keep_set = set(files_sorted[: max(keep_last, 0)])
 
-    # Supprimer si plus vieux que max_age_days (ET pas dans keep_set)
     cutoff = now - timedelta(days=max(0, max_age_days))
     to_delete: list[Path] = []
     for p in files_sorted[max(keep_last, 0):]:
         try:
             mtime = datetime.fromtimestamp(p.stat().st_mtime, tz=timezone.utc)
         except FileNotFoundError:
-            # in case of race condition
             continue
         if mtime < cutoff:
             to_delete.append(p)
@@ -83,7 +70,6 @@ def apply_policy(glob_pattern: str, keep_last: int, max_age_days: int, root: Pat
     return to_keep, to_delete
 
 def is_critical(p: Path) -> bool:
-    # Protéger explicitement nos fichiers critiques
     rel = p.as_posix()
     return any(rel.endswith(cf) for cf in CRITICAL_FILES)
 
@@ -95,7 +81,7 @@ def main():
     parser.add_argument("--verbose", action="store_true", help="Logs détaillés.")
     args = parser.parse_args()
 
-    dry_run = args.dry_run or not args.force  # dry-run par défaut
+    dry_run = args.dry_run or not args.force
     root = Path(args.root).resolve()
 
     print(f"[INFO] Root = {root}")
@@ -104,21 +90,18 @@ def main():
     deleted_total: list[Path] = []
     kept_total: list[Path] = []
 
-    # Appliquer chaque politique
     for pol in DEFAULT_POLICIES:
         glob_pattern = pol["glob"]
         keep_last = int(pol["keep_last"])
         max_age_days = int(pol["max_age_days"])
 
         to_keep, to_delete = apply_policy(glob_pattern, keep_last, max_age_days, root)
-        # Filtrer les fichiers critiques par sécurité
         to_delete_safe = [p for p in to_delete if not is_critical(p)]
 
         if args.verbose:
             print(f"\n[POLICY] {glob_pattern} | keep_last={keep_last} | max_age_days={max_age_days}")
             print(f"         found={len(to_keep) + len(to_delete)} keep={len(to_keep)} delete(candidates)={len(to_delete)}")
 
-        # Exécuter
         for p in to_delete_safe:
             if dry_run:
                 print(f"[DRY] would delete: {p.relative_to(root)}")
@@ -132,11 +115,14 @@ def main():
         kept_total.extend(to_keep)
         deleted_total.extend(to_delete_safe)
 
-    # Récap
     print("\n=== RETENTION SUMMARY ===")
     print(f"Kept   : {len(kept_total)} files (after policy)")
     print(f"Deleted: {len(deleted_total)} files ({'simulé' if dry_run else 'effectué'})")
-    print("=========================\n")
+    print("=========================")
+
+    # ✅ Message repérable en un coup d'œil dans les logs
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    print(f"\n[OK] Retention executed at {ts} | Mode={'DRY-RUN' if dry_run else 'FORCE'} | Deleted={len(deleted_total)}\n")
 
 if __name__ == "__main__":
     main()
