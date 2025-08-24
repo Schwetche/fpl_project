@@ -56,13 +56,29 @@ def main(merged_path=MERGED_GW_PATH, players_raw_path=PLAYERS_RAW_PATH, out_path
     if "minutes" in mgw.columns:
         mgw["apps"] = (mgw["minutes"].fillna(0) > 0).astype(int)
 
-    # colonnes ? sommer
-    sum_cols = [c for c in ["apps"] + stat_cols if c in mgw.columns]
+# colonnes ? sommer
+sum_cols = [c for c in ["apps"] + stat_cols if c in mgw.columns]
 
-    # agr?gation
-    agg_dict = {c: "first" for c in id_cols}
-    agg_dict.update({c: "sum" for c in sum_cols})
-    gp = mgw.groupby("player_id", as_index=False).agg(agg_dict)
+# agrégation
+agg_dict = {c: "first" for c in id_cols}
+agg_dict.update({c: "sum" for c in sum_cols})
+
+# --- sécurité: trouver la colonne identifiant joueur ---
+ID_CANDIDATES = ["player_id", "element", "id", "player", "playerid"]
+id_col = next((c for c in ID_CANDIDATES if c in mgw.columns), None)
+if id_col is None:
+    raise ValueError(
+        f"Impossible de trouver un identifiant joueur parmi {ID_CANDIDATES}. "
+        f"Colonnes présentes: {list(mgw.columns)}"
+    )
+
+# si le nom diffère de "player_id", on renomme
+if id_col != "player_id":
+    mgw = mgw.rename(columns={id_col: "player_id"})
+    id_col = "player_id"
+
+# groupby robuste
+gp = mgw.groupby("player_id", as_index=False).agg(agg_dict)
 
     # --- 4) d?riv?es per90 (sans cast agressif)
     if "minutes" in gp.columns and "total_points" in gp.columns:
