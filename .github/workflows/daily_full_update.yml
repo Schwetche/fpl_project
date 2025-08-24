@@ -84,6 +84,10 @@ jobs:
       # 6) Index HTML (snapshots & season)
       - name: Build directory indexes (snapshots & season)
         run: python scripts/build_indexes.py
+     
+      # 6.5) Summaries (toujours, à partir des fichiers construits ci-dessus)
+      - name: Build summaries
+        run: python scripts/build_summaries.py
 
       # 7) Commit & push (déclenchera Pages via static.yml on:push)
       - name: Commit and push changes
