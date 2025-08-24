@@ -9,17 +9,17 @@ PLAYERS_RAW_PATH = "../data/players_raw.csv"
 OUT_PATH = "../data/cleaned_players.csv"
 
 def to_numeric_safe(df: pd.DataFrame, cols):
-    """Convertit en float toutes les colonnes pr?sentes dans df parmi 'cols' (coerce en NaN)."""
+    """Convertit en float toutes les colonnes présentes dans df parmi 'cols' (coerce en NaN)."""
     for c in cols:
         if c in df.columns:
             df[c] = pd.to_numeric(df[c], errors="coerce")
     return df
 
 def per90(series_num: pd.Series, series_minutes: pd.Series) -> pd.Series:
-    """Calcule (num * 90 / minutes) en g?rant 0 et NA proprement."""
+    """Calcule (num * 90 / minutes) en gérant 0 et NA proprement."""
     num = pd.to_numeric(series_num, errors="coerce")
     mins = pd.to_numeric(series_minutes, errors="coerce")
-    mins = mins.replace(0, np.nan)  # ?viter division par 0
+    mins = mins.replace(0, np.nan)  # éviter division par 0
     return (num * 90.0) / mins      # renvoie float avec NaN si mins manquant
 
 def main(merged_path=MERGED_GW_PATH, players_raw_path=PLAYERS_RAW_PATH, out_path=OUT_PATH):
@@ -39,7 +39,7 @@ def main(merged_path=MERGED_GW_PATH, players_raw_path=PLAYERS_RAW_PATH, out_path
     if mgw.empty:
         raise SystemExit("merged_gw.csv est vide.")
 
-    # --- 2) forcer les colonnes stats en num?rique
+    # --- 2) forcer les colonnes stats en numérique
     stat_cols = [
         "minutes","total_points","goals_scored","assists","clean_sheets","goals_conceded",
         "own_goals","saves","penalties_saved","penalties_missed",
@@ -49,38 +49,34 @@ def main(merged_path=MERGED_GW_PATH, players_raw_path=PLAYERS_RAW_PATH, out_path
     ]
     mgw = to_numeric_safe(mgw, stat_cols)
 
-    # --- 3) colonnes d'identit?
+    # --- 3) colonnes d'identité
     id_cols = [c for c in ["web_name","first_name","second_name","team_name","position"] if c in mgw.columns]
 
     # apparitions (minutes > 0)
     if "minutes" in mgw.columns:
         mgw["apps"] = (mgw["minutes"].fillna(0) > 0).astype(int)
 
-# colonnes ? sommer
-sum_cols = [c for c in ["apps"] + stat_cols if c in mgw.columns]
+    # colonnes à sommer
+    sum_cols = [c for c in ["apps"] + stat_cols if c in mgw.columns]
 
-# agrégation
-agg_dict = {c: "first" for c in id_cols}
-agg_dict.update({c: "sum" for c in sum_cols})
+    # agrégation
+    agg_dict = {c: "first" for c in id_cols}
+    agg_dict.update({c: "sum" for c in sum_cols})
 
-# --- sécurité: trouver la colonne identifiant joueur ---
-ID_CANDIDATES = ["player_id", "element", "id", "player", "playerid"]
-id_col = next((c for c in ID_CANDIDATES if c in mgw.columns), None)
-if id_col is None:
-    raise ValueError(
-        f"Impossible de trouver un identifiant joueur parmi {ID_CANDIDATES}. "
-        f"Colonnes présentes: {list(mgw.columns)}"
-    )
+    # --- sécurité: trouver la colonne identifiant joueur ---
+    ID_CANDIDATES = ["player_id", "element", "id", "player", "playerid"]
+    id_col = next((c for c in ID_CANDIDATES if c in mgw.columns), None)
+    if id_col is None:
+        raise ValueError(
+            f"Impossible de trouver un identifiant joueur parmi {ID_CANDIDATES}. "
+            f"Colonnes présentes: {list(mgw.columns)}"
+        )
+    if id_col != "player_id":
+        mgw = mgw.rename(columns={id_col: "player_id"})
 
-# si le nom diffère de "player_id", on renomme
-if id_col != "player_id":
-    mgw = mgw.rename(columns={id_col: "player_id"})
-    id_col = "player_id"
+    gp = mgw.groupby("player_id", as_index=False).agg(agg_dict)
 
-# groupby robuste
-gp = mgw.groupby("player_id", as_index=False).agg(agg_dict)
-
-    # --- 4) d?riv?es per90 (sans cast agressif)
+    # --- 4) dérivées per90 (sans cast agressif)
     if "minutes" in gp.columns and "total_points" in gp.columns:
         gp["points_per90"] = per90(gp["total_points"], gp["minutes"]).round(2)
 
@@ -88,7 +84,7 @@ gp = mgw.groupby("player_id", as_index=False).agg(agg_dict)
         if col in gp.columns and "minutes" in gp.columns:
             gp[f"{col}_per90"] = per90(gp[col], gp["minutes"]).round(3)
 
-    # alias x* plus courts si pr?sents
+    # alias x* plus courts si présents
     rename_map = {}
     if "expected_goals" in gp.columns: rename_map["expected_goals"] = "xg"
     if "expected_assists" in gp.columns: rename_map["expected_assists"] = "xa"
@@ -121,7 +117,7 @@ gp = mgw.groupby("player_id", as_index=False).agg(agg_dict)
     ordered = [c for c in preferred if c in cleaned.columns] + [c for c in cleaned.columns if c not in preferred]
     cleaned = cleaned[ordered]
 
-    # --- 8) timestamp et ?criture
+    # --- 8) timestamp et écriture
     cleaned["last_updated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     os.makedirs(os.path.dirname(out_file), exist_ok=True)
     cleaned.to_csv(out_file, index=False, encoding="utf-8")
