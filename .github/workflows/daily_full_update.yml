@@ -61,6 +61,9 @@ jobs:
         run: |
           if [ -f scripts/price_change_forecast.py ] ; then python scripts/price_change_forecast.py ; else echo "skip price_change_forecast"; fi
 
+      - name: Append price_change_forecast to history
+        run: python scripts/append_price_change_forecast.py
+
       # 4) Constructions génériques (toujours)
       - name: Build merged GW outputs
         run: python scripts/build_gw_outputs.py
