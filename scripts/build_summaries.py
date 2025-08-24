@@ -219,7 +219,6 @@ if not players_snap.empty:
 
 write_json(os.path.join(OUTDIR, "players_snapshot_summary.json"), snap_summary)
 
-
 # ---------- ownership_momentum.json ----------
 own_mom = {"last_updated_utc": UTC_NOW, "most_in": [], "most_out": []}
 if not players_hist.empty and {"id","date","selected_by_percent","transfers_in","transfers_out"} <= set(players_hist.columns):
@@ -351,10 +350,21 @@ if not merged_gw.empty:
         for c in stat_cols:
             if c not in merged_gw.columns:
                 merged_gw[c] = pd.NA
-        to_num(merged_gw, ["minutes","total_points","goals_scored","assists"])
-        merged_gw["points_per90"] = (merged_gw["total_points"].astype(float) * 90.0) / merged_gw["minutes"].replace({0: pd.NA}).astype(float)
-        keep = [c for c in ["player_id","web_name","team_name","position","minutes","total_points","points_per90","goals_scored","assists"] if c in merged_gw.columns]
-        top = merged_gw[keep].copy().sort_values(["total_points","points_per90"], ascending=[False, False]).head(25)
+
+        # per90 robuste (évite les NAType)
+        pts = pd.to_numeric(merged_gw.get("total_points"), errors="coerce")
+        mins = pd.to_numeric(merged_gw.get("minutes"), errors="coerce").replace(0, float("nan"))
+        merged_gw["points_per90"] = (pts * 90.0) / mins
+
+        keep = [c for c in [
+            "player_id","web_name","team_name","position",
+            "minutes","total_points","points_per90",
+            "goals_scored","assists"
+        ] if c in merged_gw.columns]
+
+        top = merged_gw[keep].copy().sort_values(
+            ["total_points","points_per90"], ascending=[False, False]
+        ).head(25)
         gw_sum["top_players"] = head_dict(top)
 
 write_json(os.path.join(OUTDIR, "gw_summary.json"), gw_sum)
