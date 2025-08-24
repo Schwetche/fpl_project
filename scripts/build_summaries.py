@@ -161,31 +161,64 @@ write_json(os.path.join(OUTDIR, "line_counts.json"), {
 # ---------- players_snapshot_summary.json ----------
 snap_summary = {"last_updated_utc": UTC_NOW, "by_position": [], "by_team": [], "top_selected": []}
 if not players_snap.empty:
-    to_num(players_snap, ["price_m","selected_by_percent"])
-    # by_position
-    if "position" in players_snap.columns and "id" in players_snap.columns:
-        g = players_snap.groupby("position", dropna=False).agg(
-            n=("id","count"),
-            avg_price=("price_m","mean"),
-            avg_sel=("selected_by_percent","mean")
-        ).reset_index()
-        snap_summary["by_position"] = head_dict(g.sort_values("position"))
-    # by_team
+    # Harmoniser le prix: accepter 'now_cost'/'cost' comme alias de 'price_m'
+    if "price_m" not in players_snap.columns:
+        for alias in ["now_cost", "cost"]:
+            if alias in players_snap.columns:
+                players_snap = players_snap.rename(columns={alias: "price_m"})
+                break
+
+    # Harmoniser le nom d'équipe pour l'affichage (team_name prioritaire)
     tcol = "team_name" if "team_name" in players_snap.columns else ("team" if "team" in players_snap.columns else None)
+
+    # Conversions numériques (si présentes)
+    to_num(players_snap, ["price_m", "selected_by_percent"])
+
+    # by_position (agrégats dynamiques -> pas d'erreur si une colonne manque)
+    if "position" in players_snap.columns and "id" in players_snap.columns:
+        agg_pos = {"n": ("id", "count")}
+        if "price_m" in players_snap.columns:
+            agg_pos["avg_price"] = ("price_m", "mean")
+        if "selected_by_percent" in players_snap.columns:
+            agg_pos["avg_sel"] = ("selected_by_percent", "mean")
+
+        g = players_snap.groupby("position", dropna=False).agg(**agg_pos).reset_index()
+        snap_summary["by_position"] = head_dict(g.sort_values("position"))
+
+    # by_team (même logique)
     if tcol and "id" in players_snap.columns:
-        g = players_snap.groupby(tcol, dropna=False).agg(
-            n=("id","count"),
-            avg_price=("price_m","mean"),
-            avg_sel=("selected_by_percent","mean")
-        ).reset_index().rename(columns={tcol:"team"})
-        snap_summary["by_team"] = head_dict(g.sort_values("team"))
-    # top selected
-    if {"id","web_name","selected_by_percent"} <= set(players_snap.columns):
-        top = players_snap[["id","web_name","team_name","position","price_m","selected_by_percent"]].copy()
-        top = top.sort_values("selected_by_percent", ascending=False).head(20)
+        agg_team = {"n": ("id", "count")}
+        if "price_m" in players_snap.columns:
+            agg_team["avg_price"] = ("price_m", "mean")
+        if "selected_by_percent" in players_snap.columns:
+            agg_team["avg_sel"] = ("selected_by_percent", "mean")
+
+        g = players_snap.groupby(tcol, dropna=False).agg(**agg_team).reset_index().rename(columns={tcol: "team"})
+        # Tri stable par nom d'équipe si texte, sinon par n décroissant
+        try:
+            g_sorted = g.sort_values("team")
+        except Exception:
+            g_sorted = g.sort_values("n", ascending=False)
+        snap_summary["by_team"] = head_dict(g_sorted)
+
+    # top selected (tolérant au nom de la colonne d'équipe)
+    if {"id", "web_name", "selected_by_percent"} <= set(players_snap.columns):
+        keep = ["id", "web_name", "position", "price_m", "selected_by_percent"]
+        if tcol:
+            keep.append(tcol)
+        keep = [c for c in keep if c in players_snap.columns]
+        top = players_snap[keep].copy()
+        if tcol and tcol != "team_name":
+            top = top.rename(columns={tcol: "team"})
+        # Tri par ownership si dispo, sinon par prix
+        if "selected_by_percent" in top.columns:
+            top = top.sort_values("selected_by_percent", ascending=False).head(20)
+        elif "price_m" in top.columns:
+            top = top.sort_values("price_m", ascending=False).head(20)
         snap_summary["top_selected"] = head_dict(top)
 
 write_json(os.path.join(OUTDIR, "players_snapshot_summary.json"), snap_summary)
+
 
 # ---------- ownership_momentum.json ----------
 own_mom = {"last_updated_utc": UTC_NOW, "most_in": [], "most_out": []}
