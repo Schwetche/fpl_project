@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-08-24T22:37:04Z",
+  "last_updated_utc": "2025-08-24T23:05:56Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
-      "size_bytes": 936
+      "size_bytes": 940
     },
     {
       "path": "summaries/line_counts.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "summaries/gw_summary.json",
-      "size_bytes": 1329
+      "size_bytes": 1307
     },
     {
       "path": "summaries/anomaly_report.json",
