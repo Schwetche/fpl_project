@@ -1,12 +1,4 @@
 {
-  "last_updated_utc": "2025-08-24T21:31:17Z",
-  "notes": [
-    "read_error:data/players_raw_snapshot_current.csv:The 'low_memory' option is not supported with the 'python' engine",
-    "read_error:data/players_raw_history.csv:The 'low_memory' option is not supported with the 'python' engine",
-    "read_error:data/price_change_forecast.csv:The 'low_memory' option is not supported with the 'python' engine",
-    "read_error:data/price_change_forecast_history.csv:The 'low_memory' option is not supported with the 'python' engine",
-    "read_error:data/fixtures.csv:The 'low_memory' option is not supported with the 'python' engine",
-    "read_error:data/deadlines.csv:The 'low_memory' option is not supported with the 'python' engine",
-    "read_error:data/merged_gw.csv:The 'low_memory' option is not supported with the 'python' engine"
-  ]
+  "last_updated_utc": "2025-08-24T22:37:04Z",
+  "notes": []
 }
