@@ -71,8 +71,29 @@ def main():
     })
     log = pd.concat([log, cur], ignore_index=True)
 
-    log["timestamp"] = pd.to_datetime(log["timestamp"])
-    log.sort_values(["id", "timestamp"], inplace=True)
+# --- PARSE ROBUSTE DES TIMESTAMPS ---
+# 1) si tu lis le CSV ici, assure-toi d'être tolérant
+#    (si déjà lu ailleurs, garde ton read_csv et ajoute seulement le parse ci-dessous)
+# Exemple de lecture tolérante :
+# log = pd.read_csv("data/deltas/nti_deltas.csv", sep=None, engine="python", encoding="utf-8")
+
+# 2) parsing robuste : formats mixtes, erreurs -> NaT, UTC
+log["timestamp"] = pd.to_datetime(
+    log["timestamp"],
+    errors="coerce",
+    format="mixed",  # accepte plusieurs formats
+    utc=True
+)
+
+# 3) ignorer les lignes invalides (conflits résiduels / formats cassés)
+bad_rows = log["timestamp"].isna().sum()
+if bad_rows:
+    print(f"[calc_nti_deltas] WARN: {bad_rows} lignes avec timestamp invalide ont été ignorées.")
+    log = log[log["timestamp"].notna()].copy()
+
+# 4) trier par temps (optionnel mais pratique)
+log = log.sort_values("timestamp")
+
 
     nti24_values = []
     for pid, grp in log.groupby("id", sort=False):

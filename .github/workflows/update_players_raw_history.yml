@@ -16,6 +16,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check CSV/JSON/TXT conflicts
+        run: python scripts/check_csv_conflicts.py
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
