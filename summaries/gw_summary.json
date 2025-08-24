@@ -1,5 +1,61 @@
 {
-  "last_updated_utc": "2025-08-24T21:31:17Z",
+  "last_updated_utc": "2025-08-24T22:37:04Z",
   "current_gw": null,
-  "top_players": []
+  "top_players": [
+    {
+      "player_id": 531,
+      "web_name": "Ballard",
+      "team_name": "Sunderland",
+      "position": "DEF",
+      "minutes": 90,
+      "total_points": 17,
+      "points_per90": 17.0,
+      "goals_scored": 1,
+      "assists": 0
+    },
+    {
+      "player_id": 82,
+      "web_name": "Semenyo",
+      "team_name": "Bournemouth",
+      "position": "MID",
+      "minutes": 90,
+      "total_points": 15,
+      "points_per90": 15.0,
+      "goals_scored": 2,
+      "assists": 0
+    },
+    {
+      "player_id": 7,
+      "web_name": "Calafiori",
+      "team_name": "Arsenal",
+      "position": "DEF",
+      "minutes": 71,
+      "total_points": 13,
+      "points_per90": 16.47887323943662,
+      "goals_scored": 1,
+      "assists": 0
+    },
+    {
+      "player_id": 597,
+      "web_name": "Richarlison",
+      "team_name": "Spurs",
+      "position": "FWD",
+      "minutes": 71,
+      "total_points": 13,
+      "points_per90": 16.47887323943662,
+      "goals_scored": 2,
+      "assists": 0
+    },
+    {
+      "player_id": 430,
+      "web_name": "Haaland",
+      "team_name": "Man City",
+      "position": "FWD",
+      "minutes": 72,
+      "total_points": 13,
+      "points_per90": 16.25,
+      "goals_scored": 2,
+      "assists": 0
+    }
+  ]
 }
