@@ -1,691 +1,691 @@
-element,player_id,web_name,first_name,second_name,position,team,team_name,team_short,gw,event,fixture,kickoff_time,opponent_team,minutes,goals_scored,assists,clean_sheets,goals_conceded,yellow_cards,red_cards,saves,bonus,is_home,opponent_name,opponent_short,source_file,team_a,team_a_score,team_h,team_h_score
-1,1,Raya,David,Raya Martín,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,1.0,,7.0,3.0,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-2,2,Arrizabalaga,Kepa,Arrizabalaga Revuelta,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-3,3,Hein,Karl,Hein,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-4,4,Setford,Tommy,Setford,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-5,5,Gabriel,Gabriel,dos Santos Magalhães,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-6,6,Saliba,William,Saliba,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,1.0,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-7,7,Calafiori,Riccardo,Calafiori,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,71,1.0,,1.0,,1.0,,,2.0,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-8,8,J.Timber,Jurriën,Timber,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,19,,,,,1.0,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-9,9,Kiwior,Jakub,Kiwior,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-10,10,Lewis-Skelly,Myles,Lewis-Skelly,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,18,,,,,1.0,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-11,11,White,Benjamin,White,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,70,,,1.0,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-12,12,Zinchenko,Oleksandr,Zinchenko,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-13,13,Clarke,Brayden,Clarke,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-14,14,Kacurri,Maldini,Kacurri,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-15,15,Nichols,Josh,Nichols,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-16,16,Saka,Bukayo,Saka,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-17,17,Ødegaard,Martin,Ødegaard,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-18,18,Madueke,Noni,Madueke,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,30,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-19,19,Martinelli,Gabriel,Martinelli Silva,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,59,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-20,20,Trossard,Leandro,Trossard,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-21,21,Rice,Declan,Rice,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,82,,1.0,1.0,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-22,22,Merino,Mikel,Merino Zazón,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,7,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-23,23,Fábio Vieira,Fábio,Ferreira Vieira,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-24,24,Nørgaard,Christian,Nørgaard,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-25,25,Nwaneri,Ethan,Nwaneri,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-26,26,Zubimendi,Martín,Zubimendi Ibáñez,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-27,27,Nelson,Reiss,Nelson,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-28,28,Kabia,Ismeal,Kabia,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-29,29,Sambi,Albert,Sambi Lokonga,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-30,30,Havertz,Kai,Havertz,FWD,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,30,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-31,31,G.Jesus,Gabriel,Fernando de Jesus,FWD,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-32,32,Martinez,Emiliano,Martínez Romero,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-33,33,M.Bizot,Marco,Bizot,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,3.0,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-34,34,Gauci,Joe,Gauci,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-35,35,Marschall,Filip,Marschall,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-36,36,Cash,Matty,Cash,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-37,37,Digne,Lucas,Digne,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-38,38,Konsa,Ezri,Konsa Ngoyo,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,65,,,1.0,,,1.0,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-39,39,Maatsen,Ian,Maatsen,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-40,40,Mings,Tyrone,Mings,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-41,41,Pau,Pau,Torres,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-42,42,A.García,Andrés,García,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-43,43,Alex Moreno,Álex,Moreno Lopera,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-44,44,Bogarde,Lamare,Bogarde,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-45,45,Sousa,Lino,da Cruz Sousa,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-46,46,Yasin,Yasin,Özcan,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-47,47,Rogers,Morgan,Rogers,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-48,48,Tielemans,Youri,Tielemans,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-49,49,Bailey,Leon,Bailey,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-50,50,Buendía,Emiliano,Buendía Stati,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-51,51,Iling Jr,Samuel,Iling-Junior,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-52,52,J.Ramsey,Jacob,Ramsey,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-53,53,Malen,Donyell,Malen,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,6,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-54,54,McGinn,John,McGinn,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,83,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-55,55,Barkley,Ross,Barkley,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-56,56,Barrenechea,Enzo,Barrenechea,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-57,57,Dobbin,Lewis,Dobbin,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-58,58,Kamara,Boubacar,Kamara,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,1.0,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-59,59,Onana,Amadou,Onana,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-60,60,Broggio,Ben,Broggio,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-61,61,Dendoncker,Leander,Dendoncker,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-62,62,Jimoh-Aloba,Jamaldeen,Jimoh-Aloba,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-63,63,Young,Kadan,Young,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-64,64,Watkins,Ollie,Watkins,FWD,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-65,65,Redmond,Zépiqueno,Redmond,FWD,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-66,66,Neto,Norberto,Murara Neto,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-67,67,Petrović,Đorđe,Petrović,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,6.0,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-68,68,Dennis,Will,Dennis,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-69,69,McKenna,Callan,McKenna,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-70,70,Paulsen,Alex,Paulsen,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-71,71,Zabarnyi,Illia,Zabarnyi,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-72,72,Senesi,Marcos,Senesi Barón,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-73,73,Smith,Adam,Smith,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,89,,,,3.0,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-74,74,Truffert,Adrien,Truffert,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-75,75,Akinmboni,Matai,Akinmboni,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-76,76,Bevan,Owen,Bevan,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-77,77,Hill,James,Hill,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,1,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-78,78,J.Araujo,Julián,Araujo Zúñiga,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-79,79,Mepham,Chris,Mepham,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-80,80,Soler,Julio,Soler Barreto,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-81,81,Kluivert,Justin,Kluivert,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-82,82,Semenyo,Antoine,Semenyo,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,2.0,,,,,,,3.0,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-83,83,O.Dango,Dango,Ouattara,MID,5,Brentford,BRE,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-84,84,Tavernier,Marcus,Tavernier,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-85,85,Adams,Tyler,Adams,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-86,86,Brooks,David,Brooks,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,83,,1.0,,,1.0,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-87,87,Christie,Ryan,Christie,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-88,88,Cook,Lewis,Cook,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-89,89,Philip,Philip,Billing,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-90,90,Scott,Alex,Scott,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,73,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-91,91,Sinisterra,Luis,Sinisterra Lucumí,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-92,92,Faivre,Romain,Faivre,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-93,93,H.Traorè,Hamed,Traorè,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,16,,1.0,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-94,94,Sadi,Dominic,Sadi,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-95,95,Silcott-Duberry,Zain,Silcott-Duberry,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-96,96,Winterburn,Ben,Winterburn,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,6,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-97,97,Evanilson,Francisco Evanilson,de Lima Barbosa,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,,1.0,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-98,98,Enes Ünal,Enes,Ünal,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-99,99,Adu-Adjei,Daniel,Adu-Adjei,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-100,100,Kroupi.Jr,Eli Junior,Kroupi,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,1,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-101,101,Kelleher,Caoimhín,Kelleher,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-102,102,Balcombe,Ellery,Balcombe,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-103,103,Cox,Matthew,Cox,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-104,104,Eyestone,Julian,Eyestone,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-105,105,Valdimarsson,Hákon Rafn,Valdimarsson,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-106,106,Collins,Nathan,Collins,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,1.0,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-107,107,Lewis-Potter,Keane,Lewis-Potter,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,68,,,,3.0,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-108,108,Ajer,Kristoffer,Ajer,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-109,109,Henry,Rico,Henry,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,87,,,,3.0,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-110,110,Kayode,Michael,Kayode,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-111,111,Pinnock,Ethan,Pinnock,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-112,112,Roerslev,Mads,Roerslev Rasmussen,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-113,113,Van den Berg,Sepp,van den Berg,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-114,114,Arthur,Benjamin,Arthur,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-115,115,Fredrick,Benjamin,Fredrick,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-116,116,Hickey,Aaron,Hickey,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,2,,,,,1.0,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-117,117,Ji-soo,Kim,Ji-soo,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-118,118,Meghoma,Jayden,Meghoma,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-119,119,Mbeumo,Bryan,Mbeumo,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-120,120,Schade,Kevin,Schade,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,45,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-121,121,Damsgaard,Mikkel,Damsgaard,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-122,122,Milambo,Antoni,Milambo,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,45,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-123,123,Carvalho,Fábio,Freitas Gouveia Carvalho,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-124,124,Henderson,Jordan,Henderson,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,21,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-125,125,Janelt,Vitaly,Janelt,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-126,126,Jensen,Mathias,Jensen,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,68,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-127,127,Nunes,Gustavo,Nunes Fernandes Gomes,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-128,128,Onyeka,Frank,Onyeka,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,21,,1.0,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-129,129,Yarmoliuk,Yehor,Yarmoliuk,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-130,130,Donovan,Romelle,Donovan,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-131,131,Konak,Yunus Emre,Konak,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-132,132,Maghoma,Paris,Maghoma,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-133,133,Peart-Harris,Myles,Peart-Harris,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-134,134,Trevitt,Ryan,Trevitt,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-135,135,Wissa,Yoane,Wissa,FWD,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-136,136,Thiago,Igor Thiago,Nascimento Rodrigues,FWD,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,1.0,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-137,137,Morgan,Iwan,Morgan,FWD,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,gw1_permatch.csv,5,1,16,3
-138,138,Steele,Jason,Steele,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-139,139,Verbruggen,Bart,Verbruggen,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-140,140,McGill,Tom,McGill,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-141,141,Rushworth,Carl,Rushworth,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-142,142,Scherpen,Kjell,Scherpen,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-143,143,Boscagli,Olivier,Boscagli,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-144,144,Coppola,Diego,Coppola,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-145,145,De Cuyper,Maxim,De Cuyper,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-146,146,Dunk,Lewis,Dunk,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-147,147,Estupiñan,Pervis,Estupiñán Tenorio,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-148,148,F.Kadıoğlu,Ferdi,Kadıoğlu,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,21,,,,,1.0,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-149,149,Igor,Igor Julio,dos Santos de Paulo,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-150,150,Lamptey,Tariq,Lamptey,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-151,151,Van Hecke,Jan Paul,van Hecke,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-152,152,Veltman,Joël,Veltman,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-153,153,Webster,Adam,Webster,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-154,154,Cashin,Eiran,Cashin,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-155,155,Slater,Jacob,Slater,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-156,156,Tasker,Charlie,Tasker,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-157,157,Mitoma,Mitoma,Kaoru,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,82,,,1.0,,1.0,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-158,158,Georginio,Georginio,Rutter,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,68,,1.0,1.0,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-159,159,March,Solly,March,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-160,160,Minteh,Yankuba,Minteh,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,68,,,1.0,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-161,161,Enciso,Julio,Enciso Espínola,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-162,162,Gruda,Brajan,Gruda,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,7,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-163,163,Hinshelwood,Jack,Hinshelwood,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-164,164,O'Riley,Matt,O'Riley,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,87,1.0,,1.0,,,,,2.0,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-165,165,Sima,Abdallah,Sima,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-166,166,Ayari,Yasin,Ayari,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,1.0,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-167,167,Baleba,Carlos,Baleba,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,68,,,1.0,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-168,168,Buonanotte,Facundo,Buonanotte,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-169,169,Gomez,Diego,Gómez Amarilla,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,21,,,,,1.0,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-170,170,Milner,James,Milner,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,2,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-171,171,Sarmiento,Jeremy,Sarmiento Morante,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-172,172,Watson,Tom,Watson,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-173,173,Wieffer,Mats,Wieffer,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-174,174,Yalcouye,Malick,Yalcouyé,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-175,175,Knight,Joe,Knight,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-176,176,Mazilu,Adrian,Mazilu,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-177,177,Moran,Andrew,Moran,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-178,178,Welbeck,Danny,Welbeck,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,21,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-179,179,Ferguson,Evan,Ferguson,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-180,180,Tzimas,Stefanos,Tzimas,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-181,181,Kostoulas,Charalampos,Kostoulas,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,gw1_permatch.csv,10,1,6,1
-182,182,Trafford,James,Trafford,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,3.0,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-183,183,Weiss,Max,Weiß,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-184,184,Green,Etienne,Green,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-185,185,Hladký,Václav,Hladký,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-186,186,Roberts,Connor,Roberts,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-187,187,Walker,Kyle,Walker,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-188,188,Delcroix,Hannes,Delcroix,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-189,189,Dodgson,Owen,Dodgson,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-190,190,Ekdal,Hjalmar,Ekdal,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-191,191,Estève,Maxime,Estève,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-192,192,Hartman,Quilindschy,Hartman,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-193,193,Humphreys,Bashir,Humphreys,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-194,194,Jordan,Jordan,Beyer,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-195,195,Lucas Pires,Lucas,Pires Silva,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-196,196,Sambo,Shurandy,Sambo,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-197,197,Sonne,Oliver,Sonne,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,73,,,,3.0,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-198,198,Tuanzebe,Axel,Tuanzebe,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-199,199,Worrall,Joe,Worrall,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-200,200,Anthony,Jaidon,Anthony,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,84,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-201,201,Benson,Manuel,Benson Hedilazio,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-202,202,Bruun Larsen,Jacob,Bruun Larsen,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,27,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-203,203,Boateng,Enock,Agyei,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-204,204,Churlinov,Darko,Churlinov,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-205,205,Cullen,Josh,Cullen,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-206,206,Edwards,Marcus,Edwards,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,5,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-207,207,Hannibal,Hannibal,Mejbri,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,62,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-208,208,Koleosho,Luca,Koleosho,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-209,209,Laurent,Josh,Laurent,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,62,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-210,210,Tchaouna,Loum,Tchaouna,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,16,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-211,211,A.Ramsey,Aaron,Ramsey,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-212,212,Adewumi,Oluwaseun,Adewumi,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-213,213,Banel,Jaydon,Banel,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-214,214,Trésor,Mike,Trésor Ndayishimiye,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-215,215,Flemming,Zian,Flemming,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,16,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-216,216,Amdouni,Zeki,Amdouni,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-217,217,Foster,Lyle,Foster,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,73,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-218,218,Barnes,Ashley,Barnes,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-219,219,Obafemi,Michael,Obafemi,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-220,220,Sánchez,Robert,Lynch Sánchez,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,4.0,1.0,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-221,221,Jörgensen,Filip,Jörgensen,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-222,222,Penders,Mike,Penders,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-223,223,Slonina,Gabriel,Słonina,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-224,224,Cucurella,Marc,Cucurella Saseta,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,2.0,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-225,225,James,Reece,James,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,78,,,1.0,,1.0,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-226,226,Chalobah,Trevoh,Chalobah,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-227,227,Colwill,Levi,Samuels Colwill,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-228,228,Gusto,Malo,Gusto,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,11,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-229,229,B.Badiashile,Benoît,Badiashile Mukinayi,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-230,230,Fofana,Wesley,Fofana,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-231,231,M.Sarr,Mamadou,Sarr,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-232,232,Tosin,Tosin,Adarabioyo,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-233,233,Acheampong,Josh,Acheampong,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,3.0,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-234,234,Anselmino,Aarón,Anselmino,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-235,235,Palmer,Cole,Palmer,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-236,236,Neto,Pedro,Lomba Neto,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-237,237,Enzo,Enzo,Fernández,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,78,,,1.0,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-238,238,Estêvão,Estêvão,Almeida de Oliveira Gonçalves,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,36,,,,,1.0,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-239,239,Gittens,Jamie,Bynoe-Gittens,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,53,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-240,240,Nkunku,Christopher,Nkunku,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-241,241,Caicedo,Moisés,Caicedo Corozo,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-242,242,Dewsbury-Hall,Kiernan,Dewsbury-Hall,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-243,243,George,Tyrique,George,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-244,244,Lavia,Roméo,Lavia,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-245,245,Mudryk,Mykhailo,Mudryk,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-246,246,Andrey Santos,Andrey,Nascimento dos Santos,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,11,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-247,247,D.Essugo,Dário,Luís Essugo,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-248,248,Paez,Kendry,Páez Andrade,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-249,249,João Pedro,João Pedro,Junqueira de Jesus,FWD,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,72,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-250,250,Delap,Liam,Delap,FWD,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,17,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-251,251,N.Jackson,Nicolas,Jackson,FWD,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-252,252,Marc Guiu,Marc,Guiu Paz,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-253,253,Henderson,Dean,Henderson,GK,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-254,254,Benitez,Walter,Benítez,GK,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-255,255,Matthews,Remi,Matthews,GK,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-256,256,Muñoz,Daniel,Muñoz Mejía,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,1.0,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-257,257,Lacroix,Maxence,Lacroix,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-258,258,Mitchell,Tyrick,Mitchell,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,1.0,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-259,259,Sosa,Borna,Sosa,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-260,260,Guéhi,Marc,Guéhi,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-261,261,Richards,Chris,Richards,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-262,262,Chadi Riad,Chadi,Riad Dnanou,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-263,263,Clyne,Nathaniel,Clyne,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-264,264,Holding,Rob,Holding,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-265,265,Kporha,Caleb,Kporha,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-266,266,Eze,Eberechi,Eze,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,83,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-267,267,Sarr,Ismaïla,Sarr,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-268,268,Doucouré,Cheick,Doucouré,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-269,269,Esse,Romain,Esse,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-270,270,Hughes,Will,Hughes,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,69,,,1.0,,1.0,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-271,271,Kamada,Daichi,Kamada,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-272,272,Lerma,Jefferson,Lerma Solís,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,20,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-273,273,Wharton,Adam,Wharton,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-274,274,Agbinone,Asher,Agbinone,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-275,275,Ahamada,Naouirou,Ahamada,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-276,276,Devenny,Justin,Devenny,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,6,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-277,277,Ebiowei,Malcolm,Ebiowei,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-278,278,J.Rak-Sakyi,Jesurun,Rak-Sakyi,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-279,279,M.França,Matheus,França de Oliveira,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-280,280,Ozoh,David,Ozoh,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-281,281,Rodney,Kaden,Rodney,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-282,282,Umeh,Franco,Umeh-Chibueze,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-283,283,Mateta,Jean-Philippe,Mateta,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,,,1.0,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-284,284,Nketiah,Eddie,Nketiah,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-285,285,Édouard,Odsonne,Édouard,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-286,286,Marsh,Zach,Marsh,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
-287,287,Pickford,Jordan,Pickford,GK,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-288,288,Travers,Mark,Travers,GK,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-289,289,Tyrer,Harry,Tyrer,GK,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-290,290,Branthwaite,Jarrad,Branthwaite,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-291,291,Tarkowski,James,Tarkowski,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-292,292,Mykolenko,Vitalii,Mykolenko,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-293,293,O'Brien,Jake,O'Brien,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-294,294,Coleman,Séamus,Coleman,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-295,295,Keane,Michael,Keane,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-296,296,Patterson,Nathan,Patterson,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-297,297,Dixon,Roman,Dixon,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-298,298,Welch,Reece,Welch,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-299,299,Ndiaye,Iliman,Ndiaye,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-300,300,McNeil,Dwight,McNeil,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-301,301,Alcaraz,Carlos,Alcaraz Durán,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,85,,,,,1.0,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-302,302,Gana,Idrissa Gana,Gueye,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-303,303,Garner,James,Garner,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-304,304,Iroegbunam,Tim,Iroegbunam,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,70,,,1.0,,1.0,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-305,305,Armstrong,Harrison,Armstrong,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-306,306,Bates,Callum,Bates,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-307,307,Ebere,Coby,Ebere,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-308,308,Heath,Isaac,Heath,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-309,309,Metcalfe,Jenson,Metcalfe,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-310,310,Barry,Thierno,Barry,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,4,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-311,311,Beto,Norberto Bercique,Gomes Betuncal,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-312,312,Y.Chermiti,Youssef,Ramalho Chermiti,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-313,313,Sherif,Martin,Sherif,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-314,314,Leno,Bernd,Leno,GK,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,3.0,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-315,315,Benda,Steven,Benda,GK,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-316,316,Robinson,Antonee,Robinson,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-317,317,Andersen,Joachim,Andersen,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-318,318,Bassey,Calvin,Bassey,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,1.0,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-319,319,Castagne,Timothy,Castagne,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,6,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-320,320,Diop,Issa,Diop,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-321,321,J.Cuenca,Jorge,Cuenca Barreno,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,83,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-322,322,Tete,Kenny,Tete,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-323,323,Amissah,Samuel,Amissah,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-324,324,Iwobi,Alex,Iwobi,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,65,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-325,325,Smith Rowe,Emile,Smith Rowe,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,13,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-326,326,Adama,Adama,Traoré Diarra,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,24,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-327,327,Andreas,Andreas,Hoelgebaum Pereira,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-328,328,Sessegnon,Ryan,Sessegnon,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-329,329,Wilson,Harry,Wilson,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,1.0,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-330,330,Berge,Sander,Berge,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,65,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-331,331,Cairney,Tom,Cairney,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,24,,,,,1.0,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-332,332,Lukić,Saša,Lukić,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-333,333,Godo,Martial,Godo,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-334,334,Harris,Luke,Harris,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-335,335,King,Josh,King,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,76,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-336,336,Reed,Harrison,Reed,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-337,337,Raúl,Raúl,Jiménez Rodríguez,FWD,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,65,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-338,338,Muniz,Rodrigo,Muniz Carvalho,FWD,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,24,1.0,,,,1.0,,,3.0,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-339,339,Meslier,Illan,Meslier,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-340,340,Cairns,Alex,Cairns,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-341,341,Darlow,Karl,Darlow,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-342,342,Bogle,Jayden,Bogle,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-343,343,Struijk,Pascal,Struijk,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,2.0,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-344,344,Bijol,Jaka,Bijol,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-345,345,Bornauw,Sebastiaan,Bornauw,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-346,346,Byram,Sam,Byram,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-347,347,Gudmundsson,Gabriel,Gudmundsson,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,3.0,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-348,348,Rodon,Joe,Rodon,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,1.0,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-349,349,Schmidt,Isaac,Schmidt,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-350,350,Aaronson,Brenden,Aaronson,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,23,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-351,351,Gnonto,Wilfried,Gnonto,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,66,,,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-352,352,Harrison,Jack,Harrison,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,12,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-353,353,James,Daniel,James,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,77,,,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-354,354,Ampadu,Ethan,Ampadu,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,77,,,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-355,355,Greenwood,Sam,Greenwood,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-356,356,Gruev,Ilia,Gruev,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,12,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-357,357,Ramazani,Largie,Ramazani,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-358,358,Tanaka,Tanaka,Ao,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-359,359,Crew,Charlie,Crew,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-360,360,Gelhardt,Joe,Gelhardt,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-361,361,Gyabi,Darko,Gyabi,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-362,362,Piroe,Joël,Piroe,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,77,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-363,363,Bamford,Patrick,Bamford,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-364,364,Mateo Joseph,Mateo,Joseph Fernández-Regatillo,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-365,365,Nmecha,Lukas,Nmecha,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,12,1.0,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-366,366,A.Becker,Alisson,Becker,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,2.0,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-367,367,Mamardashvili,Giorgi,Mamardashvili,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-368,368,Pécsi,Ármin,Pécsi,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-369,369,Woodman,Freddie,Woodman,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-370,370,Frimpong,Jeremie,Frimpong,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,59,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-371,371,Kerkez,Milos,Kerkez,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,59,,,,,1.0,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-372,372,Robertson,Andrew,Robertson,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,30,,,,2.0,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-373,373,Virgil,Virgil,van Dijk,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,2.0,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-374,374,Konaté,Ibrahima,Konaté,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,2.0,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-375,375,Bradley,Conor,Bradley,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-376,376,Gomez,Joe,Gomez,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,18,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-377,377,Tsimikas,Konstantinos,Tsimikas,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-378,378,Nallo,Amara,Nallo,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-379,379,R.Williams,Rhys,Williams,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-380,380,Ramsay,Calvin,Ramsay,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-381,381,M.Salah,Mohamed,Salah,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,1.0,,,,,,,1.0,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-382,382,Wirtz,Florian,Wirtz,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,81,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-383,383,Luis Díaz,Luis,Díaz Marulanda,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-384,384,Gakpo,Cody,Gakpo,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,1.0,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-385,385,Chiesa,Federico,Chiesa,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,8,1.0,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-386,386,Mac Allister,Alexis,Mac Allister,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,71,,1.0,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-387,387,Szoboszlai,Dominik,Szoboszlai,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-388,388,C.Jones,Curtis,Jones,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,18,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-389,389,Elliott,Harvey,Elliott,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-390,390,Gravenberch,Ryan,Gravenberch,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-391,391,Gannon-Doak,Ben,Gannon-Doak,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-392,392,Endo,Endo,Wataru,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,30,,1.0,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-393,393,Bajcetic,Stefan,Bajčetić Maquieira,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-394,394,McConnell,James,McConnell,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-395,395,Morton,Tyler,Morton,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-396,396,Nyoni,Trey,Nyoni,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-397,397,Darwin,Darwin,Núñez Ribeiro,FWD,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-398,398,Danns,Jayden,Danns,FWD,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-399,399,Ederson M.,Ederson,Santana de Moraes,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-400,400,Ortega Moreno,Stefan,Ortega Moreno,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-401,401,Bettinelli,Marcus,Bettinelli,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-402,402,Aït-Nouri,Rayan,Aït-Nouri,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,,1.0,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-403,403,Gvardiol,Joško,Gvardiol,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-404,404,Akanji,Manuel,Akanji,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-405,405,Aké,Nathan,Aké,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-406,406,Khusanov,Abdukodir,Khusanov,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,8,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-407,407,Matheus N.,Matheus,Nunes,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,24,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-408,408,Rúben,Rúben,dos Santos Gato Alves Dias,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-409,409,Stones,John,Stones,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,81,,,1.0,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-410,410,Lewis,Rico,Lewis,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,65,,1.0,1.0,,,,,2.0,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-411,411,O’Reilly,Nico,O'Reilly,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,24,,,,,1.0,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-412,412,Vitor Reis,Vitor,de Oliveira Nunes dos Reis,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-413,413,Marmoush,Omar,Marmoush,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,24,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-414,414,Foden,Phil,Foden,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-415,415,Savinho,Sávio,Moreira de Oliveira,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-416,416,Bernardo,Bernardo,Mota Veiga de Carvalho e Silva,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,65,,,1.0,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-417,417,Cherki,Rayan,Cherki,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,17,1.0,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-418,418,Doku,Jérémy,Doku,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,65,,,1.0,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-419,419,Grealish,Jack,Grealish,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,19,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-420,420,Gündoğan,İlkay,Gündoğan,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-421,421,Rodrigo,Rodrigo 'Rodri',Hernandez Cascante,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-422,422,Kovačić,Mateo,Kovačić,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-423,423,N.Gonzalez,Nico,González Iglesias,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-424,424,Bobb,Oscar,Bobb,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,1.0,1.0,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-425,425,Echeverri,Claudio,Echeverri,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-426,426,McAtee,James,McAtee,MID,16,Nott'm Forest,NFO,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-427,427,Reijnders,Tijjani,Reijnders,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,1.0,1.0,1.0,,1.0,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-428,428,Nypan,Sverre,Nypan,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-429,429,Phillips,Kalvin,Phillips,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-430,430,Haaland,Erling,Haaland,FWD,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,72,2.0,,,,,,,3.0,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-431,431,Bayindir,Altay,Bayındır,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-432,432,Onana,André,Onana,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-433,433,Harrison,Elyh,Harrison,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-434,434,Heaton,Tom,Heaton,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-435,435,Mee,Dermot,Mee,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-436,436,De Ligt,Matthijs,de Ligt,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-437,437,Martinez,Lisandro,Martínez,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-438,438,Mazraoui,Noussair,Mazraoui,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-439,439,D.Leon,Diego,León Blanco,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-440,440,Dalot,Diogo,Dalot Teixeira,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,54,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-441,441,Dorgu,Patrick,Dorgu,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,1.0,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-442,442,Maguire,Harry,Maguire,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,10,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-443,443,Shaw,Luke,Shaw,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,79,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-444,444,Yoro,Leny,Yoro,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-445,445,Amass,Harry,Amass,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-446,446,Fredricson,Tyler,Fredricson,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-447,447,Heaven,Ayden,Heaven,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-448,448,Malacia,Tyrell,Malacia,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-449,449,B.Fernandes,Bruno,Borges Fernandes,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-450,450,Cunha,Matheus,Santos Carneiro da Cunha,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-451,451,Rashford,Marcus,Rashford,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-452,452,Amad,Amad,Diallo,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,35,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-453,453,Garnacho,Alejandro,Garnacho Ferreyra,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-454,454,Antony,Antony,dos Santos,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-455,455,Mount,Mason,Mount,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,64,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-456,456,Sancho,Jadon,Sancho,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-457,457,Casemiro,Carlos Henrique,Casimiro,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,64,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-458,458,Mainoo,Kobbie,Mainoo,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-459,459,Ugarte,Manuel,Ugarte Ribeiro,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,25,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-460,460,Collyer,Toby,Collyer,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-461,461,Fitzgerald,Jayce,Fitzgerald,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-462,462,J.Fletcher,Jack,Fletcher,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-463,463,Kone,Sékou,Koné,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-464,464,Moorhouse,Jack,Moorhouse,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-465,465,Højlund,Rasmus,Højlund,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-466,466,Zirkzee,Joshua,Zirkzee,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-467,467,Obi,Chido,Obi,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-468,468,Wheatley,Ethan,Wheatley,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-469,469,Pope,Nick,Pope,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,3.0,2.0,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-470,470,Dúbravka,Martin,Dúbravka,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,3.0,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-471,471,Gillespie,Mark,Gillespie,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-472,472,Odysseas,Odysseas,Vlachodimos,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-473,473,Hall,Lewis,Hall,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-474,474,Schär,Fabian,Schär,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-475,475,Botman,Sven,Botman,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-476,476,Burn,Dan,Burn,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,1.0,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-477,477,Livramento,Tino,Livramento,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,3.0,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-478,478,Trippier,Kieran,Trippier,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-479,479,Krafth,Emil,Krafth,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-480,480,Lascelles,Jamaal,Lascelles,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-481,481,A.Murphy,Alex,Murphy,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-482,482,Ashby,Harrison,Ashby,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-483,483,Pivas,Miodrag,Pivaš,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-484,484,Targett,Matt,Targett,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-485,485,Gordon,Anthony,Gordon,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-486,486,Elanga,Anthony,Elanga,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,77,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-487,487,Barnes,Harvey,Barnes,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,89,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-488,488,Bruno G.,Bruno,Guimarães Rodriguez Moura,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-489,489,J.Murphy,Jacob,Murphy,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,12,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-490,490,Joelinton,Joelinton Cássio,Apolinário de Lira,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,82,,,1.0,,1.0,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-491,491,Tonali,Sandro,Tonali,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-492,492,Antoñito C.,Antoñito,Cordero Campillo,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-493,493,Longstaff,Sean,Longstaff,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,1,,,,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-494,494,Willock,Joe,Willock,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-495,495,Hayden,Isaac,Hayden,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-496,496,Kuol,Garang,Kuol,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-497,497,L.Miley,Lewis,Miley,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,7,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-498,498,White,Joe,White,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-499,499,Isak,Alexander,Isak,FWD,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-500,500,Osula,William,Osula,FWD,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,1,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-501,501,Neave,Sean,Neave,FWD,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-502,502,Sels,Matz,Sels,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-503,503,C.Miguel,Carlos Miguel,dos Santos Pereira,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-504,504,Turner,Matt,Turner,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-505,505,Milenković,Nikola,Milenković,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-506,506,Murillo,Murillo,Costa dos Santos,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-507,507,Aina,Ola,Aina,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-508,508,N.Williams,Neco,Williams,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,1.0,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-509,509,David Carmo,David,Mota Veiga Teixeira do Carmo,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-510,510,Jair Cunha,Jair,Paula da Cunha Filho,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-511,511,Morato,Felipe,Rodrigues da Silva,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-512,512,O.Richards,Omar,Richards,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-513,513,Abbott,Zach,Abbott,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-514,514,Boly,Willy,Boly,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-515,515,Gibbs-White,Morgan,Gibbs-White,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,83,,1.0,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-516,516,Hudson-Odoi,Callum,Hudson-Odoi,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-517,517,Anderson,Elliot,Anderson,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,1.0,,,,,,1.0,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-518,518,Jota,João Pedro,Ferreira da Silva,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,11,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-519,519,Dominguez,Nicolás,Domínguez,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-520,520,O'Brien,Lewis,O'Brien,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-521,521,Sangaré,Ibrahim,Sangaré,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-522,522,Yates,Ryan,Yates,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,6,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-523,523,Da Silva Moreira,Eric,da Silva Moreira,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-524,524,Stamenic,Marko,Stamenić,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-525,525,Wood,Chris,Wood,FWD,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,78,2.0,,,,,,,3.0,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-526,526,Igor Jesus,Igor Jesus,Maciel da Cruz,FWD,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,11,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-527,527,Awoniyi,Taiwo,Awoniyi,FWD,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-528,528,Patterson,Anthony,Patterson,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-529,529,Moore,Simon,Moore,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-530,530,Nna Noukeu,Blondy,Nna Noukeu,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-531,531,Ballard,Daniel,Ballard,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,1.0,,1.0,,,,,3.0,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-532,532,Hume,Trai,Hume,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-533,533,Alese,Aji,Alese,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-534,534,Anderson,Joe,Anderson,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-535,535,Cirkin,Dennis,Cirkin,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-536,536,Hjelde,Leo Fuhr,Hjelde,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-537,537,Huggins,Niall,Huggins,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-538,538,Johnson,Zak,Johnson,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-539,539,O'Nien,Luke,O'Nien,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-540,540,Pembele,Timothée,Pembélé,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-541,541,Reinildo,Reinildo,Mandava,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-542,542,Seelt,Jenson,Seelt,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,52,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-543,543,Adingra,Simon,Adingra,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,75,,1.0,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-544,544,Diarra,Habib,Diarra,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-545,545,Roberts,Patrick,Roberts,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-546,546,Aleksić,Milan,Aleksić,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-547,547,E.Le Fée,Enzo,Le Fée,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,14,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-548,548,Mundle,Romaine,Mundle,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-549,549,Neil,Dan,Neil,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-550,550,Poveda,Ian,Poveda-Ocampo,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-551,551,Rigg,Chris,Rigg,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,1,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-552,552,Sadiki,Noah,Sadiki,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-553,553,Talbi,Chemsdine,Talbi,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,1.0,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-554,554,Ba,Abdoullah,Ba,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-555,555,Browne,Alan,Browne,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-556,556,Ekwah,Pierre,Ekwah Elimby,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-557,557,H.Jones,Harrison,Jones,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-558,558,Matete,Jay,Matete,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-559,559,Triantis,Nectarios,Triantis,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-560,560,Isidor,Wilson,Isidor,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,14,1.0,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-561,561,Mayenda,Eliezer,Mayenda Dossou,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,75,1.0,,,,,,,2.0,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-562,562,Abdullahi,Ahmed,Abdullahi,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-563,563,Luís Hemir,Luís Hemir,Silva Semedo,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-564,564,Rusyn,Nazarii,Rusyn,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-565,565,Vicario,Guglielmo,Vicario,GK,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,4.0,2.0,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-566,566,Austin,Brandon,Austin,GK,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-567,567,Kinsky,Antonín,Kinský,GK,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-568,568,Pedro Porro,Pedro,Porro Sauceda,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-569,569,Romero,Cristian,Romero,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-570,570,Danso,Kevin,Danso,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-571,571,Davies,Ben,Davies,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-572,572,Dragusin,Radu,Drăgușin,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-573,573,Spence,Djed,Spence,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-574,574,Udogie,Destiny,Udogie,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-575,575,Van de Ven,Micky,van de Ven,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-576,576,Phillips,Ashley,Phillips,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-577,577,Takai,Takai,Kōta,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-578,578,Vuskovic,Luka,Vušković,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-579,579,Son,Son,Heung-min,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-580,580,Johnson,Brennan,Johnson,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,79,1.0,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-581,581,Maddison,James,Maddison,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-582,582,Kudus,Mohammed,Kudus,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,84,,2.0,1.0,,,,,1.0,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-583,583,Kulusevski,Dejan,Kulusevski,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-584,584,Tel,Mathys,Tel,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,5,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-585,585,Bentancur,Rodrigo,Bentancur,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,19,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-586,586,Bergvall,Lucas,Bergvall,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,79,,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-587,587,Bissouma,Yves,Bissouma,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-588,588,Odobert,Wilson,Odobert,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,10,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-589,589,Solomon,Manor,Solomon,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-590,590,Bryan,Bryan,Gil Salvatierra,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-591,591,Gray,Archie,Gray,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,70,,,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-592,592,Moore,Mikey,Moore,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-593,593,P.M.Sarr,Pape Matar,Sarr,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,1.0,1.0,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-594,594,Min-hyeok,Yang,Min-hyeok,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-595,595,Olusesi,Callum,Olusesi,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-596,596,Solanke,Dominic,Solanke-Mitchell,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,19,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-597,597,Richarlison,Richarlison,de Andrade,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,71,2.0,,,,,,,3.0,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-598,598,Lankshear,Will,Lankshear,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-599,599,Scarlett,Dane,Scarlett,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-600,600,Areola,Alphonse,Areola,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-601,601,Foderingham,Wes,Foderingham,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-602,602,Hegyi,Krisztián,Hegyi,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-603,603,Diouf,El Hadji Malick,Diouf,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-604,604,Emerson,Emerson,Palmieri dos Santos,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-605,605,Kilman,Maximilian,Kilman,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,1.0,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-606,606,Mavropanos,Konstantinos,Mavropanos,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-607,607,N.Aguerd,Nayef,Aguerd,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-608,608,Scarles,Ollie,Scarles,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-609,609,Todibo,Jean-Clair,Todibo,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,81,,,,2.0,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-610,610,Wan-Bissaka,Aaron,Wan-Bissaka,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-611,611,Casey,Kaelan,Casey,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-612,612,L.Paquetá,Lucas,Tolentino Coelho de Lima,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-613,613,Souček,Tomáš,Souček,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,19,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-614,614,Ward-Prowse,James,Ward-Prowse,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,70,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-615,615,Summerville,Crysencio,Summerville,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-616,616,Álvarez,Edson,Álvarez Velázquez,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-617,617,Cornet,Maxwel,Cornet,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-618,618,G.Rodriguez,Guido,Rodríguez,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,70,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-619,619,L.Guilherme,Luis Guilherme,Lira dos Santos,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-620,620,Earthy,George,Earthy,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-621,621,Irving,Andy,Irving,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,8,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-622,622,Orford,Lewis,Orford,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-623,623,Potts,Freddie,Potts,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-624,624,Bowen,Jarrod,Bowen,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-625,625,Füllkrug,Niclas,Füllkrug,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-626,626,Marshall,Callum,Marshall,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-627,627,Johnstone,Sam,Johnstone,GK,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-628,628,José Sá,José,Malheiro de Sá,GK,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-629,629,Bentley,Daniel,Bentley,GK,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-630,630,King,Tom,King,GK,9,Everton,EVE,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,gw1_permatch.csv,13,4,20,0
-631,631,Agbadou,Emmanuel,Agbadou,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-632,632,Doherty,Matt,Doherty,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,1.0,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-633,633,H.Bueno,Hugo,Bueno López,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,18,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-634,634,Mosquera,Yerson,Mosquera Valdelamar,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-635,635,R.Gomes,Rodrigo,Martins Gomes,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,17,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-636,636,S.Bueno,Santiago,Ignacio Bueno,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-637,637,Toti,Toti,Gomes,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-638,638,Hoever,Ki-Jana,Hoever,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,72,,,,3.0,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-639,639,Meupiyou,Bastien,Meupiyou Menadjou,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-640,640,Pedro Lima,Pedro,Cardoso de Lima,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-641,641,Pond,Alfie,Pond,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-642,642,Hee Chan,Hwang,Hee-chan,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,8,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-643,643,André,André,Trindade da Costa Neto,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,71,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-644,644,Bellegarde,Jean-Ricner,Bellegarde,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,72,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-645,645,Fer López,Fer,López González,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,18,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-646,646,Gomes,João Victor,Gomes da Silva,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-647,647,Guedes,Gonçalo Manuel,Ganchinho Guedes,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-648,648,Munetsi,Marshall,Munetsi,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-649,649,B.Traore,Boubacar,Traoré,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-650,650,Chirewa,Tawanda,Chirewa,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-651,651,Edozie,Tom,Edozie,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-652,652,Gonzalez,Enso,González Medina,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-653,653,Hodge,Joe,Hodge,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-654,654,Strand Larsen,Jørgen,Strand Larsen,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,81,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-655,655,Fábio Silva,Fábio,Soares Silva,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-656,656,Kalajdžić,Saša,Kalajdžić,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-657,657,Chiwome,Leon,Chiwome,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-658,658,Fraser,Nathan,Fraser,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-659,659,Walker-Peters,Kyle,Walker-Peters,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-660,660,Stach,Anton,Stach,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,1.0,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-661,661,Ekitiké,Hugo,Ekitiké,FWD,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,71,1.0,1.0,,,,,,2.0,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-662,662,Mosquera,Cristhian,Mosquera,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-663,663,J.Arias,Jhon,Arias,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,17,,,,,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-664,664,Lecomte,Benjamin,Lecomte,GK,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,gw1_permatch.csv,10,1,6,1
-665,665,Perri,Lucas Estella,Perri,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,,True,Everton,EVE,gw1_permatch.csv,9,0,11,1
-666,666,Gyökeres,Viktor,Gyökeres,FWD,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,59,,,,,,,,,False,Man Utd,MUN,gw1_permatch.csv,1,1,14,0
-667,667,Aznou,Adam,Aznou,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,gw1_permatch.csv,9,0,11,1
-668,668,Xhaka,Granit,Xhaka,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-669,669,Ndoye,Dan,Ndoye,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,78,1.0,,,,,,,2.0,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-670,670,Roefs,Robin,Roefs,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,4.0,1.0,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-671,671,Wilson,Callum,Wilson,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,19,,,,,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-672,672,Hato,Jorrel,Hato,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,gw1_permatch.csv,8,0,7,0
-673,673,J.Palhinha,João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,10,,,,,,,,,True,Burnley,BUR,gw1_permatch.csv,3,0,18,3
-674,674,Ramsdale,Aaron,Ramsdale,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-675,675,Gunn,Angus,Gunn,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,gw1_permatch.csv,5,1,16,3
-676,676,Ugochukwu,Lesley,Ugochukwu,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,27,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-677,677,Guessand,Evann,Guessand,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-678,678,Masuaku,Arthur,Masuaku,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-679,679,Hermansen,Mads,Hermansen,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,gw1_permatch.csv,19,0,17,3
-680,680,Broja,Armando,Broja,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,gw1_permatch.csv,3,0,18,3
-681,681,Šeško,Benjamin,Sesko,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,25,,,,,,,,,True,Arsenal,ARS,gw1_permatch.csv,1,1,14,0
-682,682,Møller Wolfe,David,Møller Wolfe,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,71,,,,3.0,,,,,True,Man City,MCI,gw1_permatch.csv,13,4,20,0
-683,683,Alderete,Omar,Alderete,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,37,,1.0,,,,,,,True,West Ham,WHU,gw1_permatch.csv,19,0,17,3
-684,684,Thiaw,Malick,Thiaw,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-685,685,Diakité,Bafodé,Diakité,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-686,686,Ngumoha,Rio,Ngumoha,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,gw1_permatch.csv,4,2,12,4
-687,687,Rees-Dottin,Remy,Rees-Dottin,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,gw1_permatch.csv,4,2,12,4
-688,688,Wright,James,Wright,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,gw1_permatch.csv,15,0,2,0
-689,689,Seung soo,Seung-Soo,Park,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,gw1_permatch.csv,15,0,2,0
-690,690,Cardines,Rio,Cardines,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,gw1_permatch.csv,8,0,7,0
+element,player_id,web_name,first_name,second_name,position,team,team_name,team_short,gw,event,fixture,kickoff_time,opponent_team,minutes,goals_scored,assists,clean_sheets,goals_conceded,yellow_cards,red_cards,saves,bonus,is_home,opponent_name,opponent_short,team_a,team_a_score,team_h,team_h_score
+1,1,Raya,David,Raya Martín,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,1.0,,7.0,3.0,False,Man Utd,MUN,1,1,14,0
+2,2,Arrizabalaga,Kepa,Arrizabalaga Revuelta,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+3,3,Hein,Karl,Hein,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+4,4,Setford,Tommy,Setford,GK,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+5,5,Gabriel,Gabriel,dos Santos Magalhães,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,1,1,14,0
+6,6,Saliba,William,Saliba,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,1.0,False,Man Utd,MUN,1,1,14,0
+7,7,Calafiori,Riccardo,Calafiori,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,71,1.0,,1.0,,1.0,,,2.0,False,Man Utd,MUN,1,1,14,0
+8,8,J.Timber,Jurriën,Timber,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,19,,,,,1.0,,,,False,Man Utd,MUN,1,1,14,0
+9,9,Kiwior,Jakub,Kiwior,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+10,10,Lewis-Skelly,Myles,Lewis-Skelly,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,18,,,,,1.0,,,,False,Man Utd,MUN,1,1,14,0
+11,11,White,Benjamin,White,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,70,,,1.0,,,,,,False,Man Utd,MUN,1,1,14,0
+12,12,Zinchenko,Oleksandr,Zinchenko,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+13,13,Clarke,Brayden,Clarke,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+14,14,Kacurri,Maldini,Kacurri,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+15,15,Nichols,Josh,Nichols,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+16,16,Saka,Bukayo,Saka,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,1,1,14,0
+17,17,Ødegaard,Martin,Ødegaard,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,1,1,14,0
+18,18,Madueke,Noni,Madueke,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,30,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+19,19,Martinelli,Gabriel,Martinelli Silva,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,59,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+20,20,Trossard,Leandro,Trossard,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+21,21,Rice,Declan,Rice,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,82,,1.0,1.0,,,,,,False,Man Utd,MUN,1,1,14,0
+22,22,Merino,Mikel,Merino Zazón,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,7,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+23,23,Fábio Vieira,Fábio,Ferreira Vieira,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+24,24,Nørgaard,Christian,Nørgaard,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+25,25,Nwaneri,Ethan,Nwaneri,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+26,26,Zubimendi,Martín,Zubimendi Ibáñez,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,90,,,1.0,,,,,,False,Man Utd,MUN,1,1,14,0
+27,27,Nelson,Reiss,Nelson,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+28,28,Kabia,Ismeal,Kabia,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+29,29,Sambi,Albert,Sambi Lokonga,MID,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+30,30,Havertz,Kai,Havertz,FWD,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,30,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+31,31,G.Jesus,Gabriel,Fernando de Jesus,FWD,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+32,32,Martinez,Emiliano,Martínez Romero,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+33,33,M.Bizot,Marco,Bizot,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,3.0,,True,Newcastle,NEW,15,0,2,0
+34,34,Gauci,Joe,Gauci,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+35,35,Marschall,Filip,Marschall,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+36,36,Cash,Matty,Cash,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+37,37,Digne,Lucas,Digne,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+38,38,Konsa,Ezri,Konsa Ngoyo,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,65,,,1.0,,,1.0,,,True,Newcastle,NEW,15,0,2,0
+39,39,Maatsen,Ian,Maatsen,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+40,40,Mings,Tyrone,Mings,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+41,41,Pau,Pau,Torres,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+42,42,A.García,Andrés,García,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+43,43,Alex Moreno,Álex,Moreno Lopera,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+44,44,Bogarde,Lamare,Bogarde,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+45,45,Sousa,Lino,da Cruz Sousa,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+46,46,Yasin,Yasin,Özcan,DEF,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+47,47,Rogers,Morgan,Rogers,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+48,48,Tielemans,Youri,Tielemans,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+49,49,Bailey,Leon,Bailey,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+50,50,Buendía,Emiliano,Buendía Stati,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+51,51,Iling Jr,Samuel,Iling-Junior,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+52,52,J.Ramsey,Jacob,Ramsey,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+53,53,Malen,Donyell,Malen,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,6,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+54,54,McGinn,John,McGinn,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,83,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+55,55,Barkley,Ross,Barkley,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+56,56,Barrenechea,Enzo,Barrenechea,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+57,57,Dobbin,Lewis,Dobbin,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+58,58,Kamara,Boubacar,Kamara,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,1.0,,,,True,Newcastle,NEW,15,0,2,0
+59,59,Onana,Amadou,Onana,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,1.0,,,,,,True,Newcastle,NEW,15,0,2,0
+60,60,Broggio,Ben,Broggio,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+61,61,Dendoncker,Leander,Dendoncker,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+62,62,Jimoh-Aloba,Jamaldeen,Jimoh-Aloba,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+63,63,Young,Kadan,Young,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+64,64,Watkins,Ollie,Watkins,FWD,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,90,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+65,65,Redmond,Zépiqueno,Redmond,FWD,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+66,66,Neto,Norberto,Murara Neto,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+67,67,Petrović,Đorđe,Petrović,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,6.0,,False,Liverpool,LIV,4,2,12,4
+68,68,Dennis,Will,Dennis,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+69,69,McKenna,Callan,McKenna,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+70,70,Paulsen,Alex,Paulsen,GK,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+71,71,Zabarnyi,Illia,Zabarnyi,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+72,72,Senesi,Marcos,Senesi Barón,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,,,False,Liverpool,LIV,4,2,12,4
+73,73,Smith,Adam,Smith,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,89,,,,3.0,,,,,False,Liverpool,LIV,4,2,12,4
+74,74,Truffert,Adrien,Truffert,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,,,False,Liverpool,LIV,4,2,12,4
+75,75,Akinmboni,Matai,Akinmboni,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+76,76,Bevan,Owen,Bevan,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+77,77,Hill,James,Hill,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,1,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+78,78,J.Araujo,Julián,Araujo Zúñiga,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+79,79,Mepham,Chris,Mepham,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+80,80,Soler,Julio,Soler Barreto,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+81,81,Kluivert,Justin,Kluivert,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+82,82,Semenyo,Antoine,Semenyo,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,2.0,,,,,,,3.0,False,Liverpool,LIV,4,2,12,4
+83,83,O.Dango,Dango,Ouattara,MID,5,Brentford,BRE,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+84,84,Tavernier,Marcus,Tavernier,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+85,85,Adams,Tyler,Adams,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+86,86,Brooks,David,Brooks,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,83,,1.0,,,1.0,,,,False,Liverpool,LIV,4,2,12,4
+87,87,Christie,Ryan,Christie,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+88,88,Cook,Lewis,Cook,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+89,89,Philip,Philip,Billing,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+90,90,Scott,Alex,Scott,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,73,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+91,91,Sinisterra,Luis,Sinisterra Lucumí,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+92,92,Faivre,Romain,Faivre,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+93,93,H.Traorè,Hamed,Traorè,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,16,,1.0,,,,,,,False,Liverpool,LIV,4,2,12,4
+94,94,Sadi,Dominic,Sadi,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+95,95,Silcott-Duberry,Zain,Silcott-Duberry,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+96,96,Winterburn,Ben,Winterburn,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,6,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+97,97,Evanilson,Francisco Evanilson,de Lima Barbosa,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,,1.0,,,,False,Liverpool,LIV,4,2,12,4
+98,98,Enes Ünal,Enes,Ünal,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+99,99,Adu-Adjei,Daniel,Adu-Adjei,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+100,100,Kroupi.Jr,Eli Junior,Kroupi,FWD,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,1,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+101,101,Kelleher,Caoimhín,Kelleher,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,,,,,False,Nott'm Forest,NFO,5,1,16,3
+102,102,Balcombe,Ellery,Balcombe,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+103,103,Cox,Matthew,Cox,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+104,104,Eyestone,Julian,Eyestone,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+105,105,Valdimarsson,Hákon Rafn,Valdimarsson,GK,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+106,106,Collins,Nathan,Collins,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,1.0,,,,False,Nott'm Forest,NFO,5,1,16,3
+107,107,Lewis-Potter,Keane,Lewis-Potter,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,68,,,,3.0,,,,,False,Nott'm Forest,NFO,5,1,16,3
+108,108,Ajer,Kristoffer,Ajer,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+109,109,Henry,Rico,Henry,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,87,,,,3.0,,,,,False,Nott'm Forest,NFO,5,1,16,3
+110,110,Kayode,Michael,Kayode,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,,,,,False,Nott'm Forest,NFO,5,1,16,3
+111,111,Pinnock,Ethan,Pinnock,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+112,112,Roerslev,Mads,Roerslev Rasmussen,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+113,113,Van den Berg,Sepp,van den Berg,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,3.0,,,,,False,Nott'm Forest,NFO,5,1,16,3
+114,114,Arthur,Benjamin,Arthur,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+115,115,Fredrick,Benjamin,Fredrick,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+116,116,Hickey,Aaron,Hickey,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,2,,,,,1.0,,,,False,Nott'm Forest,NFO,5,1,16,3
+117,117,Ji-soo,Kim,Ji-soo,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+118,118,Meghoma,Jayden,Meghoma,DEF,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+119,119,Mbeumo,Bryan,Mbeumo,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+120,120,Schade,Kevin,Schade,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,45,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+121,121,Damsgaard,Mikkel,Damsgaard,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+122,122,Milambo,Antoni,Milambo,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,45,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+123,123,Carvalho,Fábio,Freitas Gouveia Carvalho,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+124,124,Henderson,Jordan,Henderson,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,21,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+125,125,Janelt,Vitaly,Janelt,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+126,126,Jensen,Mathias,Jensen,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,68,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+127,127,Nunes,Gustavo,Nunes Fernandes Gomes,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+128,128,Onyeka,Frank,Onyeka,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,21,,1.0,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+129,129,Yarmoliuk,Yehor,Yarmoliuk,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+130,130,Donovan,Romelle,Donovan,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+131,131,Konak,Yunus Emre,Konak,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+132,132,Maghoma,Paris,Maghoma,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+133,133,Peart-Harris,Myles,Peart-Harris,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+134,134,Trevitt,Ryan,Trevitt,MID,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+135,135,Wissa,Yoane,Wissa,FWD,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+136,136,Thiago,Igor Thiago,Nascimento Rodrigues,FWD,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,90,1.0,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+137,137,Morgan,Iwan,Morgan,FWD,5,Brentford,BRE,1,1,4,2025-08-17T13:00:00Z,16,0,,,,,,,,,False,Nott'm Forest,NFO,5,1,16,3
+138,138,Steele,Jason,Steele,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+139,139,Verbruggen,Bart,Verbruggen,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,10,1,6,1
+140,140,McGill,Tom,McGill,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+141,141,Rushworth,Carl,Rushworth,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+142,142,Scherpen,Kjell,Scherpen,GK,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+143,143,Boscagli,Olivier,Boscagli,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+144,144,Coppola,Diego,Coppola,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+145,145,De Cuyper,Maxim,De Cuyper,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,10,1,6,1
+146,146,Dunk,Lewis,Dunk,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,10,1,6,1
+147,147,Estupiñan,Pervis,Estupiñán Tenorio,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+148,148,F.Kadıoğlu,Ferdi,Kadıoğlu,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,21,,,,,1.0,,,,True,Fulham,FUL,10,1,6,1
+149,149,Igor,Igor Julio,dos Santos de Paulo,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+150,150,Lamptey,Tariq,Lamptey,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+151,151,Van Hecke,Jan Paul,van Hecke,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,10,1,6,1
+152,152,Veltman,Joël,Veltman,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+153,153,Webster,Adam,Webster,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+154,154,Cashin,Eiran,Cashin,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+155,155,Slater,Jacob,Slater,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+156,156,Tasker,Charlie,Tasker,DEF,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+157,157,Mitoma,Mitoma,Kaoru,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,82,,,1.0,,1.0,,,,True,Fulham,FUL,10,1,6,1
+158,158,Georginio,Georginio,Rutter,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,68,,1.0,1.0,,,,,,True,Fulham,FUL,10,1,6,1
+159,159,March,Solly,March,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+160,160,Minteh,Yankuba,Minteh,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,68,,,1.0,,,,,,True,Fulham,FUL,10,1,6,1
+161,161,Enciso,Julio,Enciso Espínola,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+162,162,Gruda,Brajan,Gruda,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,7,,,,,,,,,True,Fulham,FUL,10,1,6,1
+163,163,Hinshelwood,Jack,Hinshelwood,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+164,164,O'Riley,Matt,O'Riley,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,87,1.0,,1.0,,,,,2.0,True,Fulham,FUL,10,1,6,1
+165,165,Sima,Abdallah,Sima,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+166,166,Ayari,Yasin,Ayari,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,1.0,True,Fulham,FUL,10,1,6,1
+167,167,Baleba,Carlos,Baleba,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,68,,,1.0,,,,,,True,Fulham,FUL,10,1,6,1
+168,168,Buonanotte,Facundo,Buonanotte,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+169,169,Gomez,Diego,Gómez Amarilla,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,21,,,,,1.0,,,,True,Fulham,FUL,10,1,6,1
+170,170,Milner,James,Milner,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,2,,,,,,,,,True,Fulham,FUL,10,1,6,1
+171,171,Sarmiento,Jeremy,Sarmiento Morante,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+172,172,Watson,Tom,Watson,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+173,173,Wieffer,Mats,Wieffer,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,90,,,,,,,,,True,Fulham,FUL,10,1,6,1
+174,174,Yalcouye,Malick,Yalcouyé,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+175,175,Knight,Joe,Knight,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+176,176,Mazilu,Adrian,Mazilu,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+177,177,Moran,Andrew,Moran,MID,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+178,178,Welbeck,Danny,Welbeck,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,21,,,,,,,,,True,Fulham,FUL,10,1,6,1
+179,179,Ferguson,Evan,Ferguson,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+180,180,Tzimas,Stefanos,Tzimas,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+181,181,Kostoulas,Charalampos,Kostoulas,FWD,6,Brighton,BHA,1,1,3,2025-08-16T14:00:00Z,10,0,,,,,,,,,True,Fulham,FUL,10,1,6,1
+182,182,Trafford,James,Trafford,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,3.0,,False,Wolves,WOL,13,4,20,0
+183,183,Weiss,Max,Weiß,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+184,184,Green,Etienne,Green,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+185,185,Hladký,Václav,Hladký,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+186,186,Roberts,Connor,Roberts,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+187,187,Walker,Kyle,Walker,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,3,0,18,3
+188,188,Delcroix,Hannes,Delcroix,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+189,189,Dodgson,Owen,Dodgson,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+190,190,Ekdal,Hjalmar,Ekdal,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,3,0,18,3
+191,191,Estève,Maxime,Estève,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,3,0,18,3
+192,192,Hartman,Quilindschy,Hartman,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,,,False,Spurs,TOT,3,0,18,3
+193,193,Humphreys,Bashir,Humphreys,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+194,194,Jordan,Jordan,Beyer,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+195,195,Lucas Pires,Lucas,Pires Silva,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+196,196,Sambo,Shurandy,Sambo,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+197,197,Sonne,Oliver,Sonne,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,73,,,,3.0,,,,,False,Spurs,TOT,3,0,18,3
+198,198,Tuanzebe,Axel,Tuanzebe,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+199,199,Worrall,Joe,Worrall,DEF,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+200,200,Anthony,Jaidon,Anthony,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,84,,,,,,,,,False,Spurs,TOT,3,0,18,3
+201,201,Benson,Manuel,Benson Hedilazio,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+202,202,Bruun Larsen,Jacob,Bruun Larsen,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,27,,,,,,,,,False,Spurs,TOT,3,0,18,3
+203,203,Boateng,Enock,Agyei,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+204,204,Churlinov,Darko,Churlinov,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+205,205,Cullen,Josh,Cullen,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,,,,,,False,Spurs,TOT,3,0,18,3
+206,206,Edwards,Marcus,Edwards,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,5,,,,,,,,,False,Spurs,TOT,3,0,18,3
+207,207,Hannibal,Hannibal,Mejbri,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,62,,,,,,,,,False,Spurs,TOT,3,0,18,3
+208,208,Koleosho,Luca,Koleosho,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+209,209,Laurent,Josh,Laurent,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,62,,,,,,,,,False,Spurs,TOT,3,0,18,3
+210,210,Tchaouna,Loum,Tchaouna,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,16,,,,,,,,,False,Spurs,TOT,3,0,18,3
+211,211,A.Ramsey,Aaron,Ramsey,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+212,212,Adewumi,Oluwaseun,Adewumi,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+213,213,Banel,Jaydon,Banel,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+214,214,Trésor,Mike,Trésor Ndayishimiye,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+215,215,Flemming,Zian,Flemming,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,16,,,,,,,,,False,Spurs,TOT,3,0,18,3
+216,216,Amdouni,Zeki,Amdouni,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+217,217,Foster,Lyle,Foster,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,73,,,,,,,,,False,Spurs,TOT,3,0,18,3
+218,218,Barnes,Ashley,Barnes,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+219,219,Obafemi,Michael,Obafemi,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+220,220,Sánchez,Robert,Lynch Sánchez,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,4.0,1.0,True,Crystal Palace,CRY,8,0,7,0
+221,221,Jörgensen,Filip,Jörgensen,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+222,222,Penders,Mike,Penders,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+223,223,Slonina,Gabriel,Słonina,GK,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+224,224,Cucurella,Marc,Cucurella Saseta,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,2.0,True,Crystal Palace,CRY,8,0,7,0
+225,225,James,Reece,James,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,78,,,1.0,,1.0,,,,True,Crystal Palace,CRY,8,0,7,0
+226,226,Chalobah,Trevoh,Chalobah,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,8,0,7,0
+227,227,Colwill,Levi,Samuels Colwill,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+228,228,Gusto,Malo,Gusto,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,11,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+229,229,B.Badiashile,Benoît,Badiashile Mukinayi,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+230,230,Fofana,Wesley,Fofana,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+231,231,M.Sarr,Mamadou,Sarr,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+232,232,Tosin,Tosin,Adarabioyo,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+233,233,Acheampong,Josh,Acheampong,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,3.0,True,Crystal Palace,CRY,8,0,7,0
+234,234,Anselmino,Aarón,Anselmino,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+235,235,Palmer,Cole,Palmer,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,8,0,7,0
+236,236,Neto,Pedro,Lomba Neto,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,8,0,7,0
+237,237,Enzo,Enzo,Fernández,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,78,,,1.0,,,,,,True,Crystal Palace,CRY,8,0,7,0
+238,238,Estêvão,Estêvão,Almeida de Oliveira Gonçalves,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,36,,,,,1.0,,,,True,Crystal Palace,CRY,8,0,7,0
+239,239,Gittens,Jamie,Bynoe-Gittens,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,53,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+240,240,Nkunku,Christopher,Nkunku,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+241,241,Caicedo,Moisés,Caicedo Corozo,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,90,,,1.0,,,,,,True,Crystal Palace,CRY,8,0,7,0
+242,242,Dewsbury-Hall,Kiernan,Dewsbury-Hall,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+243,243,George,Tyrique,George,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+244,244,Lavia,Roméo,Lavia,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+245,245,Mudryk,Mykhailo,Mudryk,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+246,246,Andrey Santos,Andrey,Nascimento dos Santos,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,11,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+247,247,D.Essugo,Dário,Luís Essugo,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+248,248,Paez,Kendry,Páez Andrade,MID,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+249,249,João Pedro,João Pedro,Junqueira de Jesus,FWD,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,72,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+250,250,Delap,Liam,Delap,FWD,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,17,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+251,251,N.Jackson,Nicolas,Jackson,FWD,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+252,252,Marc Guiu,Marc,Guiu Paz,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+253,253,Henderson,Dean,Henderson,GK,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+254,254,Benitez,Walter,Benítez,GK,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+255,255,Matthews,Remi,Matthews,GK,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+256,256,Muñoz,Daniel,Muñoz Mejía,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,1.0,,,,False,Chelsea,CHE,8,0,7,0
+257,257,Lacroix,Maxence,Lacroix,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+258,258,Mitchell,Tyrick,Mitchell,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,1.0,False,Chelsea,CHE,8,0,7,0
+259,259,Sosa,Borna,Sosa,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+260,260,Guéhi,Marc,Guéhi,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+261,261,Richards,Chris,Richards,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+262,262,Chadi Riad,Chadi,Riad Dnanou,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+263,263,Clyne,Nathaniel,Clyne,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+264,264,Holding,Rob,Holding,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+265,265,Kporha,Caleb,Kporha,DEF,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+266,266,Eze,Eberechi,Eze,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,83,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+267,267,Sarr,Ismaïla,Sarr,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+268,268,Doucouré,Cheick,Doucouré,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+269,269,Esse,Romain,Esse,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+270,270,Hughes,Will,Hughes,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,69,,,1.0,,1.0,,,,False,Chelsea,CHE,8,0,7,0
+271,271,Kamada,Daichi,Kamada,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+272,272,Lerma,Jefferson,Lerma Solís,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,20,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+273,273,Wharton,Adam,Wharton,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,1.0,,,,,,False,Chelsea,CHE,8,0,7,0
+274,274,Agbinone,Asher,Agbinone,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+275,275,Ahamada,Naouirou,Ahamada,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+276,276,Devenny,Justin,Devenny,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,6,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+277,277,Ebiowei,Malcolm,Ebiowei,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+278,278,J.Rak-Sakyi,Jesurun,Rak-Sakyi,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+279,279,M.França,Matheus,França de Oliveira,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+280,280,Ozoh,David,Ozoh,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+281,281,Rodney,Kaden,Rodney,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+282,282,Umeh,Franco,Umeh-Chibueze,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+283,283,Mateta,Jean-Philippe,Mateta,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,90,,,,,1.0,,,,False,Chelsea,CHE,8,0,7,0
+284,284,Nketiah,Eddie,Nketiah,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+285,285,Édouard,Odsonne,Édouard,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+286,286,Marsh,Zach,Marsh,FWD,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0
+287,287,Pickford,Jordan,Pickford,GK,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+288,288,Travers,Mark,Travers,GK,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+289,289,Tyrer,Harry,Tyrer,GK,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+290,290,Branthwaite,Jarrad,Branthwaite,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+291,291,Tarkowski,James,Tarkowski,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+292,292,Mykolenko,Vitalii,Mykolenko,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+293,293,O'Brien,Jake,O'Brien,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+294,294,Coleman,Séamus,Coleman,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+295,295,Keane,Michael,Keane,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+296,296,Patterson,Nathan,Patterson,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+297,297,Dixon,Roman,Dixon,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+298,298,Welch,Reece,Welch,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+299,299,Ndiaye,Iliman,Ndiaye,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+300,300,McNeil,Dwight,McNeil,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+301,301,Alcaraz,Carlos,Alcaraz Durán,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,85,,,,,1.0,,,,False,Leeds,LEE,9,0,11,1
+302,302,Gana,Idrissa Gana,Gueye,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+303,303,Garner,James,Garner,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+304,304,Iroegbunam,Tim,Iroegbunam,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,70,,,1.0,,1.0,,,,False,Leeds,LEE,9,0,11,1
+305,305,Armstrong,Harrison,Armstrong,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+306,306,Bates,Callum,Bates,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+307,307,Ebere,Coby,Ebere,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+308,308,Heath,Isaac,Heath,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+309,309,Metcalfe,Jenson,Metcalfe,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+310,310,Barry,Thierno,Barry,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,4,,,,,,,,,False,Leeds,LEE,9,0,11,1
+311,311,Beto,Norberto Bercique,Gomes Betuncal,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,90,,,,,,,,,False,Leeds,LEE,9,0,11,1
+312,312,Y.Chermiti,Youssef,Ramalho Chermiti,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+313,313,Sherif,Martin,Sherif,FWD,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+314,314,Leno,Bernd,Leno,GK,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,3.0,,False,Brighton,BHA,10,1,6,1
+315,315,Benda,Steven,Benda,GK,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+316,316,Robinson,Antonee,Robinson,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+317,317,Andersen,Joachim,Andersen,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,,,False,Brighton,BHA,10,1,6,1
+318,318,Bassey,Calvin,Bassey,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,1.0,,,,False,Brighton,BHA,10,1,6,1
+319,319,Castagne,Timothy,Castagne,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,6,,,,,,,,,False,Brighton,BHA,10,1,6,1
+320,320,Diop,Issa,Diop,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+321,321,J.Cuenca,Jorge,Cuenca Barreno,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,83,,,,,,,,,False,Brighton,BHA,10,1,6,1
+322,322,Tete,Kenny,Tete,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,,,False,Brighton,BHA,10,1,6,1
+323,323,Amissah,Samuel,Amissah,DEF,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+324,324,Iwobi,Alex,Iwobi,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,65,,,,,,,,,False,Brighton,BHA,10,1,6,1
+325,325,Smith Rowe,Emile,Smith Rowe,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,13,,,,,,,,,False,Brighton,BHA,10,1,6,1
+326,326,Adama,Adama,Traoré Diarra,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,24,,,,,,,,,False,Brighton,BHA,10,1,6,1
+327,327,Andreas,Andreas,Hoelgebaum Pereira,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+328,328,Sessegnon,Ryan,Sessegnon,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+329,329,Wilson,Harry,Wilson,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,1.0,,,,,,,False,Brighton,BHA,10,1,6,1
+330,330,Berge,Sander,Berge,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,65,,,,,,,,,False,Brighton,BHA,10,1,6,1
+331,331,Cairney,Tom,Cairney,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,24,,,,,1.0,,,,False,Brighton,BHA,10,1,6,1
+332,332,Lukić,Saša,Lukić,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,90,,,,,,,,,False,Brighton,BHA,10,1,6,1
+333,333,Godo,Martial,Godo,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+334,334,Harris,Luke,Harris,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+335,335,King,Josh,King,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,76,,,,,,,,,False,Brighton,BHA,10,1,6,1
+336,336,Reed,Harrison,Reed,MID,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+337,337,Raúl,Raúl,Jiménez Rodríguez,FWD,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,65,,,,,,,,,False,Brighton,BHA,10,1,6,1
+338,338,Muniz,Rodrigo,Muniz Carvalho,FWD,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,24,1.0,,,,1.0,,,3.0,False,Brighton,BHA,10,1,6,1
+339,339,Meslier,Illan,Meslier,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+340,340,Cairns,Alex,Cairns,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+341,341,Darlow,Karl,Darlow,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+342,342,Bogle,Jayden,Bogle,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,,True,Everton,EVE,9,0,11,1
+343,343,Struijk,Pascal,Struijk,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,2.0,True,Everton,EVE,9,0,11,1
+344,344,Bijol,Jaka,Bijol,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+345,345,Bornauw,Sebastiaan,Bornauw,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+346,346,Byram,Sam,Byram,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+347,347,Gudmundsson,Gabriel,Gudmundsson,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,3.0,True,Everton,EVE,9,0,11,1
+348,348,Rodon,Joe,Rodon,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,1.0,True,Everton,EVE,9,0,11,1
+349,349,Schmidt,Isaac,Schmidt,DEF,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+350,350,Aaronson,Brenden,Aaronson,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,23,,,,,,,,,True,Everton,EVE,9,0,11,1
+351,351,Gnonto,Wilfried,Gnonto,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,66,,,1.0,,,,,,True,Everton,EVE,9,0,11,1
+352,352,Harrison,Jack,Harrison,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,12,,,,,,,,,True,Everton,EVE,9,0,11,1
+353,353,James,Daniel,James,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,77,,,1.0,,,,,,True,Everton,EVE,9,0,11,1
+354,354,Ampadu,Ethan,Ampadu,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,77,,,1.0,,,,,,True,Everton,EVE,9,0,11,1
+355,355,Greenwood,Sam,Greenwood,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+356,356,Gruev,Ilia,Gruev,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,12,,,,,,,,,True,Everton,EVE,9,0,11,1
+357,357,Ramazani,Largie,Ramazani,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+358,358,Tanaka,Tanaka,Ao,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,,True,Everton,EVE,9,0,11,1
+359,359,Crew,Charlie,Crew,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+360,360,Gelhardt,Joe,Gelhardt,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+361,361,Gyabi,Darko,Gyabi,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+362,362,Piroe,Joël,Piroe,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,77,,,,,,,,,True,Everton,EVE,9,0,11,1
+363,363,Bamford,Patrick,Bamford,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+364,364,Mateo Joseph,Mateo,Joseph Fernández-Regatillo,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,0,,,,,,,,,True,Everton,EVE,9,0,11,1
+365,365,Nmecha,Lukas,Nmecha,FWD,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,12,1.0,,,,,,,,True,Everton,EVE,9,0,11,1
+366,366,A.Becker,Alisson,Becker,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,2.0,,,,,True,Bournemouth,BOU,4,2,12,4
+367,367,Mamardashvili,Giorgi,Mamardashvili,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+368,368,Pécsi,Ármin,Pécsi,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+369,369,Woodman,Freddie,Woodman,GK,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+370,370,Frimpong,Jeremie,Frimpong,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,59,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+371,371,Kerkez,Milos,Kerkez,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,59,,,,,1.0,,,,True,Bournemouth,BOU,4,2,12,4
+372,372,Robertson,Andrew,Robertson,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,30,,,,2.0,,,,,True,Bournemouth,BOU,4,2,12,4
+373,373,Virgil,Virgil,van Dijk,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,2.0,,,,,True,Bournemouth,BOU,4,2,12,4
+374,374,Konaté,Ibrahima,Konaté,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,2.0,,,,,True,Bournemouth,BOU,4,2,12,4
+375,375,Bradley,Conor,Bradley,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+376,376,Gomez,Joe,Gomez,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,18,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+377,377,Tsimikas,Konstantinos,Tsimikas,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+378,378,Nallo,Amara,Nallo,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+379,379,R.Williams,Rhys,Williams,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+380,380,Ramsay,Calvin,Ramsay,DEF,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+381,381,M.Salah,Mohamed,Salah,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,1.0,,,,,,,1.0,True,Bournemouth,BOU,4,2,12,4
+382,382,Wirtz,Florian,Wirtz,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,81,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+383,383,Luis Díaz,Luis,Díaz Marulanda,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+384,384,Gakpo,Cody,Gakpo,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,1.0,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+385,385,Chiesa,Federico,Chiesa,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,8,1.0,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+386,386,Mac Allister,Alexis,Mac Allister,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,71,,1.0,,,,,,,True,Bournemouth,BOU,4,2,12,4
+387,387,Szoboszlai,Dominik,Szoboszlai,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,90,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+388,388,C.Jones,Curtis,Jones,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,18,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+389,389,Elliott,Harvey,Elliott,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+390,390,Gravenberch,Ryan,Gravenberch,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+391,391,Gannon-Doak,Ben,Gannon-Doak,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+392,392,Endo,Endo,Wataru,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,30,,1.0,,,,,,,True,Bournemouth,BOU,4,2,12,4
+393,393,Bajcetic,Stefan,Bajčetić Maquieira,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+394,394,McConnell,James,McConnell,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+395,395,Morton,Tyler,Morton,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+396,396,Nyoni,Trey,Nyoni,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+397,397,Darwin,Darwin,Núñez Ribeiro,FWD,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+398,398,Danns,Jayden,Danns,FWD,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+399,399,Ederson M.,Ederson,Santana de Moraes,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+400,400,Ortega Moreno,Stefan,Ortega Moreno,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+401,401,Bettinelli,Marcus,Bettinelli,GK,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+402,402,Aït-Nouri,Rayan,Aït-Nouri,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,,1.0,False,Wolves,WOL,13,4,20,0
+403,403,Gvardiol,Joško,Gvardiol,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+404,404,Akanji,Manuel,Akanji,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+405,405,Aké,Nathan,Aké,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+406,406,Khusanov,Abdukodir,Khusanov,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,8,,,,,,,,,False,Wolves,WOL,13,4,20,0
+407,407,Matheus N.,Matheus,Nunes,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,24,,,,,,,,,False,Wolves,WOL,13,4,20,0
+408,408,Rúben,Rúben,dos Santos Gato Alves Dias,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,,,False,Wolves,WOL,13,4,20,0
+409,409,Stones,John,Stones,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,81,,,1.0,,,,,,False,Wolves,WOL,13,4,20,0
+410,410,Lewis,Rico,Lewis,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,65,,1.0,1.0,,,,,2.0,False,Wolves,WOL,13,4,20,0
+411,411,O’Reilly,Nico,O'Reilly,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,24,,,,,1.0,,,,False,Wolves,WOL,13,4,20,0
+412,412,Vitor Reis,Vitor,de Oliveira Nunes dos Reis,DEF,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+413,413,Marmoush,Omar,Marmoush,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,24,,,,,,,,,False,Wolves,WOL,13,4,20,0
+414,414,Foden,Phil,Foden,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+415,415,Savinho,Sávio,Moreira de Oliveira,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+416,416,Bernardo,Bernardo,Mota Veiga de Carvalho e Silva,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,65,,,1.0,,,,,,False,Wolves,WOL,13,4,20,0
+417,417,Cherki,Rayan,Cherki,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,17,1.0,,,,,,,,False,Wolves,WOL,13,4,20,0
+418,418,Doku,Jérémy,Doku,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,65,,,1.0,,,,,,False,Wolves,WOL,13,4,20,0
+419,419,Grealish,Jack,Grealish,MID,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,19,,,,,,,,,False,Leeds,LEE,9,0,11,1
+420,420,Gündoğan,İlkay,Gündoğan,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+421,421,Rodrigo,Rodrigo 'Rodri',Hernandez Cascante,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+422,422,Kovačić,Mateo,Kovačić,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+423,423,N.Gonzalez,Nico,González Iglesias,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,,1.0,,,,,,False,Wolves,WOL,13,4,20,0
+424,424,Bobb,Oscar,Bobb,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,,1.0,1.0,,,,,,False,Wolves,WOL,13,4,20,0
+425,425,Echeverri,Claudio,Echeverri,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+426,426,McAtee,James,McAtee,MID,16,Nott'm Forest,NFO,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+427,427,Reijnders,Tijjani,Reijnders,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,90,1.0,1.0,1.0,,1.0,,,,False,Wolves,WOL,13,4,20,0
+428,428,Nypan,Sverre,Nypan,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+429,429,Phillips,Kalvin,Phillips,MID,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+430,430,Haaland,Erling,Haaland,FWD,13,Man City,MCI,1,1,7,2025-08-16T16:30:00Z,20,72,2.0,,,,,,,3.0,False,Wolves,WOL,13,4,20,0
+431,431,Bayindir,Altay,Bayındır,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+432,432,Onana,André,Onana,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+433,433,Harrison,Elyh,Harrison,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+434,434,Heaton,Tom,Heaton,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+435,435,Mee,Dermot,Mee,GK,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+436,436,De Ligt,Matthijs,de Ligt,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+437,437,Martinez,Lisandro,Martínez,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+438,438,Mazraoui,Noussair,Mazraoui,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+439,439,D.Leon,Diego,León Blanco,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+440,440,Dalot,Diogo,Dalot Teixeira,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,54,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+441,441,Dorgu,Patrick,Dorgu,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,1.0,,,,True,Arsenal,ARS,1,1,14,0
+442,442,Maguire,Harry,Maguire,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,10,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+443,443,Shaw,Luke,Shaw,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,79,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+444,444,Yoro,Leny,Yoro,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+445,445,Amass,Harry,Amass,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+446,446,Fredricson,Tyler,Fredricson,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+447,447,Heaven,Ayden,Heaven,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+448,448,Malacia,Tyrell,Malacia,DEF,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+449,449,B.Fernandes,Bruno,Borges Fernandes,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+450,450,Cunha,Matheus,Santos Carneiro da Cunha,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,90,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+451,451,Rashford,Marcus,Rashford,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+452,452,Amad,Amad,Diallo,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,35,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+453,453,Garnacho,Alejandro,Garnacho Ferreyra,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+454,454,Antony,Antony,dos Santos,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+455,455,Mount,Mason,Mount,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,64,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+456,456,Sancho,Jadon,Sancho,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+457,457,Casemiro,Carlos Henrique,Casimiro,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,64,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+458,458,Mainoo,Kobbie,Mainoo,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+459,459,Ugarte,Manuel,Ugarte Ribeiro,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,25,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+460,460,Collyer,Toby,Collyer,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+461,461,Fitzgerald,Jayce,Fitzgerald,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+462,462,J.Fletcher,Jack,Fletcher,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+463,463,Kone,Sékou,Koné,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+464,464,Moorhouse,Jack,Moorhouse,MID,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+465,465,Højlund,Rasmus,Højlund,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+466,466,Zirkzee,Joshua,Zirkzee,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+467,467,Obi,Chido,Obi,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+468,468,Wheatley,Ethan,Wheatley,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,0,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+469,469,Pope,Nick,Pope,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,3.0,2.0,False,Aston Villa,AVL,15,0,2,0
+470,470,Dúbravka,Martin,Dúbravka,GK,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,90,,,,3.0,,,3.0,,False,Spurs,TOT,3,0,18,3
+471,471,Gillespie,Mark,Gillespie,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+472,472,Odysseas,Odysseas,Vlachodimos,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+473,473,Hall,Lewis,Hall,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+474,474,Schär,Fabian,Schär,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+475,475,Botman,Sven,Botman,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+476,476,Burn,Dan,Burn,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,1.0,False,Aston Villa,AVL,15,0,2,0
+477,477,Livramento,Tino,Livramento,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,3.0,False,Aston Villa,AVL,15,0,2,0
+478,478,Trippier,Kieran,Trippier,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+479,479,Krafth,Emil,Krafth,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+480,480,Lascelles,Jamaal,Lascelles,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+481,481,A.Murphy,Alex,Murphy,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+482,482,Ashby,Harrison,Ashby,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+483,483,Pivas,Miodrag,Pivaš,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+484,484,Targett,Matt,Targett,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+485,485,Gordon,Anthony,Gordon,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+486,486,Elanga,Anthony,Elanga,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,77,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+487,487,Barnes,Harvey,Barnes,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,89,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+488,488,Bruno G.,Bruno,Guimarães Rodriguez Moura,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+489,489,J.Murphy,Jacob,Murphy,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,12,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+490,490,Joelinton,Joelinton Cássio,Apolinário de Lira,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,82,,,1.0,,1.0,,,,False,Aston Villa,AVL,15,0,2,0
+491,491,Tonali,Sandro,Tonali,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,90,,,1.0,,,,,,False,Aston Villa,AVL,15,0,2,0
+492,492,Antoñito C.,Antoñito,Cordero Campillo,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+493,493,Longstaff,Sean,Longstaff,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,1,,,,,,,,,True,Everton,EVE,9,0,11,1
+494,494,Willock,Joe,Willock,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+495,495,Hayden,Isaac,Hayden,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+496,496,Kuol,Garang,Kuol,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+497,497,L.Miley,Lewis,Miley,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,7,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+498,498,White,Joe,White,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+499,499,Isak,Alexander,Isak,FWD,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+500,500,Osula,William,Osula,FWD,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,1,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+501,501,Neave,Sean,Neave,FWD,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+502,502,Sels,Matz,Sels,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,5,1,16,3
+503,503,C.Miguel,Carlos Miguel,dos Santos Pereira,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+504,504,Turner,Matt,Turner,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+505,505,Milenković,Nikola,Milenković,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,5,1,16,3
+506,506,Murillo,Murillo,Costa dos Santos,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,5,1,16,3
+507,507,Aina,Ola,Aina,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,5,1,16,3
+508,508,N.Williams,Neco,Williams,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,1.0,,,,True,Brentford,BRE,5,1,16,3
+509,509,David Carmo,David,Mota Veiga Teixeira do Carmo,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+510,510,Jair Cunha,Jair,Paula da Cunha Filho,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+511,511,Morato,Felipe,Rodrigues da Silva,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+512,512,O.Richards,Omar,Richards,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+513,513,Abbott,Zach,Abbott,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+514,514,Boly,Willy,Boly,DEF,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+515,515,Gibbs-White,Morgan,Gibbs-White,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,83,,1.0,,,,,,,True,Brentford,BRE,5,1,16,3
+516,516,Hudson-Odoi,Callum,Hudson-Odoi,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,5,1,16,3
+517,517,Anderson,Elliot,Anderson,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,1.0,,,,,,1.0,True,Brentford,BRE,5,1,16,3
+518,518,Jota,João Pedro,Ferreira da Silva,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,11,,,,,,,,,True,Brentford,BRE,5,1,16,3
+519,519,Dominguez,Nicolás,Domínguez,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+520,520,O'Brien,Lewis,O'Brien,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+521,521,Sangaré,Ibrahim,Sangaré,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,90,,,,,,,,,True,Brentford,BRE,5,1,16,3
+522,522,Yates,Ryan,Yates,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,6,,,,,,,,,True,Brentford,BRE,5,1,16,3
+523,523,Da Silva Moreira,Eric,da Silva Moreira,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+524,524,Stamenic,Marko,Stamenić,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+525,525,Wood,Chris,Wood,FWD,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,78,2.0,,,,,,,3.0,True,Brentford,BRE,5,1,16,3
+526,526,Igor Jesus,Igor Jesus,Maciel da Cruz,FWD,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,11,,,,,,,,,True,Brentford,BRE,5,1,16,3
+527,527,Awoniyi,Taiwo,Awoniyi,FWD,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+528,528,Patterson,Anthony,Patterson,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+529,529,Moore,Simon,Moore,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+530,530,Nna Noukeu,Blondy,Nna Noukeu,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+531,531,Ballard,Daniel,Ballard,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,1.0,,1.0,,,,,3.0,True,West Ham,WHU,19,0,17,3
+532,532,Hume,Trai,Hume,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+533,533,Alese,Aji,Alese,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+534,534,Anderson,Joe,Anderson,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+535,535,Cirkin,Dennis,Cirkin,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+536,536,Hjelde,Leo Fuhr,Hjelde,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+537,537,Huggins,Niall,Huggins,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+538,538,Johnson,Zak,Johnson,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+539,539,O'Nien,Luke,O'Nien,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+540,540,Pembele,Timothée,Pembélé,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+541,541,Reinildo,Reinildo,Mandava,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+542,542,Seelt,Jenson,Seelt,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,52,,,,,,,,,True,West Ham,WHU,19,0,17,3
+543,543,Adingra,Simon,Adingra,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,75,,1.0,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+544,544,Diarra,Habib,Diarra,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+545,545,Roberts,Patrick,Roberts,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+546,546,Aleksić,Milan,Aleksić,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+547,547,E.Le Fée,Enzo,Le Fée,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,14,,,,,,,,,True,West Ham,WHU,19,0,17,3
+548,548,Mundle,Romaine,Mundle,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+549,549,Neil,Dan,Neil,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+550,550,Poveda,Ian,Poveda-Ocampo,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+551,551,Rigg,Chris,Rigg,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,1,,,,,,,,,True,West Ham,WHU,19,0,17,3
+552,552,Sadiki,Noah,Sadiki,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+553,553,Talbi,Chemsdine,Talbi,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,1.0,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+554,554,Ba,Abdoullah,Ba,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+555,555,Browne,Alan,Browne,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+556,556,Ekwah,Pierre,Ekwah Elimby,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+557,557,H.Jones,Harrison,Jones,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+558,558,Matete,Jay,Matete,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+559,559,Triantis,Nectarios,Triantis,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+560,560,Isidor,Wilson,Isidor,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,14,1.0,,,,,,,,True,West Ham,WHU,19,0,17,3
+561,561,Mayenda,Eliezer,Mayenda Dossou,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,75,1.0,,,,,,,2.0,True,West Ham,WHU,19,0,17,3
+562,562,Abdullahi,Ahmed,Abdullahi,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+563,563,Luís Hemir,Luís Hemir,Silva Semedo,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+564,564,Rusyn,Nazarii,Rusyn,FWD,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+565,565,Vicario,Guglielmo,Vicario,GK,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,4.0,2.0,True,Burnley,BUR,3,0,18,3
+566,566,Austin,Brandon,Austin,GK,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+567,567,Kinsky,Antonín,Kinský,GK,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+568,568,Pedro Porro,Pedro,Porro Sauceda,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+569,569,Romero,Cristian,Romero,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+570,570,Danso,Kevin,Danso,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+571,571,Davies,Ben,Davies,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+572,572,Dragusin,Radu,Drăgușin,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+573,573,Spence,Djed,Spence,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+574,574,Udogie,Destiny,Udogie,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+575,575,Van de Ven,Micky,van de Ven,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+576,576,Phillips,Ashley,Phillips,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+577,577,Takai,Takai,Kōta,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+578,578,Vuskovic,Luka,Vušković,DEF,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+579,579,Son,Son,Heung-min,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+580,580,Johnson,Brennan,Johnson,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,79,1.0,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+581,581,Maddison,James,Maddison,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+582,582,Kudus,Mohammed,Kudus,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,84,,2.0,1.0,,,,,1.0,True,Burnley,BUR,3,0,18,3
+583,583,Kulusevski,Dejan,Kulusevski,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+584,584,Tel,Mathys,Tel,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,5,,,,,,,,,True,Burnley,BUR,3,0,18,3
+585,585,Bentancur,Rodrigo,Bentancur,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,19,,,,,,,,,True,Burnley,BUR,3,0,18,3
+586,586,Bergvall,Lucas,Bergvall,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,79,,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+587,587,Bissouma,Yves,Bissouma,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+588,588,Odobert,Wilson,Odobert,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,10,,,,,,,,,True,Burnley,BUR,3,0,18,3
+589,589,Solomon,Manor,Solomon,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+590,590,Bryan,Bryan,Gil Salvatierra,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+591,591,Gray,Archie,Gray,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,70,,,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+592,592,Moore,Mikey,Moore,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+593,593,P.M.Sarr,Pape Matar,Sarr,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,90,,1.0,1.0,,,,,,True,Burnley,BUR,3,0,18,3
+594,594,Min-hyeok,Yang,Min-hyeok,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+595,595,Olusesi,Callum,Olusesi,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+596,596,Solanke,Dominic,Solanke-Mitchell,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,19,,,,,,,,,True,Burnley,BUR,3,0,18,3
+597,597,Richarlison,Richarlison,de Andrade,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,71,2.0,,,,,,,3.0,True,Burnley,BUR,3,0,18,3
+598,598,Lankshear,Will,Lankshear,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+599,599,Scarlett,Dane,Scarlett,FWD,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,0,,,,,,,,,True,Burnley,BUR,3,0,18,3
+600,600,Areola,Alphonse,Areola,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+601,601,Foderingham,Wes,Foderingham,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+602,602,Hegyi,Krisztián,Hegyi,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+603,603,Diouf,El Hadji Malick,Diouf,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,19,0,17,3
+604,604,Emerson,Emerson,Palmieri dos Santos,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+605,605,Kilman,Maximilian,Kilman,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,1.0,,,,False,Sunderland,SUN,19,0,17,3
+606,606,Mavropanos,Konstantinos,Mavropanos,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+607,607,N.Aguerd,Nayef,Aguerd,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,19,0,17,3
+608,608,Scarles,Ollie,Scarles,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+609,609,Todibo,Jean-Clair,Todibo,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,81,,,,2.0,,,,,False,Sunderland,SUN,19,0,17,3
+610,610,Wan-Bissaka,Aaron,Wan-Bissaka,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,19,0,17,3
+611,611,Casey,Kaelan,Casey,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+612,612,L.Paquetá,Lucas,Tolentino Coelho de Lima,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+613,613,Souček,Tomáš,Souček,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,19,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+614,614,Ward-Prowse,James,Ward-Prowse,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,70,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+615,615,Summerville,Crysencio,Summerville,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+616,616,Álvarez,Edson,Álvarez Velázquez,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+617,617,Cornet,Maxwel,Cornet,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+618,618,G.Rodriguez,Guido,Rodríguez,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,70,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+619,619,L.Guilherme,Luis Guilherme,Lira dos Santos,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+620,620,Earthy,George,Earthy,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+621,621,Irving,Andy,Irving,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,8,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+622,622,Orford,Lewis,Orford,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+623,623,Potts,Freddie,Potts,MID,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+624,624,Bowen,Jarrod,Bowen,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+625,625,Füllkrug,Niclas,Füllkrug,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+626,626,Marshall,Callum,Marshall,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+627,627,Johnstone,Sam,Johnstone,GK,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+628,628,José Sá,José,Malheiro de Sá,GK,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,,,,,True,Man City,MCI,13,4,20,0
+629,629,Bentley,Daniel,Bentley,GK,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+630,630,King,Tom,King,GK,9,Everton,EVE,1,1,7,2025-08-16T16:30:00Z,20,0,,,,,,,,,False,Wolves,WOL,13,4,20,0
+631,631,Agbadou,Emmanuel,Agbadou,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,,,,,True,Man City,MCI,13,4,20,0
+632,632,Doherty,Matt,Doherty,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,1.0,,,,True,Man City,MCI,13,4,20,0
+633,633,H.Bueno,Hugo,Bueno López,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,18,,,,,,,,,True,Man City,MCI,13,4,20,0
+634,634,Mosquera,Yerson,Mosquera Valdelamar,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+635,635,R.Gomes,Rodrigo,Martins Gomes,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,17,,,,,,,,,True,Man City,MCI,13,4,20,0
+636,636,S.Bueno,Santiago,Ignacio Bueno,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+637,637,Toti,Toti,Gomes,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,4.0,,,,,True,Man City,MCI,13,4,20,0
+638,638,Hoever,Ki-Jana,Hoever,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,72,,,,3.0,,,,,True,Man City,MCI,13,4,20,0
+639,639,Meupiyou,Bastien,Meupiyou Menadjou,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+640,640,Pedro Lima,Pedro,Cardoso de Lima,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+641,641,Pond,Alfie,Pond,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+642,642,Hee Chan,Hwang,Hee-chan,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,8,,,,,,,,,True,Man City,MCI,13,4,20,0
+643,643,André,André,Trindade da Costa Neto,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,71,,,,,,,,,True,Man City,MCI,13,4,20,0
+644,644,Bellegarde,Jean-Ricner,Bellegarde,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,72,,,,,,,,,True,Man City,MCI,13,4,20,0
+645,645,Fer López,Fer,López González,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,18,,,,,,,,,True,Man City,MCI,13,4,20,0
+646,646,Gomes,João Victor,Gomes da Silva,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,,,,,,True,Man City,MCI,13,4,20,0
+647,647,Guedes,Gonçalo Manuel,Ganchinho Guedes,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+648,648,Munetsi,Marshall,Munetsi,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,90,,,,,,,,,True,Man City,MCI,13,4,20,0
+649,649,B.Traore,Boubacar,Traoré,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+650,650,Chirewa,Tawanda,Chirewa,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+651,651,Edozie,Tom,Edozie,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+652,652,Gonzalez,Enso,González Medina,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+653,653,Hodge,Joe,Hodge,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+654,654,Strand Larsen,Jørgen,Strand Larsen,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,81,,,,,,,,,True,Man City,MCI,13,4,20,0
+655,655,Fábio Silva,Fábio,Soares Silva,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+656,656,Kalajdžić,Saša,Kalajdžić,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+657,657,Chiwome,Leon,Chiwome,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+658,658,Fraser,Nathan,Fraser,FWD,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,0,,,,,,,,,True,Man City,MCI,13,4,20,0
+659,659,Walker-Peters,Kyle,Walker-Peters,DEF,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,0,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+660,660,Stach,Anton,Stach,MID,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,1.0,1.0,,,,,,True,Everton,EVE,9,0,11,1
+661,661,Ekitiké,Hugo,Ekitiké,FWD,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,71,1.0,1.0,,,,,,2.0,True,Bournemouth,BOU,4,2,12,4
+662,662,Mosquera,Cristhian,Mosquera,DEF,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,0,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+663,663,J.Arias,Jhon,Arias,MID,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,17,,,,,,,,,True,Man City,MCI,13,4,20,0
+664,664,Lecomte,Benjamin,Lecomte,GK,10,Fulham,FUL,1,1,3,2025-08-16T14:00:00Z,6,0,,,,,,,,,False,Brighton,BHA,10,1,6,1
+665,665,Perri,Lucas Estella,Perri,GK,11,Leeds,LEE,1,1,10,2025-08-18T19:00:00Z,9,90,,,1.0,,,,,,True,Everton,EVE,9,0,11,1
+666,666,Gyökeres,Viktor,Gyökeres,FWD,1,Arsenal,ARS,1,1,9,2025-08-17T15:30:00Z,14,59,,,,,,,,,False,Man Utd,MUN,1,1,14,0
+667,667,Aznou,Adam,Aznou,DEF,9,Everton,EVE,1,1,10,2025-08-18T19:00:00Z,11,0,,,,,,,,,False,Leeds,LEE,9,0,11,1
+668,668,Xhaka,Granit,Xhaka,MID,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,,,True,West Ham,WHU,19,0,17,3
+669,669,Ndoye,Dan,Ndoye,MID,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,78,1.0,,,,,,,2.0,True,Brentford,BRE,5,1,16,3
+670,670,Roefs,Robin,Roefs,GK,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,90,,,1.0,,,,4.0,1.0,True,West Ham,WHU,19,0,17,3
+671,671,Wilson,Callum,Wilson,FWD,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,19,,,,,,,,,False,Sunderland,SUN,19,0,17,3
+672,672,Hato,Jorrel,Hato,DEF,7,Chelsea,CHE,1,1,8,2025-08-17T13:00:00Z,8,0,,,,,,,,,True,Crystal Palace,CRY,8,0,7,0
+673,673,J.Palhinha,João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,MID,18,Spurs,TOT,1,1,6,2025-08-16T14:00:00Z,3,10,,,,,,,,,True,Burnley,BUR,3,0,18,3
+674,674,Ramsdale,Aaron,Ramsdale,GK,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+675,675,Gunn,Angus,Gunn,GK,16,Nott'm Forest,NFO,1,1,4,2025-08-17T13:00:00Z,5,0,,,,,,,,,True,Brentford,BRE,5,1,16,3
+676,676,Ugochukwu,Lesley,Ugochukwu,MID,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,27,,,,,,,,,False,Spurs,TOT,3,0,18,3
+677,677,Guessand,Evann,Guessand,MID,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+678,678,Masuaku,Arthur,Masuaku,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,0,,,,,,,,,True,West Ham,WHU,19,0,17,3
+679,679,Hermansen,Mads,Hermansen,GK,19,West Ham,WHU,1,1,5,2025-08-16T14:00:00Z,17,90,,,,3.0,,,,,False,Sunderland,SUN,19,0,17,3
+680,680,Broja,Armando,Broja,FWD,3,Burnley,BUR,1,1,6,2025-08-16T14:00:00Z,18,0,,,,,,,,,False,Spurs,TOT,3,0,18,3
+681,681,Šeško,Benjamin,Sesko,FWD,14,Man Utd,MUN,1,1,9,2025-08-17T15:30:00Z,1,25,,,,,,,,,True,Arsenal,ARS,1,1,14,0
+682,682,Møller Wolfe,David,Møller Wolfe,DEF,20,Wolves,WOL,1,1,7,2025-08-16T16:30:00Z,13,71,,,,3.0,,,,,True,Man City,MCI,13,4,20,0
+683,683,Alderete,Omar,Alderete,DEF,17,Sunderland,SUN,1,1,5,2025-08-16T14:00:00Z,19,37,,1.0,,,,,,,True,West Ham,WHU,19,0,17,3
+684,684,Thiaw,Malick,Thiaw,DEF,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+685,685,Diakité,Bafodé,Diakité,DEF,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,90,,,,4.0,,,,,False,Liverpool,LIV,4,2,12,4
+686,686,Ngumoha,Rio,Ngumoha,MID,12,Liverpool,LIV,1,1,1,2025-08-15T19:00:00Z,4,0,,,,,,,,,True,Bournemouth,BOU,4,2,12,4
+687,687,Rees-Dottin,Remy,Rees-Dottin,MID,4,Bournemouth,BOU,1,1,1,2025-08-15T19:00:00Z,12,0,,,,,,,,,False,Liverpool,LIV,4,2,12,4
+688,688,Wright,James,Wright,GK,2,Aston Villa,AVL,1,1,2,2025-08-16T11:30:00Z,15,0,,,,,,,,,True,Newcastle,NEW,15,0,2,0
+689,689,Seung soo,Seung-Soo,Park,MID,15,Newcastle,NEW,1,1,2,2025-08-16T11:30:00Z,2,0,,,,,,,,,False,Aston Villa,AVL,15,0,2,0
+690,690,Cardines,Rio,Cardines,MID,8,Crystal Palace,CRY,1,1,8,2025-08-17T13:00:00Z,7,0,,,,,,,,,False,Chelsea,CHE,8,0,7,0

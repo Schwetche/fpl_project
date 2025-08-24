@@ -1,0 +1,41 @@
+{
+  "last_updated_utc": "2025-08-24T19:19:19Z",
+  "produced": [
+    {
+      "path": "summaries/line_counts.json",
+      "size_bytes": 309
+    },
+    {
+      "path": "summaries/players_snapshot_summary.json",
+      "size_bytes": 108
+    },
+    {
+      "path": "summaries/ownership_momentum.json",
+      "size_bytes": 83
+    },
+    {
+      "path": "summaries/price_changes_observed.json",
+      "size_bytes": 81
+    },
+    {
+      "path": "summaries/price_change_forecast_summary.json",
+      "size_bytes": 82
+    },
+    {
+      "path": "summaries/thresholds_calibration.json",
+      "size_bytes": 77
+    },
+    {
+      "path": "summaries/fixtures_outlook.json",
+      "size_bytes": 71
+    },
+    {
+      "path": "summaries/gw_summary.json",
+      "size_bytes": 91
+    },
+    {
+      "path": "summaries/anomaly_report.json",
+      "size_bytes": 846
+    }
+  ]
+}
