@@ -1,5 +1,4 @@
 id,web_name,team,position,now_cost,ownership,NTI_1h,NTI_24h,momentum,status,price_freeze,forecast,risk_up,risk_down,eta_window
-<<<<<<< HEAD
 1,Raya,1,1,55,21.4,-179493.0,-179493.0,down,a,0,stable,0.0,0.0,0–6h
 2,Arrizabalaga,1,1,45,0.8,5626.0,5626.0,up,a,0,stable,0.0,0.0,48h+
 3,Hein,1,1,40,0.6,248.0,248.0,up,a,0,stable,0.0,0.0,48h+
@@ -705,7 +704,6 @@ id,web_name,team,position,now_cost,ownership,NTI_1h,NTI_24h,momentum,status,pric
 663,J.Arias,20,3,54,0.6,7976.0,7976.0,up,a,0,stable,0.0,0.0,48h+
 682,Møller Wolfe,20,2,45,0.1,-382.0,-382.0,down,a,0,stable,0.0,0.0,48h+
 695,Tchatchoua,20,2,45,0.0,-67.0,-67.0,down,a,0,stable,0.0,0.0,48h+
-=======
 1,Raya,1,1,55,21.4,-179393.0,-179393.0,down,a,0,stable,0.0,0.0,0–6h
 2,Arrizabalaga,1,1,45,0.8,5544.0,5544.0,up,a,0,stable,0.0,0.0,48h+
 3,Hein,1,1,40,0.6,234.0,234.0,up,a,0,stable,0.0,0.0,48h+
@@ -1411,4 +1409,3 @@ id,web_name,team,position,now_cost,ownership,NTI_1h,NTI_24h,momentum,status,pric
 663,J.Arias,20,3,54,0.6,7900.0,7900.0,up,a,0,stable,0.0,0.0,48h+
 682,Møller Wolfe,20,2,45,0.1,-383.0,-383.0,down,a,0,stable,0.0,0.0,48h+
 695,Tchatchoua,20,2,45,0.0,-63.0,-63.0,down,a,0,stable,0.0,0.0,48h+
->>>>>>> 414949f85d6da0cfa2c84fa177bb2e0d5738ed2e
