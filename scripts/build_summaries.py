@@ -1,11 +1,10 @@
 # scripts/build_summaries.py
 # Génère des fichiers légers dans summaries/ à partir des CSV de data/
-# Robuste aux colonnes manquantes et aux variations de schéma.
+# Robuste aux colonnes manquantes, variations de schéma et conflits git non résolus.
 
 from __future__ import annotations
-import os, json, math
+import os, json
 from datetime import datetime, timezone
-from collections import defaultdict
 import pandas as pd
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -18,22 +17,57 @@ UTC_NOW = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # ---------- Utilitaires ----------
 
+def has_conflict_markers(path: str) -> bool:
+    """Détecte rapidement des marqueurs de conflit git dans un fichier texte."""
+    try:
+        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+            txt = f.read(200_000)  # 200KB suffisent largement
+        return ("<<<<<<<" in txt) or ("=======" in txt) or (">>>>>>>" in txt)
+    except Exception:
+        return False
+
 def load_csv(path: str, expect: list[str] | None = None) -> tuple[pd.DataFrame, list[str]]:
     """Lit un CSV si présent. Normalise les colonnes (minuscule/trim). Retourne (df, anomalies)."""
     anoms = []
+    rel = os.path.relpath(path, ROOT)
+
     if not os.path.exists(path):
-        anoms.append(f"missing_file:{os.path.relpath(path, ROOT)}")
+        anoms.append(f"missing_file:{rel}")
         return pd.DataFrame(), anoms
+
+    # Conflits git non résolus -> on logue et on n'utilise pas ce fichier
+    if has_conflict_markers(path):
+        anoms.append(f"git_conflict_markers:{rel}")
+        return pd.DataFrame(), anoms
+
+    # Tentative 1 : sniff du séparateur (engine=python), SANS low_memory
     try:
-        df = pd.read_csv(path, sep=None, engine="python", low_memory=False, encoding="utf-8")
-    except Exception as e:
-        anoms.append(f"read_error:{os.path.relpath(path, ROOT)}:{e}")
-        return pd.DataFrame(), anoms
+        df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8")
+    except Exception:
+        # Tentative 2 : séparateur virgule par défaut
+        try:
+            df = pd.read_csv(path, encoding="utf-8")
+        except Exception:
+            # Tentative 3 : BOM éventuel
+            try:
+                df = pd.read_csv(path, encoding="utf-8-sig")
+            except Exception as e3:
+                anoms.append(f"read_error:{rel}:{e3}")
+                return pd.DataFrame(), anoms
+
+    # Normaliser colonnes
     df.columns = [c.strip().lower() for c in df.columns]
+
+    # Si une seule colonne → probablement CSV mal parsé (entête cassée, etc.)
+    if df.shape[1] == 1:
+        anoms.append(f"single_column_parse:{rel}:{df.columns.tolist()}")
+        return pd.DataFrame(), anoms
+
     if expect:
         miss = [c for c in expect if c.lower() not in df.columns]
         if miss:
-            anoms.append(f"missing_cols:{os.path.relpath(path, ROOT)}:{miss}")
+            anoms.append(f"missing_cols:{rel}:{miss}")
+
     return df, anoms
 
 def detect_player_id(df: pd.DataFrame) -> tuple[str | None, list[str]]:
@@ -92,7 +126,6 @@ anomalies += a
 # Optionnel : choisir une GW courante à partir de deadlines
 current_gw = None
 if not deadlines.empty and "event" in deadlines.columns and "finished" in deadlines.columns:
-    # GW non terminée la plus proche ou dernière terminée
     try:
         pending = deadlines[deadlines["finished"] == False]["event"].astype(int).tolist()
         current_gw = (pending[0] if pending else int(deadlines["event"].astype(int).max()))
@@ -128,13 +161,9 @@ write_json(os.path.join(OUTDIR, "line_counts.json"), {
 # ---------- players_snapshot_summary.json ----------
 snap_summary = {"last_updated_utc": UTC_NOW, "by_position": [], "by_team": [], "top_selected": []}
 if not players_snap.empty:
-    # colonnes utiles
-    cols = ["id","web_name","first_name","second_name","team","team_name","position","price_m","selected_by_percent","status"]
-    present = [c for c in cols if c in players_snap.columns]
-    # conversions
     to_num(players_snap, ["price_m","selected_by_percent"])
     # by_position
-    if "position" in players_snap.columns:
+    if "position" in players_snap.columns and "id" in players_snap.columns:
         g = players_snap.groupby("position", dropna=False).agg(
             n=("id","count"),
             avg_price=("price_m","mean"),
@@ -143,7 +172,7 @@ if not players_snap.empty:
         snap_summary["by_position"] = head_dict(g.sort_values("position"))
     # by_team
     tcol = "team_name" if "team_name" in players_snap.columns else ("team" if "team" in players_snap.columns else None)
-    if tcol:
+    if tcol and "id" in players_snap.columns:
         g = players_snap.groupby(tcol, dropna=False).agg(
             n=("id","count"),
             avg_price=("price_m","mean"),
@@ -162,13 +191,11 @@ write_json(os.path.join(OUTDIR, "players_snapshot_summary.json"), snap_summary)
 own_mom = {"last_updated_utc": UTC_NOW, "most_in": [], "most_out": []}
 if not players_hist.empty and {"id","date","selected_by_percent","transfers_in","transfers_out"} <= set(players_hist.columns):
     to_num(players_hist, ["selected_by_percent","transfers_in","transfers_out","price_m"])
-    # on prend la dernière date dispo vs la veille (par joueur)
     players_hist["date"] = pd.to_datetime(players_hist["date"], errors="coerce")
     last_date = players_hist["date"].max()
     prev_date = last_date - pd.Timedelta(days=1) if pd.notna(last_date) else None
     if pd.notna(last_date):
         last = players_hist[players_hist["date"] == last_date]
-        # delta SBY vs veille si dispo
         if prev_date is not None:
             prev = players_hist[players_hist["date"] == prev_date][["id","selected_by_percent"]].rename(
                 columns={"selected_by_percent":"selected_by_percent_prev"}
@@ -177,7 +204,6 @@ if not players_hist.empty and {"id","date","selected_by_percent","transfers_in",
             last["delta_sel"] = last["selected_by_percent"] - last["selected_by_percent_prev"]
         else:
             last["delta_sel"] = pd.NA
-        # momentum par transferts nets
         last["net_transfers"] = (last.get("transfers_in", 0) - last.get("transfers_out", 0))
         cols = ["id","web_name","team_name","position","price_m","selected_by_percent","delta_sel","net_transfers"]
         cols = [c for c in cols if c in last.columns]
@@ -192,7 +218,6 @@ pco = {"last_updated_utc": UTC_NOW, "risers": [], "fallers": []}
 if not players_hist.empty and {"id","date","price_m"} <= set(players_hist.columns):
     players_hist["date"] = pd.to_datetime(players_hist["date"], errors="coerce")
     to_num(players_hist, ["price_m"])
-    # prix par id/date, calcul delta dernière 24h si possible
     last_date = players_hist["date"].max()
     if pd.notna(last_date):
         last = players_hist[players_hist["date"] == last_date][["id","web_name","team_name","position","price_m"]].copy()
@@ -209,11 +234,16 @@ write_json(os.path.join(OUTDIR, "price_changes_observed.json"), pco)
 # ---------- price_change_forecast_summary.json ----------
 pcf_sum = {"last_updated_utc": UTC_NOW, "top_up": [], "top_down": []}
 if not pcf.empty:
-    # tolérance aux noms
+    # Tolérance aux noms (si besoin on renommera plus tard selon ton schéma réel)
     cand_id = detect_player_id(pcf)[0]
-    if cand_id != "player_id" and cand_id is not None:
+    if cand_id and cand_id != "player_id":
         pcf.rename(columns={cand_id: "player_id"}, inplace=True)
-    # colonnes attendues
+    # colonnes typiques : price_m / forecast_delta
+    if "now_cost" in pcf.columns and "price_m" not in pcf.columns:
+        pcf.rename(columns={"now_cost": "price_m"}, inplace=True)
+    if "forecast" in pcf.columns and "forecast_delta" not in pcf.columns:
+        # 'forecast' peut être textuel (ex: 'stable') -> dans ce cas on ne calcule pas de top_up/down
+        pass
     to_num(pcf, ["price_m","forecast_delta"])
     if "forecast_delta" in pcf.columns:
         keep = [c for c in ["player_id","id","web_name","team_name","price_m","forecast_delta"] if c in pcf.columns]
@@ -227,7 +257,6 @@ write_json(os.path.join(OUTDIR, "price_change_forecast_summary.json"), pcf_sum)
 thr = {"last_updated_utc": UTC_NOW, "by_ownership_bucket": []}
 if not pcf_hist.empty and {"id","date","forecast_delta"} <= set(pcf_hist.columns):
     to_num(pcf_hist, ["forecast_delta","selected_by_percent"])
-    # bucketiser ownership si dispo
     own = pcf_hist.get("selected_by_percent")
     if own is not None:
         bins = [-0.01, 5, 10, 20, 40, 60, 100]
@@ -239,17 +268,16 @@ if not pcf_hist.empty and {"id","date","forecast_delta"} <= set(pcf_hist.columns
             p90=("forecast_delta", lambda s: s.quantile(0.9))
         ).reset_index()
         thr["by_ownership_bucket"] = head_dict(g)
+
 write_json(os.path.join(OUTDIR, "thresholds_calibration.json"), thr)
 
 # ---------- fixtures_outlook.json ----------
 fx = {"last_updated_utc": UTC_NOW, "by_team_next3": []}
 if not fixtures.empty:
-    # colonnes communes
     for c in ["event","team_h","team_a","team_h_score","team_a_score","finished"]:
         if c not in fixtures.columns:
             fixtures[c] = pd.NA
     to_num(fixtures, ["event","team_h","team_a"])
-    # prochaine/dernière GW
     next_gw = None
     try:
         if "finished" in fixtures.columns and "event" in fixtures.columns:
@@ -257,11 +285,8 @@ if not fixtures.empty:
             next_gw = int(unfinished["event"].min()) if not unfinished.empty else int(fixtures["event"].max())
     except Exception:
         pass
-    # projection 3 prochains matchs par équipe (id numérique)
     outlook = []
     if next_gw is not None:
-        for team_col in ["team_h","team_a"]:
-            pass
         teams = pd.unique(pd.concat([fixtures["team_h"], fixtures["team_a"]], ignore_index=True).dropna()).astype(int)
         for t in teams:
             tfx = fixtures[(fixtures["team_h"]==t) | (fixtures["team_a"]==t)]
@@ -274,18 +299,15 @@ if not fixtures.empty:
                 ]
             })
     fx["by_team_next3"] = outlook
+
 write_json(os.path.join(OUTDIR, "fixtures_outlook.json"), fx)
 
-# ---------- gwX_summary.json (si merged_gw dispo) ----------
+# ---------- gw_summary.json (si merged_gw dispo) ----------
 gw_sum = {"last_updated_utc": UTC_NOW, "current_gw": current_gw, "top_players": []}
 if not merged_gw.empty:
-    # détecter id joueur
     id_col, a = detect_player_id(merged_gw)
     anomalies += a
-    if id_col is None:
-        pass
-    else:
-        # colonnes de stats
+    if id_col is not None:
         stat_cols = [
             "minutes","total_points","goals_scored","assists","clean_sheets","goals_conceded",
             "own_goals","saves","penalties_saved","penalties_missed",
@@ -296,13 +318,13 @@ if not merged_gw.empty:
         for c in stat_cols:
             if c not in merged_gw.columns:
                 merged_gw[c] = pd.NA
-        # per90 simple
         to_num(merged_gw, ["minutes","total_points","goals_scored","assists"])
         merged_gw["points_per90"] = (merged_gw["total_points"].astype(float) * 90.0) / merged_gw["minutes"].replace({0: pd.NA}).astype(float)
         keep = [c for c in ["player_id","web_name","team_name","position","minutes","total_points","points_per90","goals_scored","assists"] if c in merged_gw.columns]
         top = merged_gw[keep].copy().sort_values(["total_points","points_per90"], ascending=[False, False]).head(25)
         gw_sum["top_players"] = head_dict(top)
-write_json(os.path.join(OUTDIR, "gw_summary.json"), gw_sum)  # nom générique (pas gwX)
+
+write_json(os.path.join(OUTDIR, "gw_summary.json"), gw_sum)
 
 # ---------- anomaly_report.json ----------
 write_json(os.path.join(OUTDIR, "anomaly_report.json"), {
