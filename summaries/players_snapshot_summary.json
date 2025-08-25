@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-08-24T23:43:10Z",
+  "last_updated_utc": "2025-08-25T00:04:12Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.857142857142854,
-      "avg_sel": 4.231428571428571
+      "avg_sel": 4.2371428571428575
     },
     {
       "team": 2,
       "n": 38,
       "avg_price": 48.473684210526315,
-      "avg_sel": 2.121052631578947
+      "avg_sel": 2.1210526315789475
     },
     {
       "team": 3,
       "n": 40,
       "avg_price": 45.75,
-      "avg_sel": 1.8399999999999999
+      "avg_sel": 1.8375
     },
     {
       "team": 4,
       "n": 38,
       "avg_price": 47.81578947368421,
-      "avg_sel": 0.9894736842105264
+      "avg_sel": 0.9921052631578948
     },
     {
       "team": 5,
       "n": 37,
       "avg_price": 47.945945945945944,
-      "avg_sel": 0.5972972972972973
+      "avg_sel": 0.5945945945945946
     }
   ],
   "top_selected": [
@@ -38,7 +38,7 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 75,
-      "selected_by_percent": 54.5,
+      "selected_by_percent": 54.7,
       "team": 7
     },
     {
@@ -52,14 +52,14 @@
       "id": 235,
       "web_name": "Palmer",
       "price_m": 105,
-      "selected_by_percent": 53.0,
+      "selected_by_percent": 52.6,
       "team": 7
     },
     {
       "id": 470,
       "web_name": "Dúbravka",
       "price_m": 40,
-      "selected_by_percent": 34.4,
+      "selected_by_percent": 34.3,
       "team": 3
     },
     {
