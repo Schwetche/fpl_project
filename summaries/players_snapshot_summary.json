@@ -1,12 +1,12 @@
 {
-  "last_updated_utc": "2025-08-25T05:41:06Z",
+  "last_updated_utc": "2025-08-25T05:44:46Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
-      "avg_price": 57.857142857142854,
-      "avg_sel": 4.2371428571428575
+      "avg_price": 57.8,
+      "avg_sel": 4.242857142857143
     },
     {
       "team": 2,
@@ -18,13 +18,13 @@
       "team": 3,
       "n": 40,
       "avg_price": 45.75,
-      "avg_sel": 1.8375
+      "avg_sel": 1.8350000000000002
     },
     {
       "team": 4,
       "n": 38,
       "avg_price": 47.81578947368421,
-      "avg_sel": 0.9921052631578948
+      "avg_sel": 0.9947368421052633
     },
     {
       "team": 5,
@@ -38,7 +38,7 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 75,
-      "selected_by_percent": 54.7,
+      "selected_by_percent": 54.8,
       "team": 7
     },
     {
@@ -52,7 +52,7 @@
       "id": 235,
       "web_name": "Palmer",
       "price_m": 105,
-      "selected_by_percent": 52.6,
+      "selected_by_percent": 52.4,
       "team": 7
     },
     {
