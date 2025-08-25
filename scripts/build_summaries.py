@@ -20,10 +20,20 @@ def has_conflict_markers(path: str) -> bool:
     """Détecte rapidement des marqueurs de conflit git dans un fichier texte."""
     try:
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
-            txt = f.read(200_000)  # 200KB suffisent largement
+            txt = f.read(200_000)  # on lit 200KB, largement suffisant
         return ("<<<<<<<" in txt) or ("=======" in txt) or (">>>>>>>" in txt)
     except Exception:
         return False
+
+def read_csv_robust(path: str) -> pd.DataFrame:
+    """
+    Essaie d'abord moteur C (séparateur virgule, low_memory=False),
+    puis fallback moteur Python (auto-détection du séparateur, sans low_memory).
+    """
+    try:
+        return pd.read_csv(path, sep=",", engine="c", encoding="utf-8", low_memory=False)
+    except Exception:
+        return pd.read_csv(path, sep=None, engine="python", encoding="utf-8")
 
 def load_csv(path: str, expect: list[str] | None = None) -> tuple[pd.DataFrame, list[str]]:
     """Lit un CSV si présent. Normalise les colonnes (minuscule/trim). Retourne (df, anomalies)."""
@@ -39,20 +49,12 @@ def load_csv(path: str, expect: list[str] | None = None) -> tuple[pd.DataFrame, 
         anoms.append(f"git_conflict_markers:{rel}")
         return pd.DataFrame(), anoms
 
-    # Tentative 1 : sniff du séparateur (engine=python), SANS low_memory
+    # Lecture robuste (C -> Python)
     try:
-        df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8")
-    except Exception:
-        # Tentative 2 : séparateur virgule par défaut
-        try:
-            df = pd.read_csv(path, encoding="utf-8")
-        except Exception:
-            # Tentative 3 : BOM éventuel
-            try:
-                df = pd.read_csv(path, encoding="utf-8-sig")
-            except Exception as e3:
-                anoms.append(f"read_error:{rel}:{e3}")
-                return pd.DataFrame(), anoms
+        df = read_csv_robust(path)
+    except Exception as e3:
+        anoms.append(f"read_error:{rel}:{e3}")
+        return pd.DataFrame(), anoms
 
     # Normaliser colonnes
     df.columns = [c.strip().lower() for c in df.columns]
@@ -241,12 +243,14 @@ write_json(os.path.join(OUTDIR, "price_changes_observed.json"), pco)
 # ---------- price_change_forecast_summary.json ----------
 pcf_sum = {"last_updated_utc": UTC_NOW, "top_up": [], "top_down": []}
 if not pcf.empty:
+    # Tolérance aux noms et harmonisation d'ID
     cand_id, a = detect_player_id(pcf); anomalies += a
     if cand_id and cand_id != "player_id":
         pcf.rename(columns={cand_id: "player_id"}, inplace=True)
     if "now_cost" in pcf.columns and "price_m" not in pcf.columns:
         pcf.rename(columns={"now_cost": "price_m"}, inplace=True)
-    # 'forecast' peut être textuel (ex: 'stable'); s'il n'y a pas 'forecast_delta', on ne fait que skipper le top
+
+    # 'forecast' peut être textuel (ex: 'stable'); s'il n'y a pas 'forecast_delta', on ne sort que ce qui est possible
     to_num(pcf, ["price_m","forecast_delta"])
     if "forecast_delta" in pcf.columns:
         keep = [c for c in ["player_id","id","web_name","team_name","price_m","forecast_delta"] if c in pcf.columns]
