@@ -1,9 +1,9 @@
 {
-  "last_updated_utc": "2025-08-26T19:09:18Z",
+  "last_updated_utc": "2025-08-26T20:51:48Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
-      "size_bytes": 940
+      "size_bytes": 941
     },
     {
       "path": "summaries/line_counts.json",
