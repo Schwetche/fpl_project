@@ -93,3 +93,63 @@ def to_float_safe(x):
         return float(str(x).replace("%", "").strip())
     except Exception:
         return None
+
+# --- write_gw_and_snapshot (robuste & compatible) ---
+import os
+from pathlib import Path
+from datetime import datetime, timezone
+
+def write_gw_and_snapshot(*args, **kwargs):
+    """
+    Compatible avec 2 styles d'appel :
+
+    A) write_gw_and_snapshot(df, gw, out_dir="../data/season", prefix="gw")
+
+    B) write_gw_and_snapshot(base_path, df, gw, stem="gw")
+       - base_path peut être la racine du projet OU directement .../data/season
+    """
+    # Détection de signature
+    if len(args) >= 3 and isinstance(args[0], (str, os.PathLike, Path)):
+        # Style B
+        base = Path(args[0]).resolve()
+        df   = args[1]
+        gw   = int(args[2])
+        prefix = kwargs.get("stem", kwargs.get("prefix", "gw"))
+
+        # Déterminer project_root et season_dir en fonction de "base"
+        if base.name == "season" and base.parent.name == "data":
+            season_dir   = base
+            project_root = season_dir.parent.parent
+        elif (base / "scripts").exists() or (base / "data").exists():
+            # base = racine projet
+            project_root = base
+            season_dir   = project_root / "data" / "season"
+        else:
+            # fallback: considérer base comme season_dir
+            season_dir   = base
+            # si base = .../data/season -> parent.parent = racine projet
+            project_root = season_dir.parent.parent
+    else:
+        # Style A
+        df   = args[0]
+        gw   = int(args[1])
+        out_dir = kwargs.get("out_dir", "../data/season")
+        prefix  = kwargs.get("prefix", "gw")
+        project_root = Path(__file__).resolve().parent.parent
+        season_dir   = (project_root / out_dir).resolve()
+
+    # Créer dossiers
+    season_dir.mkdir(parents=True, exist_ok=True)
+    current_path = season_dir / f"{prefix}{gw}.csv"
+
+    snapshots_dir = project_root / "data" / "snapshots"
+    snapshots_dir.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+    snapshot_path = snapshots_dir / f"{prefix}{gw}_{ts}.csv"
+
+    # Écritures
+    df.to_csv(current_path, index=False)
+    print(f"[WROTE] current  -> {current_path}")
+    df.to_csv(snapshot_path, index=False)
+    print(f"[WROTE] snapshot -> {snapshot_path}")
+# --- fin ---
