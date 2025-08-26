@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-08-26T20:52:54Z",
+  "last_updated_utc": "2025-08-26T22:13:38Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.714285714285715,
-      "avg_sel": 4.217142857142857
+      "avg_sel": 4.211428571428572
     },
     {
       "team": 2,
       "n": 38,
       "avg_price": 48.473684210526315,
-      "avg_sel": 2.0605263157894735
+      "avg_sel": 2.044736842105263
     },
     {
       "team": 3,
       "n": 40,
       "avg_price": 45.725,
-      "avg_sel": 1.8325
+      "avg_sel": 1.83
     },
     {
       "team": 4,
       "n": 38,
       "avg_price": 47.81578947368421,
-      "avg_sel": 1.0473684210526317
+      "avg_sel": 1.0605263157894738
     },
     {
       "team": 5,
       "n": 37,
       "avg_price": 47.945945945945944,
-      "avg_sel": 0.6027027027027028
+      "avg_sel": 0.6081081081081081
     }
   ],
   "top_selected": [
@@ -38,35 +38,35 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 76,
-      "selected_by_percent": 56.6,
+      "selected_by_percent": 57.1,
       "team": 7
     },
     {
       "id": 381,
       "web_name": "M.Salah",
       "price_m": 145,
-      "selected_by_percent": 53.8,
+      "selected_by_percent": 53.7,
       "team": 12
     },
     {
       "id": 235,
       "web_name": "Palmer",
       "price_m": 105,
-      "selected_by_percent": 48.7,
+      "selected_by_percent": 47.5,
       "team": 7
     },
     {
       "id": 470,
       "web_name": "Dúbravka",
       "price_m": 40,
-      "selected_by_percent": 34.3,
+      "selected_by_percent": 34.2,
       "team": 3
     },
     {
       "id": 427,
       "web_name": "Reijnders",
       "price_m": 57,
-      "selected_by_percent": 32.9,
+      "selected_by_percent": 33.0,
       "team": 13
     }
   ]
