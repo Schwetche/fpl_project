@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-09-05T17:30:37Z",
+  "last_updated_utc": "2025-09-05T20:05:58Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
@@ -7,7 +7,7 @@
     },
     {
       "path": "summaries/line_counts.json",
-      "size_bytes": 310
+      "size_bytes": 309
     },
     {
       "path": "summaries/players_snapshot_summary.json",
@@ -39,7 +39,7 @@
     },
     {
       "path": "summaries/anomaly_report.json",
-      "size_bytes": 124
+      "size_bytes": 63
     }
   ]
 }
