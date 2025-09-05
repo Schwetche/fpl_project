@@ -1,73 +1,73 @@
 {
-  "last_updated_utc": "2025-09-05T20:05:58Z",
+  "last_updated_utc": "2025-09-05T20:07:40Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
-      "avg_price": 57.714285714285715,
-      "avg_sel": 4.211428571428572
+      "avg_price": 57.57142857142857,
+      "avg_sel": 4.140000000000001
     },
     {
       "team": 2,
-      "n": 38,
-      "avg_price": 48.473684210526315,
-      "avg_sel": 2.044736842105263
+      "n": 42,
+      "avg_price": 48.404761904761905,
+      "avg_sel": 1.611904761904762
     },
     {
       "team": 3,
-      "n": 40,
-      "avg_price": 45.725,
-      "avg_sel": 1.83
+      "n": 41,
+      "avg_price": 45.5609756097561,
+      "avg_sel": 1.7341463414634144
     },
     {
       "team": 4,
-      "n": 38,
-      "avg_price": 47.81578947368421,
-      "avg_sel": 1.0605263157894738
+      "n": 40,
+      "avg_price": 47.675,
+      "avg_sel": 1.3175
     },
     {
       "team": 5,
       "n": 37,
-      "avg_price": 47.945945945945944,
-      "avg_sel": 0.6081081081081081
+      "avg_price": 47.027027027027025,
+      "avg_sel": 0.5648648648648649
     }
   ],
   "top_selected": [
     {
       "id": 249,
       "web_name": "João Pedro",
-      "price_m": 76,
-      "selected_by_percent": 57.1,
+      "price_m": 77,
+      "selected_by_percent": 63.6,
       "team": 7
     },
     {
       "id": 381,
       "web_name": "M.Salah",
       "price_m": 145,
-      "selected_by_percent": 53.7,
+      "selected_by_percent": 53.9,
       "team": 12
-    },
-    {
-      "id": 235,
-      "web_name": "Palmer",
-      "price_m": 105,
-      "selected_by_percent": 47.5,
-      "team": 7
     },
     {
       "id": 470,
       "web_name": "Dúbravka",
       "price_m": 40,
-      "selected_by_percent": 34.2,
+      "selected_by_percent": 33.9,
       "team": 3
     },
     {
       "id": 427,
       "web_name": "Reijnders",
       "price_m": 57,
-      "selected_by_percent": 33.0,
+      "selected_by_percent": 32.8,
       "team": 13
+    },
+    {
+      "id": 582,
+      "web_name": "Kudus",
+      "price_m": 66,
+      "selected_by_percent": 32.6,
+      "team": 18
     }
   ]
 }

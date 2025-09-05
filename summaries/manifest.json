@@ -1,17 +1,17 @@
 {
-  "last_updated_utc": "2025-09-05T20:05:58Z",
+  "last_updated_utc": "2025-09-05T20:07:40Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
-      "size_bytes": 941
+      "size_bytes": 940
     },
     {
       "path": "summaries/line_counts.json",
-      "size_bytes": 309
+      "size_bytes": 310
     },
     {
       "path": "summaries/players_snapshot_summary.json",
-      "size_bytes": 1349
+      "size_bytes": 1348
     },
     {
       "path": "summaries/ownership_momentum.json",
@@ -35,7 +35,7 @@
     },
     {
       "path": "summaries/gw_summary.json",
-      "size_bytes": 1307
+      "size_bytes": 1294
     },
     {
       "path": "summaries/anomaly_report.json",

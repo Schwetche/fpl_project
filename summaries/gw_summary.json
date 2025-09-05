@@ -1,6 +1,17 @@
 {
-  "last_updated_utc": "2025-09-05T20:05:58Z",
+  "last_updated_utc": "2025-09-05T20:07:40Z",
   "top_players": [
+    {
+      "player_id": 8,
+      "web_name": "J.Timber",
+      "team_name": "Arsenal",
+      "position": "DEF",
+      "minutes": 63,
+      "total_points": 24,
+      "points_per90": 34.285714285714285,
+      "goals_scored": 2,
+      "assists": 1
+    },
     {
       "player_id": 531,
       "web_name": "Ballard",
@@ -24,36 +35,25 @@
       "assists": 0
     },
     {
-      "player_id": 7,
-      "web_name": "Calafiori",
-      "team_name": "Arsenal",
-      "position": "DEF",
-      "minutes": 71,
-      "total_points": 13,
-      "points_per90": 16.47887323943662,
+      "player_id": 249,
+      "web_name": "João Pedro",
+      "team_name": "Chelsea",
+      "position": "FWD",
+      "minutes": 90,
+      "total_points": 15,
+      "points_per90": 15.0,
       "goals_scored": 1,
-      "assists": 0
+      "assists": 2
     },
     {
-      "player_id": 597,
-      "web_name": "Richarlison",
-      "team_name": "Spurs",
-      "position": "FWD",
-      "minutes": 71,
-      "total_points": 13,
-      "points_per90": 16.47887323943662,
-      "goals_scored": 2,
-      "assists": 0
-    },
-    {
-      "player_id": 430,
-      "web_name": "Haaland",
-      "team_name": "Man City",
-      "position": "FWD",
-      "minutes": 72,
-      "total_points": 13,
-      "points_per90": 16.25,
-      "goals_scored": 2,
+      "player_id": 287,
+      "web_name": "Pickford",
+      "team_name": "Everton",
+      "position": "GK",
+      "minutes": 90,
+      "total_points": 15,
+      "points_per90": 15.0,
+      "goals_scored": 0,
       "assists": 0
     }
   ]
