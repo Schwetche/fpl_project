@@ -1,18 +1,18 @@
 {
-  "last_updated_utc": "2025-09-06T05:30:15Z",
+  "last_updated_utc": "2025-09-06T05:31:34Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
-      "avg_price": 57.57142857142857,
-      "avg_sel": 4.140000000000001
+      "avg_price": 57.6,
+      "avg_sel": 4.142857142857143
     },
     {
       "team": 2,
       "n": 42,
       "avg_price": 48.404761904761905,
-      "avg_sel": 1.611904761904762
+      "avg_sel": 1.6095238095238094
     },
     {
       "team": 3,
@@ -24,7 +24,7 @@
       "team": 4,
       "n": 40,
       "avg_price": 47.675,
-      "avg_sel": 1.3175
+      "avg_sel": 1.3225
     },
     {
       "team": 5,
@@ -38,7 +38,7 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 77,
-      "selected_by_percent": 63.6,
+      "selected_by_percent": 63.7,
       "team": 7
     },
     {
@@ -59,7 +59,7 @@
       "id": 427,
       "web_name": "Reijnders",
       "price_m": 57,
-      "selected_by_percent": 32.8,
+      "selected_by_percent": 32.7,
       "team": 13
     },
     {
