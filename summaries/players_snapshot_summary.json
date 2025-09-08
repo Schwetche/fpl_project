@@ -1,30 +1,30 @@
 {
-  "last_updated_utc": "2025-09-08T05:33:51Z",
+  "last_updated_utc": "2025-09-08T05:35:02Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.6,
-      "avg_sel": 4.140000000000001
+      "avg_sel": 4.142857142857143
     },
     {
       "team": 2,
       "n": 42,
       "avg_price": 48.404761904761905,
-      "avg_sel": 1.6071428571428572
+      "avg_sel": 1.6047619047619046
     },
     {
       "team": 3,
       "n": 41,
-      "avg_price": 45.5609756097561,
-      "avg_sel": 1.7317073170731707
+      "avg_price": 45.53658536585366,
+      "avg_sel": 1.7341463414634144
     },
     {
       "team": 4,
       "n": 40,
       "avg_price": 47.675,
-      "avg_sel": 1.3275000000000001
+      "avg_sel": 1.335
     },
     {
       "team": 5,
@@ -38,7 +38,7 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 77,
-      "selected_by_percent": 63.7,
+      "selected_by_percent": 63.8,
       "team": 7
     },
     {
