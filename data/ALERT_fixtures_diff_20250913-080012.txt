@@ -1,0 +1,13 @@
+Fixtures diff summary
+Prev snapshot: fixtures_20250826-231005.csv
+Curr snapshot: fixtures_20250913-080012.csv
+Added fixtures: 0
+Removed fixtures: 0
+Changed fixtures: 6
+First 5 changed rows:
+ id changed_fields  event_prev  event_curr    kickoff_time_prev    kickoff_time_curr  team_h_name_prev  team_h_name_curr  team_a_name_prev  team_a_name_curr
+ 42   kickoff_time         NaN         NaN 2025-09-20T14:00:00Z 2025-09-21T13:00:00Z               NaN               NaN               NaN               NaN
+ 51   kickoff_time         NaN         NaN 2025-09-27T14:00:00Z 2025-09-28T13:00:00Z               NaN               NaN               NaN               NaN
+ 60   kickoff_time         NaN         NaN 2025-09-28T13:00:00Z 2025-09-27T19:00:00Z               NaN               NaN               NaN               NaN
+ 66   kickoff_time         NaN         NaN 2025-10-04T14:00:00Z 2025-10-05T13:00:00Z               NaN               NaN               NaN               NaN
+ 81   kickoff_time         NaN         NaN 2025-10-25T14:00:00Z 2025-10-26T14:00:00Z               NaN               NaN               NaN               NaN
