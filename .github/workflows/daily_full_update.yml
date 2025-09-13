@@ -35,9 +35,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check CSV/JSON/TXT conflicts
-        run: python scripts/check_csv_conflicts.py
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -62,6 +59,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install "pandas>=2.2.3,<2.3" "numpy>=2.1" "requests>=2.32.3,<3" "pytz>=2024.1"
 
+      # (Nouveau) Petit diagnostic minutes_total pour repérer les GWs jouées
       - name: GW diagnostics (minutes_total for first GWs)
         run: |
           python - << 'PY'
@@ -78,6 +76,15 @@ def minutes(gw):
 for gw in range(1,11):
     print(f'GW{gw}: minutes_total={minutes(gw)}')
 PY
+
+      # Vérifications/ajustements éventuels propres à ton repo
+      - name: Check CSV/JSON/TXT conflicts
+        run: |
+          if [ -f scripts/check_csv_conflicts.py ]; then
+            python scripts/check_csv_conflicts.py
+          else
+            echo "skip check_csv_conflicts.py"
+          fi
 
       # 1) Fetch & bases (si présents)
       - name: Fetch FPL data (players_raw, fixtures, teams, player_idlist)
@@ -103,8 +110,10 @@ PY
           if [ -f scripts/price_change_forecast.py ] ; then python scripts/price_change_forecast.py ; else echo "skip price_change_forecast"; fi
 
       - name: Append price_change_forecast to history
-        run: python scripts/append_price_change_forecast.py
+        run: |
+          if [ -f scripts/append_price_change_forecast.py ] ; then python scripts/append_price_change_forecast.py ; else echo "skip append_price_change_forecast.py"; fi
 
+      # (Nouveau) Construire les GW (jouées) ou forcer une GW précise
       - name: Build GWs (played or force)
         run: |
           set -euo pipefail
@@ -151,11 +160,13 @@ PY
 
       # 6) Index HTML (snapshots & season)
       - name: Build directory indexes (snapshots & season)
-        run: python scripts/build_indexes.py
-     
-      # 6.5) Summaries (toujours, à partir des fichiers construits ci-dessus)
+        run: |
+          if [ -f scripts/build_indexes.py ] ; then python scripts/build_indexes.py ; else echo "skip build_indexes.py"; fi
+
+      # 6.5) Summaries
       - name: Build summaries
-        run: python scripts/build_summaries.py
+        run: |
+          if [ -f scripts/build_summaries.py ] ; then python scripts/build_summaries.py ; else echo "skip build_summaries.py"; fi
 
       # 7) Commit & push (déclenchera Pages via static.yml on:push)
       - name: Commit and push changes
