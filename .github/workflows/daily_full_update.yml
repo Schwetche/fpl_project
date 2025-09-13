@@ -4,12 +4,33 @@ on:
   schedule:
     - cron: "0 5 * * *"   # 07:00 Europe/Zurich
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Build scope"
+        type: choice
+        options: [all_played, last_completed]
+        default: all_played
+      force_gw:
+        description: "Force build a specific GW (e.g. 3)"
+        required: false
+        type: string
 
 jobs:
   full:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    env:
+      PYTHONUTF8: "1"
+      PYTHONPATH: ${{ github.workspace }}
+      FPL_PROJECT_ROOT: ${{ github.workspace }}
+
+    defaults:
+      run:
+        shell: bash
+        working-directory: ${{ github.workspace }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,6 +62,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install "pandas>=2.2.3,<2.3" "numpy>=2.1" "requests>=2.32.3,<3" "pytz>=2024.1"
 
+      - name: GW diagnostics (minutes_total for first GWs)
+        run: |
+          python - << 'PY'
+import requests, time
+UA={'User-Agent':'FPL-Diag/1.0'}
+def minutes(gw):
+    for i in range(4):
+        r=requests.get(f'https://fantasy.premierleague.com/api/event/{gw}/live/', headers=UA, timeout=30)
+        if r.ok:
+            els=(r.json().get('elements') or [])
+            return sum((e.get('stats') or {}).get('minutes',0) or 0 for e in els)
+        time.sleep(2*(i+1))
+    return -1
+for gw in range(1,11):
+    print(f'GW{gw}: minutes_total={minutes(gw)}')
+PY
+
       # 1) Fetch & bases (si présents)
       - name: Fetch FPL data (players_raw, fixtures, teams, player_idlist)
         run: |
@@ -66,6 +104,33 @@ jobs:
 
       - name: Append price_change_forecast to history
         run: python scripts/append_price_change_forecast.py
+
+      - name: Build GWs (played or force)
+        run: |
+          set -euo pipefail
+          FORCE="${{ github.event.inputs.force_gw }}"
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -n "$FORCE" ]; then
+            echo "Forcing build of GW=$FORCE"
+            python scripts/build_one_gw_csv.py --gw "$FORCE"
+          else
+            if [ "$MODE" = "last_completed" ]; then
+              GW=$(python - << 'PY'
+import requests
+UA={'User-Agent':'FPL-LastGW/1.0'}
+evs=requests.get('https://fantasy.premierleague.com/api/bootstrap-static/',headers=UA,timeout=30).json()['events']
+done=[e for e in evs if e.get('finished') or e.get('data_checked')]
+print(sorted(done,key=lambda x:x['id'])[-1]['id'] if done else next((e['id'] for e in evs if e.get('is_current')),1))
+PY
+)
+              echo "Building last completed GW=$GW"
+              python scripts/build_one_gw_csv.py --gw "$GW"
+            else
+              python scripts/build_all_gw_csvs.py
+            fi
+          fi
+          echo "List season files:"
+          ls -alh data/season || true
 
       # 4) Constructions génériques (toujours)
       - name: Build merged GW outputs
