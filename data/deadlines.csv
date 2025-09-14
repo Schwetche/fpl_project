@@ -1,9 +1,9 @@
 id,name,deadline_time,is_current,is_next,is_previous
 1,Gameweek 1,2025-08-15T17:30:00Z,False,False,False
-2,Gameweek 2,2025-08-22T17:30:00Z,False,False,True
-3,Gameweek 3,2025-08-30T10:00:00Z,True,False,False
-4,Gameweek 4,2025-09-13T10:00:00Z,False,True,False
-5,Gameweek 5,2025-09-20T10:00:00Z,False,False,False
+2,Gameweek 2,2025-08-22T17:30:00Z,False,False,False
+3,Gameweek 3,2025-08-30T10:00:00Z,False,False,True
+4,Gameweek 4,2025-09-13T10:00:00Z,True,False,False
+5,Gameweek 5,2025-09-20T10:00:00Z,False,True,False
 6,Gameweek 6,2025-09-27T10:00:00Z,False,False,False
 7,Gameweek 7,2025-10-03T17:30:00Z,False,False,False
 8,Gameweek 8,2025-10-18T10:00:00Z,False,False,False

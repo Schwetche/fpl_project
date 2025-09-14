@@ -1,35 +1,35 @@
 {
-  "last_updated_utc": "2025-09-14T05:30:14Z",
+  "last_updated_utc": "2025-09-14T05:31:19Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
-      "avg_price": 57.57142857142857,
-      "avg_sel": 4.228571428571429
+      "avg_price": 57.51428571428571,
+      "avg_sel": 4.248571428571428
     },
     {
       "team": 2,
       "n": 42,
-      "avg_price": 48.357142857142854,
-      "avg_sel": 1.4904761904761905
+      "avg_price": 48.30952380952381,
+      "avg_sel": 1.4880952380952381
     },
     {
       "team": 3,
       "n": 41,
-      "avg_price": 45.48780487804878,
-      "avg_sel": 1.7000000000000002
+      "avg_price": 45.46341463414634,
+      "avg_sel": 1.6878048780487807
     },
     {
       "team": 4,
       "n": 40,
-      "avg_price": 47.65,
-      "avg_sel": 1.55
+      "avg_price": 47.675,
+      "avg_sel": 1.6024999999999998
     },
     {
       "team": 5,
       "n": 37,
-      "avg_price": 47.027027027027025,
+      "avg_price": 47.0,
       "avg_sel": 0.5486486486486487
     }
   ],
@@ -38,21 +38,21 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 77,
-      "selected_by_percent": 65.5,
+      "selected_by_percent": 65.9,
       "team": 7
     },
     {
       "id": 381,
       "web_name": "M.Salah",
       "price_m": 145,
-      "selected_by_percent": 54.4,
+      "selected_by_percent": 54.1,
       "team": 12
     },
     {
       "id": 82,
       "web_name": "Semenyo",
-      "price_m": 74,
-      "selected_by_percent": 34.7,
+      "price_m": 75,
+      "selected_by_percent": 36.2,
       "team": 4
     },
     {
@@ -66,7 +66,7 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 141,
-      "selected_by_percent": 33.4,
+      "selected_by_percent": 33.7,
       "team": 13
     }
   ]
