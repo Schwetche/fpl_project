@@ -1,264 +1,264 @@
 {
-  "last_updated_utc": "2025-09-15T05:34:30Z",
+  "last_updated_utc": "2025-09-15T05:37:08Z",
   "by_team_next3": [
     {
       "team_id": 12,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        3,
         9,
-        8
+        8,
+        7
       ]
     },
     {
       "team_id": 2,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        9,
         17,
-        10
+        10,
+        3
       ]
     },
     {
       "team_id": 6,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        4,
         18,
-        7
+        7,
+        20
       ]
     },
     {
       "team_id": 18,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        19,
         6,
-        20
+        20,
+        11
       ]
     },
     {
       "team_id": 17,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        8,
         2,
-        16
+        16,
+        14
       ]
     },
     {
       "team_id": 20,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        15,
         11,
-        18
+        18,
+        6
       ]
     },
     {
       "team_id": 7,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        5,
         14,
-        6
+        6,
+        12
       ]
     },
     {
       "team_id": 16,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        1,
         3,
-        17
+        17,
+        15
       ]
     },
     {
       "team_id": 14,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        13,
         7,
-        5
+        5,
+        17
       ]
     },
     {
       "team_id": 11,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        10,
         20,
-        4
+        4,
+        18
       ]
     },
     {
       "team_id": 19,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        18,
         8,
-        9
+        9,
+        1
       ]
     },
     {
       "team_id": 13,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        14,
         1,
-        3
+        3,
+        5
       ]
     },
     {
       "team_id": 4,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        6,
         15,
-        11
+        11,
+        10
       ]
     },
     {
       "team_id": 5,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        7,
         10,
-        14
+        14,
+        13
       ]
     },
     {
       "team_id": 3,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        12,
         16,
-        13
+        13,
+        2
       ]
     },
     {
       "team_id": 1,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        16,
         13,
-        15
+        15,
+        19
       ]
     },
     {
       "team_id": 8,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        17,
         19,
-        12
+        12,
+        9
       ]
     },
     {
       "team_id": 9,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        2,
         12,
-        19
+        19,
+        8
       ]
     },
     {
       "team_id": 10,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        11,
         5,
-        2
+        2,
+        4
       ]
     },
     {
       "team_id": 15,
       "gw_sequence": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "opponents": [
-        20,
         4,
-        1
+        1,
+        16
       ]
     }
   ]
