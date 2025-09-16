@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-09-16T05:32:45Z",
+  "last_updated_utc": "2025-09-16T05:34:00Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
@@ -11,7 +11,7 @@
     },
     {
       "path": "summaries/players_snapshot_summary.json",
-      "size_bytes": 1335
+      "size_bytes": 1322
     },
     {
       "path": "summaries/ownership_momentum.json",
