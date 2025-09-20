@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-09-20T05:35:04Z",
+  "last_updated_utc": "2025-09-20T06:27:21Z",
   "top_players": [
     {
       "player_id": 8,
@@ -24,6 +24,17 @@
       "assists": 0
     },
     {
+      "player_id": 26,
+      "web_name": "Zubimendi",
+      "team_name": "Arsenal",
+      "position": "MID",
+      "minutes": 90,
+      "total_points": 16,
+      "points_per90": 16.0,
+      "goals_scored": 2,
+      "assists": 0
+    },
+    {
       "player_id": 82,
       "web_name": "Semenyo",
       "team_name": "Bournemouth",
@@ -44,17 +55,6 @@
       "points_per90": 15.0,
       "goals_scored": 1,
       "assists": 2
-    },
-    {
-      "player_id": 287,
-      "web_name": "Pickford",
-      "team_name": "Everton",
-      "position": "GK",
-      "minutes": 90,
-      "total_points": 15,
-      "points_per90": 15.0,
-      "goals_scored": 0,
-      "assists": 0
     }
   ]
 }
