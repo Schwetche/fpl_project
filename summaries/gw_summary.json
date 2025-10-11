@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-10-11T05:28:44Z",
+  "last_updated_utc": "2025-10-11T08:45:02Z",
   "top_players": [
     {
       "player_id": 8,
@@ -9,6 +9,17 @@
       "minutes": 63,
       "total_points": 24,
       "points_per90": 34.285714285714285,
+      "goals_scored": 2,
+      "assists": 1
+    },
+    {
+      "player_id": 82,
+      "web_name": "Semenyo",
+      "team_name": "Bournemouth",
+      "position": "MID",
+      "minutes": 90,
+      "total_points": 18,
+      "points_per90": 18.0,
       "goals_scored": 2,
       "assists": 1
     },
@@ -35,26 +46,15 @@
       "assists": 0
     },
     {
-      "player_id": 82,
-      "web_name": "Semenyo",
-      "team_name": "Bournemouth",
+      "player_id": 53,
+      "web_name": "Malen",
+      "team_name": "Aston Villa",
       "position": "MID",
-      "minutes": 90,
+      "minutes": 83,
       "total_points": 15,
-      "points_per90": 15.0,
+      "points_per90": 16.265060240963855,
       "goals_scored": 2,
       "assists": 0
-    },
-    {
-      "player_id": 249,
-      "web_name": "João Pedro",
-      "team_name": "Chelsea",
-      "position": "FWD",
-      "minutes": 90,
-      "total_points": 15,
-      "points_per90": 15.0,
-      "goals_scored": 1,
-      "assists": 2
     }
   ]
 }
