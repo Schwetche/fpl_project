@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-10-11T08:45:02Z",
+  "last_updated_utc": "2025-10-11T08:47:23Z",
   "top_players": [
     {
       "player_id": 8,
@@ -35,6 +35,17 @@
       "assists": 0
     },
     {
+      "player_id": 683,
+      "web_name": "Alderete",
+      "team_name": "Sunderland",
+      "position": "DEF",
+      "minutes": 90,
+      "total_points": 17,
+      "points_per90": 17.0,
+      "goals_scored": 1,
+      "assists": 0
+    },
+    {
       "player_id": 26,
       "web_name": "Zubimendi",
       "team_name": "Arsenal",
@@ -42,17 +53,6 @@
       "minutes": 90,
       "total_points": 16,
       "points_per90": 16.0,
-      "goals_scored": 2,
-      "assists": 0
-    },
-    {
-      "player_id": 53,
-      "web_name": "Malen",
-      "team_name": "Aston Villa",
-      "position": "MID",
-      "minutes": 83,
-      "total_points": 15,
-      "points_per90": 16.265060240963855,
       "goals_scored": 2,
       "assists": 0
     }
