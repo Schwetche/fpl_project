@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-11-01T11:07:34Z",
+  "last_updated_utc": "2025-11-01T12:02:22Z",
   "top_players": [
     {
       "player_id": 8,
@@ -11,6 +11,17 @@
       "points_per90": 34.285714285714285,
       "goals_scored": 2,
       "assists": 1
+    },
+    {
+      "player_id": 575,
+      "web_name": "Van de Ven",
+      "team_name": "Spurs",
+      "position": "DEF",
+      "minutes": 90,
+      "total_points": 23,
+      "points_per90": 23.0,
+      "goals_scored": 2,
+      "assists": 0
     },
     {
       "player_id": 82,
@@ -43,17 +54,6 @@
       "total_points": 17,
       "points_per90": 17.0,
       "goals_scored": 1,
-      "assists": 0
-    },
-    {
-      "player_id": 26,
-      "web_name": "Zubimendi",
-      "team_name": "Arsenal",
-      "position": "MID",
-      "minutes": 90,
-      "total_points": 16,
-      "points_per90": 16.0,
-      "goals_scored": 2,
       "assists": 0
     }
   ]
