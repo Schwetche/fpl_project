@@ -676,6 +676,8 @@ id,web_name,team,element_type
 717,Xavi,18,3
 726,Kolo Muani,18,4
 745,Byfield,18,2
+750,Rowswell,18,2
+751,Akhamrich,18,3
 149,Igor,19,2
 600,Areola,19,1
 601,Foderingham,19,1
@@ -711,6 +713,7 @@ id,web_name,team,element_type
 718,S.Magassa,19,3
 738,Fabianski,19,1
 747,Mayers,19,2
+752,Golambeckis,19,2
 627,Johnstone,20,1
 628,José Sá,20,1
 629,Bentley,20,1
@@ -747,3 +750,4 @@ id,web_name,team,element_type
 695,Tchatchoua,20,2
 709,Krejčí,20,2
 720,Tolu,20,4
+749,Mané,20,4
