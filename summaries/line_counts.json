@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2025-11-10T05:19:55Z",
+  "last_updated_utc": "2025-11-10T05:32:26Z",
   "counts": {
     "players_raw_snapshot_current.csv": 753,
-    "players_raw_history.csv": 55988,
+    "players_raw_history.csv": 56740,
     "price_change_forecast.csv": 753,
     "price_change_forecast_history.csv": 56916,
     "fixtures.csv": 381,
