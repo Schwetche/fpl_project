@@ -1,18 +1,18 @@
 {
-  "last_updated_utc": "2025-11-15T05:10:15Z",
+  "last_updated_utc": "2025-11-15T05:18:35Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.48571428571429,
-      "avg_sel": 5.908571428571428
+      "avg_sel": 5.911428571428572
     },
     {
       "team": 2,
       "n": 42,
-      "avg_price": 47.785714285714285,
-      "avg_sel": 0.9857142857142857
+      "avg_price": 47.76190476190476,
+      "avg_sel": 0.9880952380952381
     },
     {
       "team": 3,
@@ -30,7 +30,7 @@
       "team": 5,
       "n": 38,
       "avg_price": 46.76315789473684,
-      "avg_sel": 0.7052631578947368
+      "avg_sel": 0.7078947368421052
     }
   ],
   "top_selected": [
@@ -66,7 +66,7 @@
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 51,
-      "selected_by_percent": 34.8,
+      "selected_by_percent": 34.7,
       "team": 8
     }
   ]
