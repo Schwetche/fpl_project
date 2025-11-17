@@ -1,12 +1,12 @@
 {
-  "last_updated_utc": "2025-11-17T05:11:54Z",
+  "last_updated_utc": "2025-11-17T05:20:15Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.48571428571429,
-      "avg_sel": 5.908571428571428
+      "avg_sel": 5.902857142857143
     },
     {
       "team": 2,
@@ -30,7 +30,7 @@
       "team": 5,
       "n": 38,
       "avg_price": 46.76315789473684,
-      "avg_sel": 0.7105263157894737
+      "avg_sel": 0.7131578947368421
     }
   ],
   "top_selected": [
@@ -59,7 +59,7 @@
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 66,
-      "selected_by_percent": 43.8,
+      "selected_by_percent": 43.7,
       "team": 1
     },
     {
