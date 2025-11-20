@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-11-20T05:11:36Z",
+  "last_updated_utc": "2025-11-20T05:19:30Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.48571428571429,
-      "avg_sel": 5.885714285714286
+      "avg_sel": 5.862857142857143
     },
     {
       "team": 2,
       "n": 42,
       "avg_price": 47.76190476190476,
-      "avg_sel": 0.9928571428571429
+      "avg_sel": 1.0023809523809524
     },
     {
       "team": 3,
       "n": 41,
       "avg_price": 45.02439024390244,
-      "avg_sel": 1.624390243902439
+      "avg_sel": 1.626829268292683
     },
     {
       "team": 4,
       "n": 40,
       "avg_price": 47.75,
-      "avg_sel": 2.82
+      "avg_sel": 2.8125
     },
     {
       "team": 5,
       "n": 38,
       "avg_price": 46.73684210526316,
-      "avg_sel": 0.718421052631579
+      "avg_sel": 0.7289473684210526
     }
   ],
   "top_selected": [
@@ -45,7 +45,7 @@
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 81,
-      "selected_by_percent": 63.6,
+      "selected_by_percent": 63.1,
       "team": 4
     },
     {
@@ -59,15 +59,15 @@
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 66,
-      "selected_by_percent": 42.7,
+      "selected_by_percent": 41.7,
       "team": 1
     },
     {
-      "id": 260,
-      "web_name": "Guéhi",
-      "price_m": 51,
+      "id": 470,
+      "web_name": "Dúbravka",
+      "price_m": 40,
       "selected_by_percent": 34.3,
-      "team": 8
+      "team": 3
     }
   ]
 }
