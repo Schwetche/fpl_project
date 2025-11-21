@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-11-21T05:11:33Z",
+  "last_updated_utc": "2025-11-21T05:20:02Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 35,
       "avg_price": 57.48571428571429,
-      "avg_sel": 5.862857142857143
+      "avg_sel": 5.831428571428571
     },
     {
       "team": 2,
       "n": 42,
       "avg_price": 47.76190476190476,
-      "avg_sel": 1.0023809523809524
+      "avg_sel": 1.0047619047619047
     },
     {
       "team": 3,
       "n": 41,
       "avg_price": 45.02439024390244,
-      "avg_sel": 1.626829268292683
+      "avg_sel": 1.6195121951219513
     },
     {
       "team": 4,
       "n": 40,
       "avg_price": 47.75,
-      "avg_sel": 2.8125
+      "avg_sel": 2.7975
     },
     {
       "team": 5,
       "n": 38,
       "avg_price": 46.73684210526316,
-      "avg_sel": 0.7289473684210526
+      "avg_sel": 0.7394736842105263
     }
   ],
   "top_selected": [
@@ -45,28 +45,28 @@
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 81,
-      "selected_by_percent": 63.1,
+      "selected_by_percent": 62.4,
       "team": 4
     },
     {
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 75,
-      "selected_by_percent": 48.5,
+      "selected_by_percent": 48.6,
       "team": 7
     },
     {
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 66,
-      "selected_by_percent": 41.7,
+      "selected_by_percent": 40.2,
       "team": 1
     },
     {
       "id": 470,
       "web_name": "Dúbravka",
       "price_m": 40,
-      "selected_by_percent": 34.3,
+      "selected_by_percent": 34.2,
       "team": 3
     }
   ]
