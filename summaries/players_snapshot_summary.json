@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-12-09T05:11:53Z",
+  "last_updated_utc": "2025-12-09T05:20:36Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
-      "avg_price": 57.05555555555556,
-      "avg_sel": 5.491666666666666
+      "avg_price": 57.02777777777778,
+      "avg_sel": 5.511111111111111
     },
     {
       "team": 2,
       "n": 44,
       "avg_price": 47.5,
-      "avg_sel": 1.1500000000000001
+      "avg_sel": 1.1727272727272728
     },
     {
       "team": 3,
       "n": 41,
-      "avg_price": 44.829268292682926,
-      "avg_sel": 1.5219512195121954
+      "avg_price": 44.80487804878049,
+      "avg_sel": 1.5121951219512197
     },
     {
       "team": 4,
       "n": 41,
       "avg_price": 47.48780487804878,
-      "avg_sel": 2.1097560975609757
+      "avg_sel": 2.0853658536585367
     },
     {
       "team": 5,
       "n": 38,
       "avg_price": 46.76315789473684,
-      "avg_sel": 1.231578947368421
+      "avg_sel": 1.2684210526315791
     }
   ],
   "top_selected": [
@@ -45,29 +45,29 @@
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 76,
-      "selected_by_percent": 46.1,
+      "selected_by_percent": 45.4,
       "team": 4
-    },
-    {
-      "id": 249,
-      "web_name": "João Pedro",
-      "price_m": 73,
-      "selected_by_percent": 36.3,
-      "team": 7
     },
     {
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 52,
-      "selected_by_percent": 36.1,
+      "selected_by_percent": 36.5,
       "team": 8
     },
     {
       "id": 8,
       "web_name": "J.Timber",
       "price_m": 65,
-      "selected_by_percent": 35.6,
+      "selected_by_percent": 36.0,
       "team": 1
+    },
+    {
+      "id": 249,
+      "web_name": "João Pedro",
+      "price_m": 73,
+      "selected_by_percent": 35.7,
+      "team": 7
     }
   ]
 }
