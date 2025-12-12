@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-12-12T05:13:08Z",
+  "last_updated_utc": "2025-12-12T05:21:18Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 57.02777777777778,
-      "avg_sel": 5.527777777777778
+      "avg_sel": 5.536111111111111
     },
     {
       "team": 2,
       "n": 44,
       "avg_price": 47.47727272727273,
-      "avg_sel": 1.209090909090909
+      "avg_sel": 1.231818181818182
     },
     {
       "team": 3,
       "n": 41,
       "avg_price": 44.75609756097561,
-      "avg_sel": 1.5048780487804878
+      "avg_sel": 1.502439024390244
     },
     {
       "team": 4,
       "n": 41,
-      "avg_price": 47.46341463414634,
-      "avg_sel": 2.0439024390243903
+      "avg_price": 47.4390243902439,
+      "avg_sel": 2.021951219512195
     },
     {
       "team": 5,
       "n": 38,
       "avg_price": 46.71052631578947,
-      "avg_sel": 1.318421052631579
+      "avg_sel": 1.355263157894737
     }
   ],
   "top_selected": [
@@ -45,28 +45,28 @@
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 76,
-      "selected_by_percent": 44.5,
+      "selected_by_percent": 44.0,
       "team": 4
     },
     {
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 52,
-      "selected_by_percent": 37.0,
+      "selected_by_percent": 37.4,
       "team": 8
     },
     {
       "id": 8,
       "web_name": "J.Timber",
       "price_m": 65,
-      "selected_by_percent": 36.5,
+      "selected_by_percent": 36.0,
       "team": 1
     },
     {
       "id": 1,
       "web_name": "Raya",
       "price_m": 60,
-      "selected_by_percent": 35.1,
+      "selected_by_percent": 35.3,
       "team": 1
     }
   ]
