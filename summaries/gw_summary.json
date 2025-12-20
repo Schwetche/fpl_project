@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-12-20T05:33:06Z",
+  "last_updated_utc": "2025-12-20T08:29:01Z",
   "top_players": [
     {
       "player_id": 8,
@@ -24,6 +24,17 @@
       "assists": 0
     },
     {
+      "player_id": 516,
+      "web_name": "Hudson-Odoi",
+      "team_name": "Nott'm Forest",
+      "position": "MID",
+      "minutes": 90,
+      "total_points": 19,
+      "points_per90": 19.0,
+      "goals_scored": 2,
+      "assists": 1
+    },
+    {
       "player_id": 449,
       "web_name": "B.Fernandes",
       "team_name": "Man Utd",
@@ -35,26 +46,15 @@
       "assists": 1
     },
     {
-      "player_id": 82,
-      "web_name": "Semenyo",
-      "team_name": "Bournemouth",
-      "position": "MID",
+      "player_id": 228,
+      "web_name": "Gusto",
+      "team_name": "Chelsea",
+      "position": "DEF",
       "minutes": 90,
       "total_points": 18,
       "points_per90": 18.0,
-      "goals_scored": 2,
-      "assists": 1
-    },
-    {
-      "player_id": 531,
-      "web_name": "Ballard",
-      "team_name": "Sunderland",
-      "position": "DEF",
-      "minutes": 90,
-      "total_points": 17,
-      "points_per90": 17.0,
       "goals_scored": 1,
-      "assists": 0
+      "assists": 1
     }
   ]
 }
