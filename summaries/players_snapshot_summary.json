@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-12-21T05:12:39Z",
+  "last_updated_utc": "2025-12-21T05:20:24Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.97222222222222,
-      "avg_sel": 5.422222222222222
+      "avg_sel": 5.4
     },
     {
       "team": 2,
       "n": 44,
       "avg_price": 47.52272727272727,
-      "avg_sel": 1.3772727272727272
+      "avg_sel": 1.3818181818181818
     },
     {
       "team": 3,
       "n": 41,
-      "avg_price": 44.73170731707317,
-      "avg_sel": 1.4682926829268292
+      "avg_price": 44.68292682926829,
+      "avg_sel": 1.4707317073170731
     },
     {
       "team": 4,
       "n": 41,
-      "avg_price": 47.41463414634146,
-      "avg_sel": 2.104878048780488
+      "avg_price": 47.4390243902439,
+      "avg_sel": 2.1097560975609757
     },
     {
       "team": 5,
       "n": 38,
-      "avg_price": 46.76315789473684,
-      "avg_sel": 1.4789473684210528
+      "avg_price": 46.73684210526316,
+      "avg_sel": 1.4263157894736842
     }
   ],
   "top_selected": [
@@ -38,36 +38,36 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 150,
-      "selected_by_percent": 73.8,
+      "selected_by_percent": 73.9,
       "team": 13
     },
     {
       "id": 82,
       "web_name": "Semenyo",
-      "price_m": 76,
-      "selected_by_percent": 45.0,
+      "price_m": 77,
+      "selected_by_percent": 45.3,
       "team": 4
     },
     {
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 53,
-      "selected_by_percent": 41.5,
+      "selected_by_percent": 41.6,
       "team": 8
     },
     {
       "id": 414,
       "web_name": "Foden",
       "price_m": 89,
-      "selected_by_percent": 39.4,
+      "selected_by_percent": 39.9,
       "team": 13
     },
     {
-      "id": 136,
-      "web_name": "Thiago",
-      "price_m": 72,
-      "selected_by_percent": 37.4,
-      "team": 5
+      "id": 1,
+      "web_name": "Raya",
+      "price_m": 60,
+      "selected_by_percent": 36.5,
+      "team": 1
     }
   ]
 }
