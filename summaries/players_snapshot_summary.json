@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2025-12-28T05:15:57Z",
+  "last_updated_utc": "2025-12-28T05:24:03Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
-      "avg_price": 56.916666666666664,
-      "avg_sel": 5.394444444444444
+      "avg_price": 56.888888888888886,
+      "avg_sel": 5.366666666666667
     },
     {
       "team": 2,
       "n": 45,
-      "avg_price": 47.37777777777778,
-      "avg_sel": 1.4933333333333334
+      "avg_price": 47.4,
+      "avg_sel": 1.5044444444444445
     },
     {
       "team": 3,
       "n": 41,
-      "avg_price": 44.65853658536585,
-      "avg_sel": 1.4439024390243902
+      "avg_price": 44.63414634146341,
+      "avg_sel": 1.4414634146341463
     },
     {
       "team": 4,
       "n": 41,
       "avg_price": 47.390243902439025,
-      "avg_sel": 2.126829268292683
+      "avg_sel": 2.1195121951219513
     },
     {
       "team": 5,
       "n": 38,
       "avg_price": 46.6578947368421,
-      "avg_sel": 1.305263157894737
+      "avg_sel": 1.3026315789473684
     }
   ],
   "top_selected": [
@@ -38,22 +38,15 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 151,
-      "selected_by_percent": 74.2,
+      "selected_by_percent": 74.3,
       "team": 13
     },
     {
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 77,
-      "selected_by_percent": 47.1,
+      "selected_by_percent": 47.0,
       "team": 4
-    },
-    {
-      "id": 414,
-      "web_name": "Foden",
-      "price_m": 90,
-      "selected_by_percent": 41.8,
-      "team": 13
     },
     {
       "id": 260,
@@ -63,10 +56,17 @@
       "team": 8
     },
     {
+      "id": 414,
+      "web_name": "Foden",
+      "price_m": 90,
+      "selected_by_percent": 41.5,
+      "team": 13
+    },
+    {
       "id": 1,
       "web_name": "Raya",
       "price_m": 60,
-      "selected_by_percent": 36.4,
+      "selected_by_percent": 36.2,
       "team": 1
     }
   ]
