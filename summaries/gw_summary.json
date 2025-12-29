@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-12-29T17:10:48Z",
+  "last_updated_utc": "2025-12-29T20:43:26Z",
   "top_players": [
     {
       "player_id": 8,
@@ -24,6 +24,17 @@
       "assists": 0
     },
     {
+      "player_id": 120,
+      "web_name": "Schade",
+      "team_name": "Brentford",
+      "position": "MID",
+      "minutes": 90,
+      "total_points": 20,
+      "points_per90": 20.0,
+      "goals_scored": 3,
+      "assists": 0
+    },
+    {
       "player_id": 516,
       "web_name": "Hudson-Odoi",
       "team_name": "Nott'm Forest",
@@ -43,17 +54,6 @@
       "total_points": 18,
       "points_per90": 18.0,
       "goals_scored": 2,
-      "assists": 1
-    },
-    {
-      "player_id": 228,
-      "web_name": "Gusto",
-      "team_name": "Chelsea",
-      "position": "DEF",
-      "minutes": 90,
-      "total_points": 18,
-      "points_per90": 18.0,
-      "goals_scored": 1,
       "assists": 1
     }
   ]
