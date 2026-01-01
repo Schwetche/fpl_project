@@ -1,18 +1,18 @@
 {
-  "last_updated_utc": "2026-01-01T05:19:50Z",
+  "last_updated_utc": "2026-01-01T05:27:19Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
-      "avg_price": 56.77777777777778,
-      "avg_sel": 5.163888888888889
+      "avg_price": 56.75,
+      "avg_sel": 5.169444444444444
     },
     {
       "team": 2,
       "n": 45,
-      "avg_price": 47.4,
-      "avg_sel": 1.4711111111111113
+      "avg_price": 47.37777777777778,
+      "avg_sel": 1.4822222222222223
     },
     {
       "team": 3,
@@ -30,7 +30,7 @@
       "team": 5,
       "n": 38,
       "avg_price": 46.6578947368421,
-      "avg_sel": 1.2868421052631578
+      "avg_sel": 1.2815789473684212
     }
   ],
   "top_selected": [
@@ -66,7 +66,7 @@
       "id": 661,
       "web_name": "Ekitiké",
       "price_m": 91,
-      "selected_by_percent": 36.1,
+      "selected_by_percent": 36.2,
       "team": 12
     }
   ]
