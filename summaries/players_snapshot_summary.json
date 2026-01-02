@@ -1,12 +1,12 @@
 {
-  "last_updated_utc": "2026-01-02T05:25:28Z",
+  "last_updated_utc": "2026-01-02T05:39:17Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.75,
-      "avg_sel": 5.169444444444444
+      "avg_sel": 5.166666666666667
     },
     {
       "team": 2,
@@ -59,7 +59,7 @@
       "id": 414,
       "web_name": "Foden",
       "price_m": 90,
-      "selected_by_percent": 40.1,
+      "selected_by_percent": 40.0,
       "team": 13
     },
     {
