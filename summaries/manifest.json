@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-01-03T05:35:16Z",
+  "last_updated_utc": "2026-01-03T09:21:41Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
@@ -7,7 +7,7 @@
     },
     {
       "path": "summaries/line_counts.json",
-      "size_bytes": 312
+      "size_bytes": 313
     },
     {
       "path": "summaries/players_snapshot_summary.json",
