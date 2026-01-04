@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-01-04T05:18:15Z",
+  "last_updated_utc": "2026-01-04T05:25:28Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.75,
-      "avg_sel": 5.177777777777778
+      "avg_sel": 5.194444444444445
     },
     {
       "team": 2,
-      "n": 45,
-      "avg_price": 47.4,
-      "avg_sel": 1.6155555555555556
+      "n": 46,
+      "avg_price": 47.26086956521739,
+      "avg_sel": 1.6173913043478263
     },
     {
       "team": 3,
-      "n": 42,
-      "avg_price": 44.595238095238095,
-      "avg_sel": 1.3523809523809522
+      "n": 43,
+      "avg_price": 44.604651162790695,
+      "avg_sel": 1.3162790697674418
     },
     {
       "team": 4,
-      "n": 41,
-      "avg_price": 47.31707317073171,
-      "avg_sel": 1.9878048780487805
+      "n": 42,
+      "avg_price": 47.142857142857146,
+      "avg_sel": 1.9238095238095236
     },
     {
       "team": 5,
       "n": 38,
       "avg_price": 46.6578947368421,
-      "avg_sel": 1.2578947368421052
+      "avg_sel": 1.2526315789473685
     }
   ],
   "top_selected": [
@@ -38,35 +38,35 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 151,
-      "selected_by_percent": 74.1,
+      "selected_by_percent": 74.2,
       "team": 13
     },
     {
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 77,
-      "selected_by_percent": 45.6,
+      "selected_by_percent": 45.3,
       "team": 4
     },
     {
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 53,
-      "selected_by_percent": 40.8,
+      "selected_by_percent": 40.7,
       "team": 8
     },
     {
       "id": 414,
       "web_name": "Foden",
       "price_m": 89,
-      "selected_by_percent": 38.9,
+      "selected_by_percent": 38.5,
       "team": 13
     },
     {
       "id": 661,
       "web_name": "Ekitiké",
       "price_m": 91,
-      "selected_by_percent": 35.9,
+      "selected_by_percent": 35.7,
       "team": 12
     }
   ]

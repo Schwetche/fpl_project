@@ -80,6 +80,7 @@ id,web_name,team,element_type
 754,George Hemmings,2,3
 757,Hollingshead,2,1
 768,Leon Routh,2,2
+781,Carroll,2,2
 183,Weiss,3,1
 184,Green,3,1
 185,Hladký,3,1
@@ -122,6 +123,7 @@ id,web_name,team,element_type
 680,Broja,3,4
 722,Florentino,3,3
 776,Pimlott,3,3
+784,Brierley,3,3
 66,Neto,4,1
 67,Petrović,4,1
 68,Dennis,4,1
@@ -163,6 +165,7 @@ id,web_name,team,element_type
 713,A.Jimenez,4,2
 721,Milosavljević,4,2
 756,DaCosta,4,3
+782,Forster,4,1
 27,Nelson,5,3
 83,O.Dango,5,3
 101,Kelleher,5,1
@@ -245,6 +248,7 @@ id,web_name,team,element_type
 181,Kostoulas,6,4
 744,Oriola,6,3
 761,Simmonds,6,2
+783,Groß,6,3
 168,Buonanotte,7,3
 220,Sánchez,7,1
 221,Jörgensen,7,1
@@ -738,6 +742,7 @@ id,web_name,team,element_type
 747,Mayers,19,2
 752,Golambeckis,19,2
 758,Mohamadou Kanté,19,3
+785,Pablo,19,4
 627,Johnstone,20,1
 628,José Sá,20,1
 629,Bentley,20,1
