@@ -1,18 +1,18 @@
 {
-  "last_updated_utc": "2026-01-08T05:16:26Z",
+  "last_updated_utc": "2026-01-08T05:24:59Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
-      "avg_price": 56.611111111111114,
-      "avg_sel": 5.263888888888889
+      "avg_price": 56.638888888888886,
+      "avg_sel": 5.302777777777778
     },
     {
       "team": 2,
       "n": 47,
       "avg_price": 47.319148936170215,
-      "avg_sel": 1.7063829787234044
+      "avg_sel": 1.7148936170212767
     },
     {
       "team": 3,
@@ -24,13 +24,13 @@
       "team": 4,
       "n": 42,
       "avg_price": 47.095238095238095,
-      "avg_sel": 1.8761904761904762
+      "avg_sel": 1.8738095238095238
     },
     {
       "team": 5,
       "n": 38,
-      "avg_price": 46.68421052631579,
-      "avg_sel": 1.431578947368421
+      "avg_price": 46.73684210526316,
+      "avg_sel": 1.4789473684210528
     }
   ],
   "top_selected": [
@@ -45,21 +45,21 @@
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 76,
-      "selected_by_percent": 44.0,
+      "selected_by_percent": 43.9,
       "team": 4
     },
     {
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 53,
-      "selected_by_percent": 39.5,
+      "selected_by_percent": 39.6,
       "team": 8
     },
     {
       "id": 414,
       "web_name": "Foden",
       "price_m": 88,
-      "selected_by_percent": 36.4,
+      "selected_by_percent": 35.7,
       "team": 13
     },
     {
