@@ -141,7 +141,6 @@ id,web_name,team,element_type
 79,Mepham,4,2
 80,Soler,4,2
 81,Kluivert,4,3
-82,Semenyo,4,3
 84,Tavernier,4,3
 85,Adams,4,3
 86,Brooks,4,3
@@ -469,6 +468,7 @@ id,web_name,team,element_type
 692,Leoni,12,2
 746,Morrison,12,3
 760,Lucky,12,2
+82,Semenyo,13,3
 182,Trafford,13,1
 399,Ederson M.,13,1
 400,Ortega Moreno,13,1
