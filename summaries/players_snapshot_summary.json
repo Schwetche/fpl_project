@@ -1,18 +1,18 @@
 {
-  "last_updated_utc": "2026-01-16T05:16:58Z",
+  "last_updated_utc": "2026-01-16T05:26:04Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
-      "avg_price": 56.583333333333336,
-      "avg_sel": 5.380555555555556
+      "avg_price": 56.55555555555556,
+      "avg_sel": 5.4
     },
     {
       "team": 2,
       "n": 47,
       "avg_price": 47.361702127659576,
-      "avg_sel": 1.729787234042553
+      "avg_sel": 1.7340425531914894
     },
     {
       "team": 3,
@@ -29,8 +29,8 @@
     {
       "team": 5,
       "n": 38,
-      "avg_price": 46.73684210526316,
-      "avg_sel": 1.5605263157894735
+      "avg_price": 46.71052631578947,
+      "avg_sel": 1.563157894736842
     }
   ],
   "top_selected": [
@@ -45,7 +45,7 @@
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 76,
-      "selected_by_percent": 43.9,
+      "selected_by_percent": 44.1,
       "team": 13
     },
     {
@@ -59,7 +59,7 @@
       "id": 136,
       "web_name": "Thiago",
       "price_m": 71,
-      "selected_by_percent": 34.8,
+      "selected_by_percent": 34.9,
       "team": 5
     },
     {
