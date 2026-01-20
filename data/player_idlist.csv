@@ -166,6 +166,7 @@ id,web_name,team,element_type
 721,Milosavljević,4,2
 756,DaCosta,4,3
 782,Forster,4,1
+799,Stevens,4,3
 27,Nelson,5,3
 83,O.Dango,5,3
 101,Kelleher,5,1
@@ -294,7 +295,6 @@ id,web_name,team,element_type
 257,Lacroix,8,2
 258,Mitchell,8,2
 259,Sosa,8,2
-260,Guéhi,8,2
 261,Richards,8,2
 262,Chadi Riad,8,2
 263,Clyne,8,2
@@ -472,6 +472,7 @@ id,web_name,team,element_type
 760,Lucky,12,2
 82,Semenyo,13,3
 182,Trafford,13,1
+260,Guéhi,13,2
 399,Ederson M.,13,1
 400,Ortega Moreno,13,1
 401,Bettinelli,13,1

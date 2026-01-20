@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-01-20T05:21:01Z",
+  "last_updated_utc": "2026-01-20T05:29:12Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.55555555555556,
-      "avg_sel": 5.475
+      "avg_sel": 5.472222222222222
     },
     {
       "team": 2,
       "n": 47,
       "avg_price": 47.340425531914896,
-      "avg_sel": 1.7382978723404257
+      "avg_sel": 1.7276595744680852
     },
     {
       "team": 3,
       "n": 43,
       "avg_price": 44.604651162790695,
-      "avg_sel": 1.267441860465116
+      "avg_sel": 1.2604651162790697
     },
     {
       "team": 4,
-      "n": 41,
-      "avg_price": 46.390243902439025,
-      "avg_sel": 0.8439024390243903
+      "n": 42,
+      "avg_price": 46.357142857142854,
+      "avg_sel": 0.8261904761904763
     },
     {
       "team": 5,
       "n": 39,
       "avg_price": 46.717948717948715,
-      "avg_sel": 1.5769230769230769
+      "avg_sel": 1.5871794871794869
     }
   ],
   "top_selected": [
@@ -38,7 +38,7 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 151,
-      "selected_by_percent": 74.2,
+      "selected_by_percent": 74.1,
       "team": 13
     },
     {
@@ -52,21 +52,21 @@
       "id": 260,
       "web_name": "Guéhi",
       "price_m": 53,
-      "selected_by_percent": 38.4,
-      "team": 8
+      "selected_by_percent": 38.2,
+      "team": 13
     },
     {
       "id": 136,
       "web_name": "Thiago",
       "price_m": 72,
-      "selected_by_percent": 36.1,
+      "selected_by_percent": 36.3,
       "team": 5
     },
     {
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 68,
-      "selected_by_percent": 35.1,
+      "selected_by_percent": 35.3,
       "team": 1
     }
   ]
