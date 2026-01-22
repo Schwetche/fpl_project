@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-01-22T05:28:43Z",
+  "last_updated_utc": "2026-01-22T05:45:05Z",
   "by_position": [],
   "by_team": [
     {
@@ -30,7 +30,7 @@
       "team": 5,
       "n": 39,
       "avg_price": 46.717948717948715,
-      "avg_sel": 1.5974358974358973
+      "avg_sel": 1.5999999999999999
     }
   ],
   "top_selected": [
@@ -59,7 +59,7 @@
       "id": 136,
       "web_name": "Thiago",
       "price_m": 72,
-      "selected_by_percent": 36.6,
+      "selected_by_percent": 36.7,
       "team": 5
     },
     {
