@@ -72,6 +72,7 @@ id,web_name,team,element_type
 456,Sancho,2,3
 677,Guessand,2,3
 688,Wright,2,1
+699,Douglas Luiz,2,3
 701,Rowe,2,2
 702,Burrowes,2,3
 703,Proctor,2,1
@@ -121,6 +122,7 @@ id,web_name,team,element_type
 218,Barnes,3,4
 219,Obafemi,3,4
 470,Dúbravka,3,1
+614,Ward-Prowse,3,3
 676,Ugochukwu,3,3
 680,Broja,3,4
 722,Florentino,3,3
@@ -629,7 +631,6 @@ id,web_name,team,element_type
 675,Gunn,16,1
 693,Hutchinson,16,3
 696,Kalimuendo,16,4
-699,Douglas Luiz,16,3
 715,John,16,1
 716,Savona,16,2
 729,Cuiabano,16,2
@@ -741,7 +742,6 @@ id,web_name,team,element_type
 611,Casey,19,2
 612,L.Paquetá,19,3
 613,Souček,19,3
-614,Ward-Prowse,19,3
 615,Summerville,19,3
 616,Álvarez,19,3
 617,Cornet,19,3
