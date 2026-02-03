@@ -70,7 +70,6 @@ id,web_name,team,element_type
 65,Redmond,2,4
 389,Elliott,2,3
 456,Sancho,2,3
-677,Guessand,2,3
 688,Wright,2,1
 699,Douglas Luiz,2,3
 701,Rowe,2,2
@@ -330,6 +329,7 @@ id,web_name,team,element_type
 285,Édouard,8,4
 286,Marsh,8,4
 580,Johnson,8,3
+677,Guessand,8,3
 690,Cardines,8,3
 712,Yeremy,8,3
 723,Canvot,8,2
@@ -483,7 +483,6 @@ id,web_name,team,element_type
 182,Trafford,13,1
 260,Guéhi,13,2
 399,Ederson M.,13,1
-400,Ortega Moreno,13,1
 401,Bettinelli,13,1
 402,Aït-Nouri,13,2
 403,Gvardiol,13,2
@@ -601,6 +600,7 @@ id,web_name,team,element_type
 765,Shahar,15,2
 772,Alabi,15,3
 12,Zinchenko,16,2
+400,Ortega Moreno,16,1
 426,McAtee,16,3
 502,Sels,16,1
 503,C.Miguel,16,1

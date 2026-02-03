@@ -1,264 +1,264 @@
 {
-  "last_updated_utc": "2026-02-03T05:42:00Z",
+  "last_updated_utc": "2026-02-03T05:51:15Z",
   "by_team_next3": [
     {
       "team_id": 12,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        15,
         13,
-        17
+        17,
+        16
       ]
     },
     {
       "team_id": 2,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        5,
         4,
-        6
+        6,
+        11
       ]
     },
     {
       "team_id": 6,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        9,
         8,
-        2
+        2,
+        5
       ]
     },
     {
       "team_id": 18,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        13,
         14,
-        15
-      ]
-    },
-    {
-      "team_id": 17,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        3,
-        1,
-        12
-      ]
-    },
-    {
-      "team_id": 20,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        4,
-        7,
-        16
-      ]
-    },
-    {
-      "team_id": 7,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        19,
-        20,
-        11
-      ]
-    },
-    {
-      "team_id": 16,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        8,
-        11,
-        20
-      ]
-    },
-    {
-      "team_id": 14,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        10,
-        18,
-        19
-      ]
-    },
-    {
-      "team_id": 11,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        1,
-        16,
-        7
-      ]
-    },
-    {
-      "team_id": 19,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        7,
-        3,
-        14
-      ]
-    },
-    {
-      "team_id": 13,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        18,
-        12,
-        10
-      ]
-    },
-    {
-      "team_id": 4,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        20,
-        2,
-        9
-      ]
-    },
-    {
-      "team_id": 5,
-      "gw_sequence": [
-        24,
-        25,
-        26
-      ],
-      "opponents": [
-        2,
         15,
         1
       ]
     },
     {
-      "team_id": 3,
+      "team_id": 17,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        17,
-        19,
+        1,
+        12,
+        10
+      ]
+    },
+    {
+      "team_id": 20,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        7,
+        16,
         8
+      ]
+    },
+    {
+      "team_id": 7,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        20,
+        11,
+        3
+      ]
+    },
+    {
+      "team_id": 16,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        11,
+        20,
+        12
+      ]
+    },
+    {
+      "team_id": 14,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        18,
+        19,
+        9
+      ]
+    },
+    {
+      "team_id": 11,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        16,
+        7,
+        2
+      ]
+    },
+    {
+      "team_id": 19,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        3,
+        14,
+        4
+      ]
+    },
+    {
+      "team_id": 13,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        12,
+        10,
+        15
+      ]
+    },
+    {
+      "team_id": 4,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        2,
+        9,
+        19
+      ]
+    },
+    {
+      "team_id": 5,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        15,
+        1,
+        6
+      ]
+    },
+    {
+      "team_id": 3,
+      "gw_sequence": [
+        25,
+        26,
+        27
+      ],
+      "opponents": [
+        19,
+        8,
+        7
       ]
     },
     {
       "team_id": 1,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        11,
         17,
-        5
+        5,
+        18
       ]
     },
     {
       "team_id": 8,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        16,
         6,
-        3
+        3,
+        20
       ]
     },
     {
       "team_id": 9,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        6,
         10,
-        4
+        4,
+        14
       ]
     },
     {
       "team_id": 10,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        14,
         9,
-        13
+        13,
+        17
       ]
     },
     {
       "team_id": 15,
       "gw_sequence": [
-        24,
         25,
-        26
+        26,
+        27
       ],
       "opponents": [
-        12,
         5,
-        18
+        18,
+        13
       ]
     }
   ]
