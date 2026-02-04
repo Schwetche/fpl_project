@@ -281,7 +281,6 @@ id,web_name,team,element_type
 239,Gittens,7,3
 240,Nkunku,7,3
 241,Caicedo,7,3
-243,George,7,3
 244,Lavia,7,3
 245,Mudryk,7,3
 246,Andrey Santos,7,3
@@ -329,6 +328,7 @@ id,web_name,team,element_type
 285,Édouard,8,4
 286,Marsh,8,4
 580,Johnson,8,3
+654,Strand Larsen,8,4
 677,Guessand,8,3
 690,Cardines,8,3
 712,Yeremy,8,3
@@ -340,6 +340,7 @@ id,web_name,team,element_type
 793,King,8,2
 798,Imray,8,2
 242,Dewsbury-Hall,9,3
+243,George,9,3
 287,Pickford,9,1
 288,Travers,9,1
 289,Tyrer,9,1
@@ -637,6 +638,7 @@ id,web_name,team,element_type
 729,Cuiabano,16,2
 734,Bakwa,16,3
 805,Lucca,16,4
+814,Netz,16,2
 528,Patterson,17,1
 529,Moore,17,1
 530,Nna Noukeu,17,1
@@ -685,6 +687,8 @@ id,web_name,team,element_type
 774,Jenson Jones,17,2
 775,Tutierov,17,3
 800,Jocelin.T,17,3
+812,Ellborg,17,1
+813,Angulo,17,3
 565,Vicario,18,1
 566,Austin,18,1
 567,Kinsky,18,1
@@ -768,6 +772,7 @@ id,web_name,team,element_type
 785,Pablo,19,4
 791,Taty,19,4
 802,Lamadrid,19,3
+815,Disasi,19,2
 627,Johnstone,20,1
 628,José Sá,20,1
 629,Bentley,20,1
@@ -786,7 +791,7 @@ id,web_name,team,element_type
 643,André,20,3
 644,Bellegarde,20,3
 645,Fer López,20,3
-646,Gomes,20,3
+646,J.Gomes,20,3
 647,Guedes,20,3
 648,Munetsi,20,3
 649,B.Traore,20,3
@@ -794,7 +799,6 @@ id,web_name,team,element_type
 651,Edozie,20,3
 652,Gonzalez,20,3
 653,Hodge,20,3
-654,Strand Larsen,20,4
 655,Fábio Silva,20,4
 656,Kalajdžić,20,4
 657,Chiwome,20,4
@@ -810,3 +814,5 @@ id,web_name,team,element_type
 777,Ojinnaka,20,3
 778,Sutherland,20,3
 809,Abbey,20,3
+816,Angel,20,3
+817,Armstrong,20,4
