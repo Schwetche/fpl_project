@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-03-04T05:37:14Z",
+  "last_updated_utc": "2026-03-04T05:43:37Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.47222222222222,
-      "avg_sel": 5.583333333333333
+      "avg_sel": 5.538888888888889
     },
     {
       "team": 2,
       "n": 48,
-      "avg_price": 47.291666666666664,
-      "avg_sel": 1.5374999999999999
+      "avg_price": 47.270833333333336,
+      "avg_sel": 1.4916666666666665
     },
     {
       "team": 3,
-      "n": 44,
-      "avg_price": 44.81818181818182,
-      "avg_sel": 1.1977272727272725
+      "n": 45,
+      "avg_price": 44.82222222222222,
+      "avg_sel": 1.1733333333333333
     },
     {
       "team": 4,
       "n": 45,
-      "avg_price": 46.51111111111111,
-      "avg_sel": 1.1244444444444446
+      "avg_price": 46.48888888888889,
+      "avg_sel": 1.1311111111111112
     },
     {
       "team": 5,
       "n": 41,
-      "avg_price": 46.41463414634146,
-      "avg_sel": 1.4951219512195122
+      "avg_price": 46.4390243902439,
+      "avg_sel": 1.5121951219512195
     }
   ],
   "top_selected": [
@@ -38,35 +38,35 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 147,
-      "selected_by_percent": 64.3,
+      "selected_by_percent": 62.1,
       "team": 13
     },
     {
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 82,
-      "selected_by_percent": 55.2,
+      "selected_by_percent": 56.4,
       "team": 13
     },
     {
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 76,
-      "selected_by_percent": 45.5,
+      "selected_by_percent": 45.3,
       "team": 7
     },
     {
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 71,
-      "selected_by_percent": 43.0,
+      "selected_by_percent": 43.1,
       "team": 1
     },
     {
       "id": 449,
       "web_name": "B.Fernandes",
       "price_m": 100,
-      "selected_by_percent": 39.0,
+      "selected_by_percent": 39.8,
       "team": 14
     }
   ]
