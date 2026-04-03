@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-04-03T06:05:53Z",
+  "last_updated_utc": "2026-04-03T06:12:39Z",
   "by_position": [],
   "by_team": [
     {
@@ -24,7 +24,7 @@
       "team": 4,
       "n": 45,
       "avg_price": 46.48888888888889,
-      "avg_sel": 1.228888888888889
+      "avg_sel": 1.2266666666666666
     },
     {
       "team": 5,
@@ -52,14 +52,14 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 78,
-      "selected_by_percent": 50.4,
+      "selected_by_percent": 50.3,
       "team": 7
     },
     {
       "id": 449,
       "web_name": "B.Fernandes",
       "price_m": 103,
-      "selected_by_percent": 44.5,
+      "selected_by_percent": 44.6,
       "team": 14
     },
     {
