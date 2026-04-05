@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-04-05T06:08:07Z",
+  "last_updated_utc": "2026-04-05T06:14:50Z",
   "by_position": [],
   "by_team": [
     {
@@ -12,13 +12,13 @@
       "team": 2,
       "n": 48,
       "avg_price": 47.1875,
-      "avg_sel": 1.3979166666666665
+      "avg_sel": 1.3958333333333333
     },
     {
       "team": 3,
       "n": 45,
       "avg_price": 44.71111111111111,
-      "avg_sel": 1.1577777777777778
+      "avg_sel": 1.1600000000000001
     },
     {
       "team": 4,
@@ -30,7 +30,7 @@
       "team": 5,
       "n": 43,
       "avg_price": 46.18604651162791,
-      "avg_sel": 1.586046511627907
+      "avg_sel": 1.5813953488372092
     }
   ],
   "top_selected": [
@@ -38,7 +38,7 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 144,
-      "selected_by_percent": 54.9,
+      "selected_by_percent": 55.0,
       "team": 13
     },
     {
@@ -59,7 +59,7 @@
       "id": 449,
       "web_name": "B.Fernandes",
       "price_m": 103,
-      "selected_by_percent": 44.6,
+      "selected_by_percent": 44.7,
       "team": 14
     },
     {
