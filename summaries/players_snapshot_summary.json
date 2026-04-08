@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-04-08T06:14:54Z",
+  "last_updated_utc": "2026-04-08T06:21:38Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.27777777777778,
-      "avg_sel": 5.308333333333334
+      "avg_sel": 5.305555555555555
     },
     {
       "team": 2,
       "n": 48,
       "avg_price": 47.166666666666664,
-      "avg_sel": 1.3958333333333333
+      "avg_sel": 1.39375
     },
     {
       "team": 3,
       "n": 45,
       "avg_price": 44.71111111111111,
-      "avg_sel": 1.1577777777777778
+      "avg_sel": 1.1533333333333335
     },
     {
       "team": 4,
       "n": 45,
       "avg_price": 46.51111111111111,
-      "avg_sel": 1.2333333333333334
+      "avg_sel": 1.2377777777777779
     },
     {
       "team": 5,
       "n": 43,
       "avg_price": 46.18604651162791,
-      "avg_sel": 1.5720930232558141
+      "avg_sel": 1.569767441860465
     }
   ],
   "top_selected": [
@@ -38,14 +38,14 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 144,
-      "selected_by_percent": 55.2,
+      "selected_by_percent": 55.3,
       "team": 13
     },
     {
       "id": 82,
       "web_name": "Semenyo",
       "price_m": 82,
-      "selected_by_percent": 53.9,
+      "selected_by_percent": 54.0,
       "team": 13
     },
     {
