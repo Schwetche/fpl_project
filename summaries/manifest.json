@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-04-20T07:09:44Z",
+  "last_updated_utc": "2026-04-20T07:16:12Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
@@ -11,7 +11,7 @@
     },
     {
       "path": "summaries/players_snapshot_summary.json",
-      "size_bytes": 1372
+      "size_bytes": 1359
     },
     {
       "path": "summaries/ownership_momentum.json",
