@@ -1,12 +1,12 @@
 {
-  "last_updated_utc": "2026-04-27T07:34:54Z",
+  "last_updated_utc": "2026-04-27T07:41:30Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.166666666666664,
-      "avg_sel": 5.083333333333333
+      "avg_sel": 5.086111111111111
     },
     {
       "team": 2,
@@ -66,7 +66,7 @@
       "id": 249,
       "web_name": "João Pedro",
       "price_m": 76,
-      "selected_by_percent": 43.1,
+      "selected_by_percent": 43.0,
       "team": 7
     }
   ]
