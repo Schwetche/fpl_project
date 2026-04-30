@@ -1,12 +1,12 @@
 {
-  "last_updated_utc": "2026-04-30T07:28:20Z",
+  "last_updated_utc": "2026-04-30T07:37:52Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.166666666666664,
-      "avg_sel": 5.091666666666666
+      "avg_sel": 5.094444444444445
     },
     {
       "team": 2,
@@ -59,7 +59,7 @@
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 72,
-      "selected_by_percent": 43.6,
+      "selected_by_percent": 43.7,
       "team": 1
     },
     {
