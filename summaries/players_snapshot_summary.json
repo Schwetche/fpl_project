@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-05-16T07:08:45Z",
+  "last_updated_utc": "2026-05-16T07:14:40Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
-      "avg_price": 56.30555555555556,
-      "avg_sel": 5.469444444444445
+      "avg_price": 56.388888888888886,
+      "avg_sel": 5.586111111111111
     },
     {
       "team": 2,
       "n": 48,
       "avg_price": 47.145833333333336,
-      "avg_sel": 1.4375
+      "avg_sel": 1.3979166666666665
     },
     {
       "team": 3,
       "n": 45,
-      "avg_price": 44.68888888888889,
-      "avg_sel": 0.9977777777777778
+      "avg_price": 44.666666666666664,
+      "avg_sel": 0.9955555555555556
     },
     {
       "team": 4,
       "n": 45,
-      "avg_price": 46.44444444444444,
-      "avg_sel": 1.3466666666666667
+      "avg_price": 46.37777777777778,
+      "avg_sel": 1.3266666666666667
     },
     {
       "team": 5,
       "n": 44,
-      "avg_price": 46.02272727272727,
-      "avg_sel": 1.325
+      "avg_price": 46.0,
+      "avg_sel": 1.334090909090909
     }
   ],
   "top_selected": [
@@ -38,35 +38,35 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 147,
-      "selected_by_percent": 64.5,
-      "team": 13
-    },
-    {
-      "id": 82,
-      "web_name": "Semenyo",
-      "price_m": 81,
-      "selected_by_percent": 47.6,
+      "selected_by_percent": 64.4,
       "team": 13
     },
     {
       "id": 449,
       "web_name": "B.Fernandes",
       "price_m": 104,
-      "selected_by_percent": 47.6,
+      "selected_by_percent": 47.7,
       "team": 14
+    },
+    {
+      "id": 82,
+      "web_name": "Semenyo",
+      "price_m": 81,
+      "selected_by_percent": 47.3,
+      "team": 13
     },
     {
       "id": 5,
       "web_name": "Gabriel",
       "price_m": 73,
-      "selected_by_percent": 45.7,
+      "selected_by_percent": 46.1,
       "team": 1
     },
     {
       "id": 249,
       "web_name": "João Pedro",
-      "price_m": 75,
-      "selected_by_percent": 38.2,
+      "price_m": 74,
+      "selected_by_percent": 37.9,
       "team": 7
     }
   ]
