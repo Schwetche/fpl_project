@@ -1,18 +1,18 @@
 {
-  "last_updated_utc": "2026-05-18T08:39:23Z",
+  "last_updated_utc": "2026-05-18T08:44:09Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 36,
       "avg_price": 56.416666666666664,
-      "avg_sel": 5.583333333333333
+      "avg_sel": 5.591666666666667
     },
     {
       "team": 2,
       "n": 48,
       "avg_price": 47.145833333333336,
-      "avg_sel": 1.3979166666666665
+      "avg_sel": 1.3916666666666666
     },
     {
       "team": 3,
@@ -24,13 +24,13 @@
       "team": 4,
       "n": 45,
       "avg_price": 46.37777777777778,
-      "avg_sel": 1.3266666666666667
+      "avg_sel": 1.3311111111111111
     },
     {
       "team": 5,
       "n": 44,
       "avg_price": 46.0,
-      "avg_sel": 1.334090909090909
+      "avg_sel": 1.3272727272727272
     }
   ],
   "top_selected": [
@@ -38,7 +38,7 @@
       "id": 430,
       "web_name": "Haaland",
       "price_m": 147,
-      "selected_by_percent": 64.4,
+      "selected_by_percent": 64.5,
       "team": 13
     },
     {
