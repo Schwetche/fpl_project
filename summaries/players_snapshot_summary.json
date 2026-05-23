@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-05-23T07:32:34Z",
+  "last_updated_utc": "2026-05-23T07:40:38Z",
   "by_position": [],
   "by_team": [
     {
@@ -63,11 +63,11 @@
       "team": 1
     },
     {
-      "id": 249,
-      "web_name": "João Pedro",
-      "price_m": 74,
-      "selected_by_percent": 36.6,
-      "team": 7
+      "id": 1,
+      "web_name": "Raya",
+      "price_m": 62,
+      "selected_by_percent": 36.5,
+      "team": 1
     }
   ]
 }
