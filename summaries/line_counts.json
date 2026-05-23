@@ -1,10 +1,10 @@
 {
-  "last_updated_utc": "2026-05-23T07:24:40Z",
+  "last_updated_utc": "2026-05-23T07:32:34Z",
   "counts": {
     "players_raw_snapshot_current.csv": 841,
     "players_raw_history.csv": 211619,
     "price_change_forecast.csv": 841,
-    "price_change_forecast_history.csv": 214944,
+    "price_change_forecast_history.csv": 215784,
     "fixtures.csv": 381,
     "deadlines.csv": 39,
     "merged_gw.csv": 9689
