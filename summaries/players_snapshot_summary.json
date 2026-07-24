@@ -1,73 +1,73 @@
 {
-  "last_updated_utc": "2026-07-24T07:24:54Z",
+  "last_updated_utc": "2026-07-24T07:30:37Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
-      "n": 36,
-      "avg_price": 56.416666666666664,
-      "avg_sel": 5.449999999999999
+      "n": 27,
+      "avg_price": 61.666666666666664,
+      "avg_sel": 5.666666666666667
     },
     {
       "team": 2,
-      "n": 48,
-      "avg_price": 47.083333333333336,
-      "avg_sel": 1.3479166666666667
+      "n": 27,
+      "avg_price": 50.18518518518518,
+      "avg_sel": 2.2074074074074073
     },
     {
       "team": 3,
-      "n": 45,
-      "avg_price": 44.666666666666664,
-      "avg_sel": 1.0177777777777777
+      "n": 25,
+      "avg_price": 52.4,
+      "avg_sel": 1.9240000000000002
     },
     {
       "team": 4,
-      "n": 45,
-      "avg_price": 46.422222222222224,
-      "avg_sel": 1.4133333333333333
+      "n": 26,
+      "avg_price": 51.73076923076923,
+      "avg_sel": 1.7384615384615385
     },
     {
       "team": 5,
-      "n": 44,
-      "avg_price": 45.97727272727273,
-      "avg_sel": 1.2636363636363634
+      "n": 32,
+      "avg_price": 50.15625,
+      "avg_sel": 1.403125
     }
   ],
   "top_selected": [
     {
-      "id": 430,
+      "id": 411,
       "web_name": "Haaland",
-      "price_m": 147,
-      "selected_by_percent": 62.5,
-      "team": 13
+      "price_m": 155,
+      "selected_by_percent": 70.3,
+      "team": 15
     },
     {
-      "id": 449,
+      "id": 165,
+      "web_name": "João Pedro",
+      "price_m": 75,
+      "selected_by_percent": 45.9,
+      "team": 6
+    },
+    {
+      "id": 426,
       "web_name": "B.Fernandes",
-      "price_m": 104,
-      "selected_by_percent": 48.0,
-      "team": 14
+      "price_m": 120,
+      "selected_by_percent": 45.0,
+      "team": 16
     },
     {
-      "id": 82,
-      "web_name": "Semenyo",
-      "price_m": 80,
-      "selected_by_percent": 46.2,
-      "team": 13
+      "id": 40,
+      "web_name": "Rogers",
+      "price_m": 75,
+      "selected_by_percent": 37.4,
+      "team": 6
     },
     {
-      "id": 5,
-      "web_name": "Gabriel",
-      "price_m": 73,
-      "selected_by_percent": 45.4,
-      "team": 1
-    },
-    {
-      "id": 1,
-      "web_name": "Raya",
-      "price_m": 62,
+      "id": 368,
+      "web_name": "Szoboszlai",
+      "price_m": 70,
       "selected_by_percent": 36.4,
-      "team": 1
+      "team": 14
     }
   ]
 }

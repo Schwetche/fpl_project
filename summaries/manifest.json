@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-24T07:24:54Z",
+  "last_updated_utc": "2026-07-24T07:30:37Z",
   "produced": [
     {
       "path": "summaries/manifest.json",
@@ -11,7 +11,7 @@
     },
     {
       "path": "summaries/players_snapshot_summary.json",
-      "size_bytes": 1366
+      "size_bytes": 1344
     },
     {
       "path": "summaries/ownership_momentum.json",
@@ -31,7 +31,7 @@
     },
     {
       "path": "summaries/fixtures_outlook.json",
-      "size_bytes": 2395
+      "size_bytes": 3277
     },
     {
       "path": "summaries/gw_summary.json",
