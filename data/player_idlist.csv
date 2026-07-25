@@ -26,6 +26,7 @@ id,web_name,team,element_type
 25,Gyökeres,1,4
 26,Havertz,1,4
 27,G.Jesus,1,4
+557,Tzolis,1,3
 28,Martinez,2,1
 29,M.Bizot,2,1
 30,Digne,2,2
@@ -53,6 +54,7 @@ id,web_name,team,element_type
 54,Gomes,2,3
 55,Watkins,2,4
 56,Abraham,2,4
+160,Garnacho,2,3
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -157,7 +159,6 @@ id,web_name,team,element_type
 157,Estêvão,6,3
 158,Gittens,6,3
 159,Caicedo,6,3
-160,Garnacho,6,3
 161,Lavia,6,3
 163,D.Essugo,6,3
 164,Quenda,6,3
@@ -295,6 +296,7 @@ id,web_name,team,element_type
 297,Gyabi,11,3
 298,Destan,11,4
 299,Burstow,11,4
+556,Targett,11,2
 259,Diop,12,2
 300,Walton,12,1
 301,Palmer,12,1
@@ -321,7 +323,7 @@ id,web_name,team,element_type
 322,Al-Hamadi,12,4
 323,McAteer,12,3
 324,Mehmeti,12,3
-554,van Oevelen,12,1
+554,Van Oevelen,12,1
 260,Wilson,13,3
 326,Perri,13,1
 327,Bijol,13,2
@@ -493,6 +495,7 @@ id,web_name,team,element_type
 491,Igor Jesus,18,4
 492,Awoniyi,18,4
 493,Kalimuendo,18,4
+558,Schlager,18,3
 112,Van Hecke,19,2
 455,Tonali,19,3
 494,Vicario,19,1

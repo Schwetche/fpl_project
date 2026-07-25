@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-07-25T07:08:51Z",
+  "last_updated_utc": "2026-07-25T07:16:28Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
-      "n": 27,
-      "avg_price": 61.666666666666664,
-      "avg_sel": 5.666666666666667
+      "n": 28,
+      "avg_price": 61.785714285714285,
+      "avg_sel": 5.489285714285714
     },
     {
       "team": 2,
-      "n": 27,
-      "avg_price": 50.18518518518518,
-      "avg_sel": 2.2074074074074073
+      "n": 28,
+      "avg_price": 50.535714285714285,
+      "avg_sel": 2.1285714285714286
     },
     {
       "team": 3,
       "n": 25,
       "avg_price": 52.4,
-      "avg_sel": 1.9240000000000002
+      "avg_sel": 1.7280000000000002
     },
     {
       "team": 4,
       "n": 26,
       "avg_price": 51.73076923076923,
-      "avg_sel": 1.7384615384615385
+      "avg_sel": 1.6192307692307693
     },
     {
       "team": 5,
       "n": 32,
       "avg_price": 50.15625,
-      "avg_sel": 1.403125
+      "avg_sel": 1.365625
     }
   ],
   "top_selected": [
@@ -38,36 +38,36 @@
       "id": 411,
       "web_name": "Haaland",
       "price_m": 155,
-      "selected_by_percent": 70.3,
+      "selected_by_percent": 73.1,
       "team": 15
-    },
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "price_m": 75,
-      "selected_by_percent": 45.9,
-      "team": 6
     },
     {
       "id": 426,
       "web_name": "B.Fernandes",
       "price_m": 120,
-      "selected_by_percent": 45.0,
+      "selected_by_percent": 47.4,
       "team": 16
     },
     {
-      "id": 40,
-      "web_name": "Rogers",
+      "id": 165,
+      "web_name": "João Pedro",
       "price_m": 75,
-      "selected_by_percent": 37.4,
+      "selected_by_percent": 46.4,
       "team": 6
     },
     {
       "id": 368,
       "web_name": "Szoboszlai",
       "price_m": 70,
-      "selected_by_percent": 36.4,
+      "selected_by_percent": 39.5,
       "team": 14
+    },
+    {
+      "id": 40,
+      "web_name": "Rogers",
+      "price_m": 75,
+      "selected_by_percent": 35.3,
+      "team": 6
     }
   ]
 }
