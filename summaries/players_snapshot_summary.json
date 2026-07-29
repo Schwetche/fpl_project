@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-29T07:36:23Z",
+  "last_updated_utc": "2026-07-29T07:43:22Z",
   "by_position": [],
   "by_team": [
     {
@@ -12,25 +12,25 @@
       "team": 2,
       "n": 28,
       "avg_price": 50.535714285714285,
-      "avg_sel": 2.075
+      "avg_sel": 2.05
     },
     {
       "team": 3,
       "n": 25,
       "avg_price": 52.4,
-      "avg_sel": 1.5279999999999998
+      "avg_sel": 1.5119999999999998
     },
     {
       "team": 4,
       "n": 26,
       "avg_price": 51.73076923076923,
-      "avg_sel": 1.5
+      "avg_sel": 1.4769230769230768
     },
     {
       "team": 5,
       "n": 32,
       "avg_price": 50.15625,
-      "avg_sel": 1.359375
+      "avg_sel": 1.3625
     }
   ],
   "top_selected": [
@@ -38,14 +38,14 @@
       "id": 411,
       "web_name": "Haaland",
       "price_m": 155,
-      "selected_by_percent": 75.1,
+      "selected_by_percent": 75.2,
       "team": 15
     },
     {
       "id": 165,
       "web_name": "João Pedro",
       "price_m": 75,
-      "selected_by_percent": 48.8,
+      "selected_by_percent": 52.1,
       "team": 6
     },
     {
@@ -59,14 +59,14 @@
       "id": 368,
       "web_name": "Szoboszlai",
       "price_m": 70,
-      "selected_by_percent": 46.4,
+      "selected_by_percent": 47.1,
       "team": 14
     },
     {
       "id": 40,
       "web_name": "Rogers",
       "price_m": 75,
-      "selected_by_percent": 33.6,
+      "selected_by_percent": 32.9,
       "team": 6
     }
   ]
