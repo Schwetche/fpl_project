@@ -80,6 +80,7 @@ id,web_name,team,element_type
 79,Evanilson,3,4
 80,Enes Ünal,3,4
 81,Rodríguez,3,4
+566,Silva,3,2
 82,Kelleher,4,1
 83,Valdimarsson,4,1
 84,Collins,4,2
@@ -106,6 +107,7 @@ id,web_name,team,element_type
 106,Thiago,4,4
 107,Furo,4,4
 108,Wilson,4,4
+565,Sangaré,4,3
 109,Verbruggen,5,1
 110,Rushworth,5,1
 111,Steele,5,1
@@ -132,13 +134,13 @@ id,web_name,team,element_type
 133,Watson,5,3
 134,Oriola,5,3
 135,Yohanna,5,3
-136,Welbeck,5,4
 137,Tzimas,5,4
 138,Kostoulas,5,4
 139,Ferguson,5,4
 328,Struijk,5,2
 504,Vuskovic,5,2
 40,Rogers,6,3
+136,Welbeck,6,4
 140,Sánchez,6,1
 141,Jörgensen,6,1
 142,James,6,2
@@ -475,6 +477,7 @@ id,web_name,team,element_type
 465,Osula,17,4
 466,Neave,17,4
 559,Bamba,17,3
+567,Horníček,17,1
 467,Sels,18,1
 468,John,18,1
 469,N.Williams,18,2
