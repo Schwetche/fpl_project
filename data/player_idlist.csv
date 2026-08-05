@@ -100,7 +100,6 @@ id,web_name,team,element_type
 98,Janelt,4,3
 99,Milambo,4,3
 100,Carvalho,4,3
-101,Henderson,4,3
 102,Yarmoliuk,4,3
 103,Dasilva,4,3
 105,Anthony,4,3
@@ -109,7 +108,6 @@ id,web_name,team,element_type
 108,Wilson,4,4
 565,Sangaré,4,3
 109,Verbruggen,5,1
-110,Rushworth,5,1
 111,Steele,5,1
 113,F.Kadıoğlu,5,2
 114,Boscagli,5,2
@@ -140,6 +138,7 @@ id,web_name,team,element_type
 328,Struijk,5,2
 504,Vuskovic,5,2
 40,Rogers,6,3
+101,Henderson,6,3
 136,Welbeck,6,4
 140,Sánchez,6,1
 141,Jörgensen,6,1
@@ -173,7 +172,9 @@ id,web_name,team,element_type
 200,Lacroix,6,2
 560,Penders,6,1
 561,Anselmino,6,2
+568,Barco,6,3
 104,Onyeka,7,3
+110,Rushworth,7,1
 171,Dovin,7,1
 172,Wilson,7,1
 173,Thomas,7,2
