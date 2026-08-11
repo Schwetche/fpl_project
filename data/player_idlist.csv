@@ -25,6 +25,7 @@ id,web_name,team,element_type
 25,Gyökeres,1,4
 26,Havertz,1,4
 27,G.Jesus,1,4
+452,Bruno G.,1,3
 557,Tzolis,1,3
 28,Martinez,2,1
 29,M.Bizot,2,1
@@ -202,6 +203,7 @@ id,web_name,team,element_type
 195,Simms,7,4
 196,Markelo,7,4
 197,Bassette,7,4
+575,Yirenkyi,7,3
 198,Henderson,8,1
 199,Benitez,8,1
 201,Muñoz,8,2
@@ -230,6 +232,7 @@ id,web_name,team,element_type
 224,Nketiah,8,4
 225,Uche,8,4
 555,Matthews,8,1
+577,Tomiyasu,8,2
 21,Nørgaard,9,3
 226,Pickford,9,1
 227,Travers,9,1
@@ -269,7 +272,6 @@ id,web_name,team,element_type
 264,Bobb,10,3
 265,Berge,10,3
 266,Cairney,10,3
-267,Lukić,10,3
 268,King,10,3
 269,Sessegnon,10,2
 270,Reed,10,3
@@ -307,7 +309,10 @@ id,web_name,team,element_type
 556,Targett,11,2
 563,Morita,11,3
 572,Tzolakis,11,1
+574,Hjertø-Dahl,11,3
+576,Stroud,11,3
 259,Diop,12,2
+267,Lukić,12,3
 300,Walton,12,1
 301,Palmer,12,1
 302,Button,12,1
@@ -468,7 +473,6 @@ id,web_name,team,element_type
 449,Hall,17,2
 450,Livramento,17,2
 451,A.Murphy,17,2
-452,Bruno G.,17,3
 453,Barnes,17,3
 454,Elanga,17,3
 456,J.Ramsey,17,3
