@@ -40,7 +40,6 @@ id,web_name,team,element_type
 38,A.García,2,2
 39,Nedeljkovic,2,2
 41,Buendía,2,3
-42,Guessand,2,3
 44,Bailey,2,3
 45,McGinn,2,3
 46,Barkley,2,3
@@ -55,6 +54,7 @@ id,web_name,team,element_type
 55,Watkins,2,4
 56,Abraham,2,4
 160,Garnacho,2,3
+582,Madjo,2,4
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -175,6 +175,7 @@ id,web_name,team,element_type
 561,Anselmino,6,2
 568,Barco,6,3
 578,Mudryk,6,3
+583,Chavarria,6,2
 104,Onyeka,7,3
 110,Rushworth,7,1
 171,Dovin,7,1
@@ -205,6 +206,8 @@ id,web_name,team,element_type
 196,Markelo,7,4
 197,Bassette,7,4
 575,Yirenkyi,7,3
+584,Hamer,7,3
+42,Guessand,8,3
 198,Henderson,8,1
 199,Benitez,8,1
 201,Muñoz,8,2

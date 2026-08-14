@@ -1,36 +1,36 @@
 {
-  "last_updated_utc": "2026-08-14T06:07:09Z",
+  "last_updated_utc": "2026-08-14T06:13:32Z",
   "by_position": [],
   "by_team": [
     {
       "team": 1,
       "n": 28,
       "avg_price": 62.5,
-      "avg_sel": 6.039285714285714
+      "avg_sel": 6.0321428571428575
     },
     {
       "team": 2,
       "n": 28,
       "avg_price": 50.535714285714285,
-      "avg_sel": 1.9857142857142858
+      "avg_sel": 2.0214285714285714
     },
     {
       "team": 3,
       "n": 27,
       "avg_price": 52.03703703703704,
-      "avg_sel": 1.0777777777777777
+      "avg_sel": 1.0740740740740742
     },
     {
       "team": 4,
       "n": 26,
       "avg_price": 51.92307692307692,
-      "avg_sel": 1.5384615384615385
+      "avg_sel": 1.526923076923077
     },
     {
       "team": 5,
       "n": 30,
       "avg_price": 50.0,
-      "avg_sel": 1.6166666666666667
+      "avg_sel": 1.6266666666666667
     }
   ],
   "top_selected": [
@@ -38,35 +38,35 @@
       "id": 411,
       "web_name": "Haaland",
       "price_m": 155,
-      "selected_by_percent": 73.6,
+      "selected_by_percent": 73.5,
       "team": 15
     },
     {
       "id": 165,
       "web_name": "João Pedro",
       "price_m": 75,
-      "selected_by_percent": 55.8,
+      "selected_by_percent": 55.9,
       "team": 6
     },
     {
       "id": 426,
       "web_name": "B.Fernandes",
       "price_m": 120,
-      "selected_by_percent": 48.2,
+      "selected_by_percent": 48.1,
       "team": 16
     },
     {
       "id": 368,
       "web_name": "Szoboszlai",
       "price_m": 70,
-      "selected_by_percent": 43.7,
+      "selected_by_percent": 43.2,
       "team": 14
     },
     {
       "id": 1,
       "web_name": "Raya",
       "price_m": 60,
-      "selected_by_percent": 31.0,
+      "selected_by_percent": 31.1,
       "team": 1
     }
   ]
