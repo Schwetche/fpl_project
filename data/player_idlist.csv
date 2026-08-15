@@ -281,7 +281,7 @@ id,web_name,team,element_type
 270,Reed,10,3
 271,Muniz,10,4
 272,Kusi-Asare,10,4
-569,García,10,4
+569,Gonzalo,10,4
 570,Palacios,10,3
 580,Charles,10,3
 273,Phillips,11,1
@@ -316,6 +316,8 @@ id,web_name,team,element_type
 572,Tzolakis,11,1
 574,Hjertø-Dahl,11,3
 576,Stroud,11,3
+585,Herrington,11,2
+586,Mendy,11,2
 259,Diop,12,2
 267,Lukić,12,3
 300,Walton,12,1
@@ -436,6 +438,7 @@ id,web_name,team,element_type
 410,Monga,15,3
 411,Haaland,15,4
 481,Anderson,15,3
+587,Rulli,15,1
 43,Tielemans,16,3
 162,Andrey Santos,16,3
 325,Darlow,16,1
