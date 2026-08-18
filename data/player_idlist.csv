@@ -237,6 +237,7 @@ id,web_name,team,element_type
 241,McNeil,8,3
 555,Matthews,8,1
 577,Tomiyasu,8,2
+588,Khalaili,8,2
 21,Nørgaard,9,3
 209,Johnson,9,3
 226,Pickford,9,1
@@ -311,6 +312,7 @@ id,web_name,team,element_type
 297,Gyabi,11,3
 298,Destan,11,4
 299,Burstow,11,4
+340,Gelhardt,11,3
 556,Targett,11,2
 563,Morita,11,3
 572,Tzolakis,11,1
@@ -318,6 +320,7 @@ id,web_name,team,element_type
 576,Stroud,11,3
 585,Herrington,11,2
 586,Mendy,11,2
+589,Gourna-Douath,11,3
 259,Diop,12,2
 267,Lukić,12,3
 300,Walton,12,1
@@ -363,7 +366,6 @@ id,web_name,team,element_type
 337,Aaronson,13,3
 338,Ampadu,13,3
 339,Longstaff,13,3
-340,Gelhardt,13,3
 341,Gnonto,13,3
 342,Harrison,13,3
 343,James,13,3
@@ -525,6 +527,7 @@ id,web_name,team,element_type
 493,Kalimuendo,18,4
 558,Schlager,18,3
 581,Diomande,18,2
+590,Benda,18,1
 112,Van Hecke,19,2
 455,Tonali,19,3
 494,Vicario,19,1
