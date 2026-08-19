@@ -205,6 +205,7 @@ id,web_name,team,element_type
 195,Simms,7,4
 196,Markelo,7,4
 197,Bassette,7,4
+492,Awoniyi,7,4
 575,Yirenkyi,7,3
 584,Hamer,7,3
 42,Guessand,8,3
@@ -352,6 +353,8 @@ id,web_name,team,element_type
 562,Maeda,12,3
 564,Scherpen,12,1
 571,Florentino,12,3
+591,Enciso,12,3
+592,Ouattara,12,2
 260,Wilson,13,3
 326,Perri,13,1
 327,Bijol,13,2
@@ -523,7 +526,6 @@ id,web_name,team,element_type
 489,Yates,18,3
 490,Wood,18,4
 491,Igor Jesus,18,4
-492,Awoniyi,18,4
 493,Kalimuendo,18,4
 558,Schlager,18,3
 581,Diomande,18,2
