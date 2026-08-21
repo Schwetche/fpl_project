@@ -55,6 +55,8 @@ id,web_name,team,element_type
 56,Abraham,2,4
 160,Garnacho,2,3
 582,Madjo,2,4
+596,Ruggeri,2,2
+597,Suzuki,2,1
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -209,6 +211,7 @@ id,web_name,team,element_type
 492,Awoniyi,7,4
 575,Yirenkyi,7,3
 584,Hamer,7,3
+599,Cherif,7,4
 42,Guessand,8,3
 198,Henderson,8,1
 199,Benitez,8,1
@@ -381,6 +384,7 @@ id,web_name,team,element_type
 348,Piroe,13,4
 349,Mateo Joseph,13,4
 385,Trafford,13,1
+598,Elvedi,13,2
 350,A.Becker,14,1
 351,Mamardashvili,14,1
 352,Woodman,14,1
