@@ -25,12 +25,12 @@ id,web_name,team,element_type
 25,Gyökeres,1,4
 26,Havertz,1,4
 27,G.Jesus,1,4
+31,Konsa,1,2
 452,Bruno G.,1,3
 557,Tzolis,1,3
 28,Martinez,2,1
 29,M.Bizot,2,1
 30,Digne,2,2
-31,Konsa,2,2
 32,Cash,2,2
 33,Mings,2,2
 34,Pau,2,2
@@ -109,7 +109,7 @@ id,web_name,team,element_type
 106,Thiago,4,4
 107,Furo,4,4
 108,Wilson,4,4
-565,Sangaré,4,3
+565,M.Sangaré,4,3
 109,Verbruggen,5,1
 111,Steele,5,1
 113,F.Kadıoğlu,5,2
@@ -141,6 +141,7 @@ id,web_name,team,element_type
 328,Struijk,5,2
 504,Vuskovic,5,2
 594,David,5,4
+600,Osman,5,3
 40,Rogers,6,3
 101,Henderson,6,3
 136,Welbeck,6,4
@@ -529,7 +530,7 @@ id,web_name,team,element_type
 485,Bakwa,18,3
 486,McAtee,18,3
 487,Dominguez,18,3
-488,Sangaré,18,3
+488,I.Sangaré,18,3
 489,Yates,18,3
 490,Wood,18,4
 491,Igor Jesus,18,4
