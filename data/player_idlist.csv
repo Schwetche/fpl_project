@@ -361,6 +361,7 @@ id,web_name,team,element_type
 571,Florentino,12,3
 591,Enciso,12,3
 592,Ouattara,12,2
+602,Humphreys,12,3
 260,Wilson,13,3
 326,Perri,13,1
 327,Bijol,13,2
@@ -386,6 +387,8 @@ id,web_name,team,element_type
 349,Mateo Joseph,13,4
 385,Trafford,13,1
 598,Elvedi,13,2
+603,Lienou,13,2
+604,Cresswell,13,3
 350,A.Becker,14,1
 351,Mamardashvili,14,1
 352,Woodman,14,1
@@ -574,6 +577,7 @@ id,web_name,team,element_type
 526,Solanke,19,4
 527,Richarlison,19,4
 528,Scarlett,19,4
+601,Williams-Barnett,19,3
 529,Roefs,20,1
 530,Patterson,20,1
 531,Ellborg,20,1
