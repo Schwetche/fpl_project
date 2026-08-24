@@ -57,6 +57,8 @@ id,web_name,team,element_type
 582,Madjo,2,4
 596,Ruggeri,2,2
 597,Suzuki,2,1
+606,Rowe,2,2
+607,Lynch,2,3
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -84,6 +86,7 @@ id,web_name,team,element_type
 81,Rodríguez,3,4
 566,Silva,3,2
 573,Sanchez,3,2
+608,Jebbison,3,4
 82,Kelleher,4,1
 83,Valdimarsson,4,1
 84,Collins,4,2
@@ -142,6 +145,7 @@ id,web_name,team,element_type
 504,Vuskovic,5,2
 594,David,5,4
 600,Osman,5,3
+605,Yalcouyé,5,3
 40,Rogers,6,3
 101,Henderson,6,3
 136,Welbeck,6,4
@@ -513,6 +517,7 @@ id,web_name,team,element_type
 559,Bamba,17,3
 567,Horníček,17,1
 593,Dedić,17,2
+609,Shahar,17,2
 467,Sels,18,1
 468,John,18,1
 469,N.Williams,18,2
