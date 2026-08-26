@@ -59,6 +59,7 @@ id,web_name,team,element_type
 597,Suzuki,2,1
 606,Rowe,2,2
 607,Lynch,2,3
+611,Wan-Bissaka,2,2
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -448,7 +449,6 @@ id,web_name,team,element_type
 400,Doku,15,3
 401,Marmoush,15,4
 402,Rodrigo,15,3
-403,Savinho,15,3
 404,Reijnders,15,3
 405,N.Gonzalez,15,3
 406,Kovačić,15,3
@@ -548,6 +548,7 @@ id,web_name,team,element_type
 581,Diomande,18,2
 590,Benda,18,1
 112,Van Hecke,19,2
+403,Savinho,19,3
 455,Tonali,19,3
 494,Vicario,19,1
 495,Austin,19,1
@@ -609,3 +610,4 @@ id,web_name,team,element_type
 551,Angulo,20,3
 552,Brobbey,20,4
 553,Isidor,20,4
+612,Methalie,20,2
