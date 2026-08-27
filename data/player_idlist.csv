@@ -88,6 +88,7 @@ id,web_name,team,element_type
 566,Silva,3,2
 573,Sanchez,3,2
 608,Jebbison,3,4
+615,Di Gregorio,3,1
 82,Kelleher,4,1
 83,Valdimarsson,4,1
 84,Collins,4,2
@@ -134,7 +135,6 @@ id,web_name,team,element_type
 128,Buonanotte,5,3
 129,Ayari,5,3
 130,Wieffer,5,2
-131,Baleba,5,3
 132,Howell,5,3
 133,Watson,5,3
 134,Oriola,5,3
@@ -147,6 +147,7 @@ id,web_name,team,element_type
 594,David,5,4
 600,Osman,5,3
 605,Yalcouyé,5,3
+614,Hadjam,5,2
 40,Rogers,6,3
 101,Henderson,6,3
 136,Welbeck,6,4
@@ -459,7 +460,9 @@ id,web_name,team,element_type
 411,Haaland,15,4
 481,Anderson,15,3
 587,Rulli,15,1
+616,Bouaddi,15,3
 43,Tielemans,16,3
+131,Baleba,16,3
 162,Andrey Santos,16,3
 325,Darlow,16,1
 412,Lammens,16,1
@@ -548,7 +551,7 @@ id,web_name,team,element_type
 581,Diomande,18,2
 590,Benda,18,1
 112,Van Hecke,19,2
-403,Savinho,19,3
+403,Sávio,19,3
 455,Tonali,19,3
 494,Vicario,19,1
 495,Austin,19,1
@@ -611,3 +614,4 @@ id,web_name,team,element_type
 552,Brobbey,20,4
 553,Isidor,20,4
 612,Methalie,20,2
+613,Ahoka,20,3
