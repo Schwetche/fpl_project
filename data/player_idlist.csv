@@ -60,6 +60,7 @@ id,web_name,team,element_type
 606,Rowe,2,2
 607,Lynch,2,3
 611,Wan-Bissaka,2,2
+618,Goretzka,2,3
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -98,7 +99,6 @@ id,web_name,team,element_type
 88,Kayode,4,2
 89,Henry,4,2
 90,Hickey,4,2
-91,Pinnock,4,2
 92,Ji-soo,4,2
 93,Schuster,4,2
 94,Schade,4,3
@@ -115,6 +115,7 @@ id,web_name,team,element_type
 107,Furo,4,4
 108,Wilson,4,4
 565,M.Sangaré,4,3
+620,Diouf,4,2
 109,Verbruggen,5,1
 111,Steele,5,1
 113,F.Kadıoğlu,5,2
@@ -164,7 +165,6 @@ id,web_name,team,element_type
 150,M.Sarr,6,2
 151,Acheampong,6,2
 152,Palestra,6,2
-153,Disasi,6,2
 154,Palmer,6,3
 155,Enzo,6,3
 156,Neto,6,3
@@ -176,7 +176,6 @@ id,web_name,team,element_type
 164,Quenda,6,3
 165,João Pedro,6,4
 166,N.Jackson,6,4
-167,Delap,6,4
 168,Marc Guiu,6,4
 169,Mheuka,6,4
 170,Emegha,6,4
@@ -186,6 +185,7 @@ id,web_name,team,element_type
 568,Barco,6,3
 578,Mudryk,6,3
 583,Chavarria,6,2
+91,Pinnock,7,2
 104,Onyeka,7,3
 110,Rushworth,7,1
 171,Dovin,7,1
@@ -220,6 +220,7 @@ id,web_name,team,element_type
 584,Hamer,7,3
 599,Cherif,7,4
 42,Guessand,8,3
+153,Disasi,8,2
 198,Henderson,8,1
 199,Benitez,8,1
 201,Muñoz,8,2
@@ -335,6 +336,7 @@ id,web_name,team,element_type
 585,Herrington,11,2
 586,Mendy,11,2
 589,Gourna-Douath,11,3
+617,Cho,11,3
 259,Diop,12,2
 267,Lukić,12,3
 300,Walton,12,1
@@ -369,6 +371,7 @@ id,web_name,team,element_type
 591,Enciso,12,3
 592,Ouattara,12,2
 602,Humphreys,12,3
+619,Palacios,12,3
 260,Wilson,13,3
 326,Perri,13,1
 327,Bijol,13,2
@@ -448,10 +451,8 @@ id,web_name,team,element_type
 398,Foden,15,3
 399,Cherki,15,3
 400,Doku,15,3
-401,Marmoush,15,4
 402,Rodrigo,15,3
 404,Reijnders,15,3
-405,N.Gonzalez,15,3
 406,Kovačić,15,3
 407,Echeverri,15,3
 408,Phillips,15,3
@@ -495,6 +496,7 @@ id,web_name,team,element_type
 439,Šeško,16,4
 440,Zirkzee,16,4
 441,Obi,16,4
+405,N.Gonzalez,17,3
 442,Pope,17,1
 443,Gillespie,17,1
 444,Jaouen,17,1
@@ -522,6 +524,7 @@ id,web_name,team,element_type
 567,Horníček,17,1
 593,Dedić,17,2
 609,Shahar,17,2
+167,Delap,18,4
 467,Sels,18,1
 468,John,18,1
 469,N.Williams,18,2
@@ -551,6 +554,7 @@ id,web_name,team,element_type
 581,Diomande,18,2
 590,Benda,18,1
 112,Van Hecke,19,2
+401,Marmoush,19,4
 403,Sávio,19,3
 455,Tonali,19,3
 494,Vicario,19,1
