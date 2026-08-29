@@ -54,6 +54,7 @@ id,web_name,team,element_type
 55,Watkins,2,4
 56,Abraham,2,4
 160,Garnacho,2,3
+166,N.Jackson,2,4
 582,Madjo,2,4
 596,Ruggeri,2,2
 597,Suzuki,2,1
@@ -175,7 +176,6 @@ id,web_name,team,element_type
 163,D.Essugo,6,3
 164,Quenda,6,3
 165,João Pedro,6,4
-166,N.Jackson,6,4
 168,Marc Guiu,6,4
 169,Mheuka,6,4
 170,Emegha,6,4
@@ -462,6 +462,8 @@ id,web_name,team,element_type
 481,Anderson,15,3
 587,Rulli,15,1
 616,Bouaddi,15,3
+621,McAidoo,15,3
+622,Braithwaite,15,2
 43,Tielemans,16,3
 131,Baleba,16,3
 162,Andrey Santos,16,3
