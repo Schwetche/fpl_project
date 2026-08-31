@@ -28,7 +28,6 @@ id,web_name,team,element_type
 31,Konsa,1,2
 452,Bruno G.,1,3
 557,Tzolis,1,3
-28,Martinez,2,1
 29,M.Bizot,2,1
 30,Digne,2,2
 32,Cash,2,2
@@ -150,6 +149,8 @@ id,web_name,team,element_type
 600,Osman,5,3
 605,Yalcouyé,5,3
 614,Hadjam,5,2
+624,Cozier-Duberry,5,3
+28,Martinez,6,1
 40,Rogers,6,3
 101,Henderson,6,3
 136,Welbeck,6,4
@@ -301,6 +302,7 @@ id,web_name,team,element_type
 570,Palacios,10,3
 580,Charles,10,3
 610,De Fougerolles,10,2
+626,Zepa,10,3
 273,Phillips,11,1
 274,Butland,11,1
 275,Cartwright,11,1
@@ -400,6 +402,7 @@ id,web_name,team,element_type
 598,Elvedi,13,2
 603,Lienou,13,2
 604,Cresswell,13,3
+625,Cairns,13,1
 350,A.Becker,14,1
 351,Mamardashvili,14,1
 352,Woodman,14,1
