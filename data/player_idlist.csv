@@ -225,7 +225,6 @@ id,web_name,team,element_type
 153,Disasi,8,2
 198,Henderson,8,1
 199,Benitez,8,1
-201,Muñoz,8,2
 202,Richards,8,2
 203,Canvot,8,2
 204,Mitchell,8,2
@@ -403,6 +402,7 @@ id,web_name,team,element_type
 603,Lienou,13,2
 604,Cresswell,13,3
 625,Cairns,13,1
+629,Zetterer,13,1
 350,A.Becker,14,1
 351,Mamardashvili,14,1
 352,Woodman,14,1
@@ -438,6 +438,7 @@ id,web_name,team,element_type
 382,Danns,14,4
 383,Elliott,14,3
 579,Araujo,14,2
+627,Barcola,14,3
 238,Grealish,15,3
 384,Donnarumma,15,1
 386,Bettinelli,15,1
@@ -468,6 +469,7 @@ id,web_name,team,element_type
 616,Bouaddi,15,3
 621,McAidoo,15,3
 622,Braithwaite,15,2
+628,Allan,15,3
 43,Tielemans,16,3
 131,Baleba,16,3
 162,Andrey Santos,16,3
@@ -531,6 +533,7 @@ id,web_name,team,element_type
 593,Dedić,17,2
 609,Shahar,17,2
 167,Delap,18,4
+201,Muñoz,18,2
 467,Sels,18,1
 468,John,18,1
 469,N.Williams,18,2
