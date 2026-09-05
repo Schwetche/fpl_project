@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-05T13:35:44Z",
+  "last_updated_utc": "2026-09-05T18:39:45Z",
   "by_position": [],
   "by_team": [
     {
@@ -35,18 +35,18 @@
   ],
   "top_selected": [
     {
-      "id": 411,
-      "web_name": "Haaland",
-      "price_m": 155,
-      "selected_by_percent": 71.2,
-      "team": 15
-    },
-    {
       "id": 165,
       "web_name": "João Pedro",
       "price_m": 77,
       "selected_by_percent": 71.2,
       "team": 6
+    },
+    {
+      "id": 411,
+      "web_name": "Haaland",
+      "price_m": 155,
+      "selected_by_percent": 71.2,
+      "team": 15
     },
     {
       "id": 426,
