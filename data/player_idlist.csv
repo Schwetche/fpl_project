@@ -63,6 +63,7 @@ id,web_name,team,element_type
 618,Goretzka,2,3
 630,Harwood-Bellis,2,2
 631,Mbaye,2,3
+667,Wright,2,1
 57,Petrović,3,1
 58,Forster,3,1
 59,Dennis,3,1
@@ -561,6 +562,10 @@ id,web_name,team,element_type
 609,Shahar,17,2
 634,Fernandez-Pardo,17,4
 659,Miley,17,3
+663,Pivas,17,2
+664,Salia,17,4
+665,Mills,17,3
+666,Thompson,17,3
 167,Delap,18,4
 201,Muñoz,18,2
 467,Sels,18,1
