@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-25T09:54:12Z",
+  "last_updated_utc": "2026-09-25T10:02:10Z",
   "by_position": [],
   "by_team": [
     {
@@ -24,13 +24,13 @@
       "team": 4,
       "n": 29,
       "avg_price": 50.48275862068966,
-      "avg_sel": 1.9517241379310346
+      "avg_sel": 1.9551724137931032
     },
     {
       "team": 5,
       "n": 37,
       "avg_price": 49.972972972972975,
-      "avg_sel": 2.7675675675675677
+      "avg_sel": 2.7783783783783784
     }
   ],
   "top_selected": [
@@ -45,14 +45,14 @@
       "id": 165,
       "web_name": "João Pedro",
       "price_m": 77,
-      "selected_by_percent": 65.6,
+      "selected_by_percent": 65.5,
       "team": 6
     },
     {
       "id": 8,
       "web_name": "Calafiori",
       "price_m": 58,
-      "selected_by_percent": 50.6,
+      "selected_by_percent": 50.5,
       "team": 1
     },
     {
